@@ -6,19 +6,16 @@
 
 .container {
   position: relative;
-  width: 95vw;
+  width: 100vw;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
 }
 
 .nav-top {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 4.5rem;
   display: flex;
   justify-content: space-between;
@@ -80,13 +77,16 @@
   -o-transform: translateX(0.3rem) translateY(-0.2rem);
 }
 
-.content {
-  position: relative;
-  width: 100%;
-  height: 100%;
+.Content {
+  position: absolute;
+  top: 4.5rem;
+  left: 6rem;
+  width: calc(95vw - 6rem);
+  height: calc(95% - 4.5rem);
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 1rem;
-
+  margin: 1.5rem;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
