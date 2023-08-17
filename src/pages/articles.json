@@ -1,0 +1,36 @@
+[
+    {
+        "id": "KB0001",
+        "title": "KB0001",
+        "keywords": [
+            "PC",
+            "pc",
+            "computer",
+            "Computer",
+            "laptop",
+            "Laptop",
+            "deploy",
+            "Deploy",
+            "deployment",
+            "Deployment",
+            "pc deploy",
+            "PC Deploy"
+        ]
+    },
+    {
+        "id": "KB0002",
+        "title": "KB0002",
+        "keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    },
+    {
+        "id": "KB0003",
+        "title": "KB0003",
+        "keywords": [
+            "keyword1",
+            "keyword2"
+        ]
+    }
+  ]
