@@ -1,0 +1,24 @@
+.item {
+    height: 2rem;
+    margin-bottom: 0.6rem;
+    text-align: left;
+    width: 100%;
+    padding: 0.2rem 0.4rem;
+}
+
+
+.item:hover {
+    transition: all 0.2s ease-in;
+    background-color: #f5f5f5;
+    color: black;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    box-shadow: -0.2rem 0.3rem 0 rgb(255, 0, 0);
+    transform: translateX(0.3rem) translateY(-0.2rem);
+    -webkit-transform: translateX(0.3rem) translateY(-0.2rem);
+    -moz-transform: translateX(0.3rem) translateY(-0.2rem);
+    -ms-transform: translateX(0.3rem) translateY(-0.2rem);
+    -o-transform: translateX(0.3rem) translateY(-0.2rem);
+  }

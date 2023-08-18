@@ -6,3 +6,16 @@
     max-width: 800px;
     text-align: left;
 }
+
+.markdown h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.markdown h2 {
+    color: #ff6f00;
+}
+
+.markdown h3 {
+    font-style: italic;
+}
