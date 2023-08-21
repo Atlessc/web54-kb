@@ -53,6 +53,7 @@ const TextToJson = () => {
   const [text, setText] = useState('');
   const [json, setJson] = useState(null);
   const [error, setError] = useState(null);
+  const [showRules, setShowRules] = useState(false);
 
   const handleTextChange = (event) => {
     setText(event.target.value);
@@ -68,24 +69,41 @@ const TextToJson = () => {
     navigator.clipboard.writeText(JSON.stringify(json, null, 2));
   };
 
+  const toggleShowRules = () => {
+    setShowRules(!showRules);
+  };
+
   return (
     <div>
-      <h3>Rule Set</h3>
-      <pre>
-{`> Section
->> Subsection
->>> Subsubsection
-/ Page
-< End of section
+      <h3 onClick={toggleShowRules}>Rule Set<span> ^</span></h3>
+      {showRules && (
+      <pre className="rules">
+{`> = Section
+>> = Subsection
+>>> = Subsubsection
+/ = Page
+< = End of section
+<< = End of parent section of the current section
 
 Example:
-> Section 1
-/Page 1
-/Page 2
->> Subsection
-/Page 3
+>Section1
+/Page1
+/Page2
+/Page3
+>>Section1.1
+/Page4
+/Page5
+>>>Section1.1.1
+/Page6
+/Page7
+<
+/Page8
+/Page9
+<
+/Page10
 <`}
       </pre>
+      )}
       <br />
       <textarea value={text} onChange={handleTextChange} rows={10} cols={50} />
       <br />
