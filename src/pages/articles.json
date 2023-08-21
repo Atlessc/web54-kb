@@ -1,36 +1,3310 @@
-[
+{
+  "Table of Contents": [
     {
-        "id": "KB0001",
-        "title": "PC Deployment",
-        "keywords": [
-            "PC",
-            "pc",
-            "computer",
-            "Computer",
-            "laptop",
-            "Laptop",
-            "deploy",
-            "Deploy",
-            "deployment",
-            "Deployment",
-            "pc deploy",
-            "PC Deploy"
-        ]
+      "SectionTitle": "Welcome",
+      "Items": [
+        {
+          "pageID": "WD000001",
+          "pageTitle": "Welcome"
+        }
+      ]
     },
     {
-        "id": "KB0002",
-        "title": "Returned Loaner Process",
-        "keywords": [
-            "keyword1",
-            "keyword2"
-        ]
+      "SectionTitle": "Introduction to iPhone",
+      "Items": [
+        {
+          "pageID": "WD000002",
+          "pageTitle": "Setup basics"
+        },
+        {
+          "pageID": "WD000003",
+          "pageTitle": "Make your iPhone your own"
+        },
+        {
+          "pageID": "WD000004",
+          "pageTitle": "Take great photos and videos"
+        },
+        {
+          "pageID": "WD000005",
+          "pageTitle": "Keep in touch with friends and family"
+        },
+        {
+          "pageID": "WD000006",
+          "pageTitle": "Share features with your family"
+        },
+        {
+          "pageID": "WD000007",
+          "pageTitle": "Use iPhone for your daily routines"
+        }
+      ]
     },
     {
-        "id": "KB0003",
-        "title": "KB0003",
-        "keywords": [
-            "keyword1",
-            "keyword2"
-        ]
+      "SectionTitle": "Your iPhone",
+      "Items": [
+        {
+          "pageID": "WD000008",
+          "pageTitle": "Supported models"
+        },
+        {
+          "pageID": "WD000009",
+          "pageTitle": "iPhone 8"
+        },
+        {
+          "pageID": "WD000010",
+          "pageTitle": "iPhone 8 Plus"
+        },
+        {
+          "pageID": "WD000011",
+          "pageTitle": "iPhone X"
+        },
+        {
+          "pageID": "WD000012",
+          "pageTitle": "iPhone XR"
+        },
+        {
+          "pageID": "WD000013",
+          "pageTitle": "iPhone XS"
+        },
+        {
+          "pageID": "WD000014",
+          "pageTitle": "iPhone XS Max"
+        },
+        {
+          "pageID": "WD000015",
+          "pageTitle": "iPhone 11"
+        },
+        {
+          "pageID": "WD000016",
+          "pageTitle": "iPhone 11 Pro"
+        },
+        {
+          "pageID": "WD000017",
+          "pageTitle": "iPhone 11 Pro Max"
+        },
+        {
+          "pageID": "WD000018",
+          "pageTitle": "iPhone SE (2nd generation)"
+        },
+        {
+          "pageID": "WD000019",
+          "pageTitle": "iPhone 12 mini"
+        },
+        {
+          "pageID": "WD000020",
+          "pageTitle": "iPhone 12"
+        },
+        {
+          "pageID": "WD000021",
+          "pageTitle": "iPhone 12 Pro"
+        },
+        {
+          "pageID": "WD000022",
+          "pageTitle": "iPhone 12 Pro Max"
+        },
+        {
+          "pageID": "WD000023",
+          "pageTitle": "iPhone 13 mini"
+        },
+        {
+          "pageID": "WD000024",
+          "pageTitle": "iPhone 13"
+        },
+        {
+          "pageID": "WD000025",
+          "pageTitle": "iPhone 13 Pro"
+        },
+        {
+          "pageID": "WD000026",
+          "pageTitle": "iPhone 13 Pro Max"
+        },
+        {
+          "pageID": "WD000027",
+          "pageTitle": "iPhone SE (3rd generation)"
+        },
+        {
+          "pageID": "WD000028",
+          "pageTitle": "iPhone 14"
+        },
+        {
+          "pageID": "WD000029",
+          "pageTitle": "iPhone 14 Plus"
+        },
+        {
+          "pageID": "WD000030",
+          "pageTitle": "iPhone 14 Pro"
+        },
+        {
+          "pageID": "WD000031",
+          "pageTitle": "iPhone 14 Pro Max"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "/What’s new in iOS 16",
+      "Items": []
+    },
+    {
+      "SectionTitle": "Set up and get started",
+      "Items": [
+        {
+          "pageID": "WD000032",
+          "pageTitle": "Turn on and set up iPhone"
+        },
+        {
+          "pageID": "WD000033",
+          "pageTitle": "Wake and unlock"
+        },
+        {
+          "pageID": "WD000034",
+          "pageTitle": "Set up cellular service"
+        },
+        {
+          "pageID": "WD000035",
+          "pageTitle": "Use Dual SIM"
+        },
+        {
+          "pageID": "WD000036",
+          "pageTitle": "Connect to the internet"
+        },
+        {
+          "SectionTitle": "Apple ID and iCloud",
+          "Items": [
+            {
+              "pageID": "WD000037",
+              "pageTitle": "Apple ID settings"
+            },
+            {
+              "pageID": "WD000038",
+              "pageTitle": "Turn iCloud features on or off"
+            },
+            {
+              "pageID": "WD000039",
+              "pageTitle": "Subscribe to iCloud+"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000040",
+          "pageTitle": "Find settings"
+        },
+        {
+          "pageID": "WD000041",
+          "pageTitle": "Set up mail, contacts, and calendar accounts"
+        },
+        {
+          "pageID": "WD000042",
+          "pageTitle": "Learn the meaning of the status icons"
+        },
+        {
+          "SectionTitle": "Charge and monitor the battery",
+          "Items": [
+            {
+              "pageID": "WD000043",
+              "pageTitle": "Charge the battery"
+            },
+            {
+              "pageID": "WD000044",
+              "pageTitle": "Show the battery percentage"
+            },
+            {
+              "pageID": "WD000045",
+              "pageTitle": "Check battery health and usage"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Basics",
+      "Items": [
+        {
+          "SectionTitle": "Learn gestures for iPhone",
+          "Items": [
+            {
+              "pageID": "WD000046",
+              "pageTitle": "Learn basic gestures"
+            },
+            {
+              "pageID": "WD000047",
+              "pageTitle": "Learn gestures for iPhone models with Face ID"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000048",
+          "pageTitle": "Adjust the volume"
+        },
+        {
+          "SectionTitle": "Use your apps",
+          "Items": [
+            {
+              "pageID": "WD000049",
+              "pageTitle": "Open apps"
+            },
+            {
+              "pageID": "WD000050",
+              "pageTitle": "Find your apps in App Library"
+            },
+            {
+              "pageID": "WD000051",
+              "pageTitle": "Switch between open apps"
+            },
+            {
+              "pageID": "WD000052",
+              "pageTitle": "Quit and reopen an app"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Enter, select, and revise text",
+          "Items": [
+            {
+              "pageID": "WD000053",
+              "pageTitle": "Dictate text"
+            },
+            {
+              "pageID": "WD000054",
+              "pageTitle": "Type with the onscreen keyboard"
+            },
+            {
+              "pageID": "WD000055",
+              "pageTitle": "Select and edit text"
+            },
+            {
+              "pageID": "WD000056",
+              "pageTitle": "Use predictive text"
+            },
+            {
+              "pageID": "WD000057",
+              "pageTitle": "Use text replacements"
+            },
+            {
+              "pageID": "WD000058",
+              "pageTitle": "Add or change keyboards"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000059",
+          "pageTitle": "Multitask with Picture in Picture"
+        },
+        {
+          "pageID": "WD000060",
+          "pageTitle": "Access features from the Lock Screen"
+        },
+        {
+          "pageID": "WD000061",
+          "pageTitle": "View activities in the Dynamic Island"
+        },
+        {
+          "pageID": "WD000062",
+          "pageTitle": "Perform quick actions"
+        },
+        {
+          "pageID": "WD000063",
+          "pageTitle": "Search from the Home Screen or Lock Screen"
+        },
+        {
+          "pageID": "WD000064",
+          "pageTitle": "Use AirDrop to send items"
+        },
+        {
+          "pageID": "WD000065",
+          "pageTitle": "Take a screenshot or screen recording"
+        },
+        {
+          "SectionTitle": "Mark up files and photos",
+          "Items": [
+            {
+              "pageID": "WD000066",
+              "pageTitle": "Draw in apps"
+            },
+            {
+              "pageID": "WD000067",
+              "pageTitle": "Add a description, a signature, and more to an image"
+            },
+            {
+              "pageID": "WD000068",
+              "pageTitle": "Zoom in or magnify in Markup"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000069",
+          "pageTitle": "Get information about your iPhone"
+        },
+        {
+          "pageID": "WD000070",
+          "pageTitle": "View or change cellular data settings"
+        },
+        {
+          "pageID": "WD000071",
+          "pageTitle": "Travel with iPhone"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Personalize your iPhone",
+      "Items": [
+        {
+          "pageID": "WD000072",
+          "pageTitle": "Change sounds and vibrations"
+        },
+        {
+          "SectionTitle": "Personalize your iPhone Lock Screen",
+          "Items": [
+            {
+              "pageID": "WD000073",
+              "pageTitle": "Create a custom Lock Screen"
+            },
+            {
+              "pageID": "WD000074",
+              "pageTitle": "Change your Lock Screen"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000075",
+          "pageTitle": "Change the wallpaper"
+        },
+        {
+          "pageID": "WD000076",
+          "pageTitle": "Adjust the screen brightness and color balance"
+        },
+        {
+          "pageID": "WD000077",
+          "pageTitle": "Keep the iPhone display on longer"
+        },
+        {
+          "pageID": "WD000078",
+          "pageTitle": "Magnify the screen"
+        },
+        {
+          "pageID": "WD000079",
+          "pageTitle": "Change the name of your iPhone"
+        },
+        {
+          "pageID": "WD000080",
+          "pageTitle": "Change the date and time"
+        },
+        {
+          "pageID": "WD000081",
+          "pageTitle": "Change the language and region"
+        },
+        {
+          "SectionTitle": "Customize the Home Screen",
+          "Items": [
+            {
+              "pageID": "WD000082",
+              "pageTitle": "Organize your apps in folders"
+            },
+            {
+              "pageID": "WD000083",
+              "pageTitle": "Add widgets to the Home Screen"
+            },
+            {
+              "pageID": "WD000084",
+              "pageTitle": "Move apps and widgets on the Home Screen"
+            },
+            {
+              "pageID": "WD000085",
+              "pageTitle": "Remove apps"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000086",
+          "pageTitle": "Use and customize Control Center"
+        },
+        {
+          "pageID": "WD000087",
+          "pageTitle": "Change or lock the screen orientation"
+        },
+        {
+          "SectionTitle": "Set up Focus, notifications, and Do Not Disturb",
+          "Items": [
+            {
+              "pageID": "WD000088",
+              "pageTitle": "View and respond to notifications"
+            },
+            {
+              "pageID": "WD000089",
+              "pageTitle": "Change notification settings"
+            },
+            {
+              "pageID": "WD000090",
+              "pageTitle": "Set up a Focus"
+            },
+            {
+              "pageID": "WD000091",
+              "pageTitle": "Allow or silence notifications for a Focus"
+            },
+            {
+              "pageID": "WD000092",
+              "pageTitle": "Turn a Focus on or off"
+            },
+            {
+              "pageID": "WD000093",
+              "pageTitle": "Stay focused while driving"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Apps",
+      "Items": [
+        {
+          "SectionTitle": "App Store",
+          "Items": [
+            {
+              "pageID": "WD000094",
+              "pageTitle": "Get apps"
+            },
+            {
+              "SectionTitle": "Play games",
+              "Items": [
+                {
+                  "pageID": "WD000095",
+                  "pageTitle": "Subscribe to Apple Arcade"
+                },
+                {
+                  "pageID": "WD000096",
+                  "pageTitle": "Get games"
+                },
+                {
+                  "pageID": "WD000097",
+                  "pageTitle": "Play with friends in Game Center"
+                },
+                {
+                  "pageID": "WD000098",
+                  "pageTitle": "Connect a game controller"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000099",
+              "pageTitle": "Use App Clips"
+            },
+            {
+              "pageID": "WD000100",
+              "pageTitle": "Manage purchases, subscriptions, settings, and restrictions"
+            },
+            {
+              "pageID": "WD000101",
+              "pageTitle": "Install and manage fonts"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Books",
+          "Items": [
+            {
+              "pageID": "WD000102",
+              "pageTitle": "Buy books and audiobooks   Read books"
+            },
+            {
+              "pageID": "WD000103",
+              "pageTitle": "Annotate books"
+            },
+            {
+              "pageID": "WD000104",
+              "pageTitle": "Access books on other Apple devices"
+            },
+            {
+              "pageID": "WD000105",
+              "pageTitle": "Listen to audiobooks"
+            },
+            {
+              "pageID": "WD000106",
+              "pageTitle": "Set reading goals"
+            },
+            {
+              "pageID": "WD000107",
+              "pageTitle": "Organize books"
+            },
+            {
+              "pageID": "WD000108",
+              "pageTitle": "Read PDFs"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "/Calculator",
+          "Items": []
+        },
+        {
+          "SectionTitle": "Calendar",
+          "Items": [
+            {
+              "pageID": "WD000109",
+              "pageTitle": "Create and edit events in Calendar"
+            },
+            {
+              "pageID": "WD000110",
+              "pageTitle": "Send invitations"
+            },
+            {
+              "pageID": "WD000111",
+              "pageTitle": "Reply to invitations"
+            },
+            {
+              "pageID": "WD000112",
+              "pageTitle": "Change how you view events"
+            },
+            {
+              "pageID": "WD000113",
+              "pageTitle": "Search for events"
+            },
+            {
+              "pageID": "WD000114",
+              "pageTitle": "Customize your calendar"
+            },
+            {
+              "pageID": "WD000115",
+              "pageTitle": "Keep track of events"
+            },
+            {
+              "pageID": "WD000116",
+              "pageTitle": "Use multiple calendars"
+            },
+            {
+              "pageID": "WD000117",
+              "pageTitle": "Use the Holidays calendar"
+            },
+            {
+              "pageID": "WD000118",
+              "pageTitle": "Share iCloud calendars"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Camera",
+          "Items": [
+            {
+              "SectionTitle": "Take photos",
+              "Items": [
+                {
+                  "pageID": "WD000119",
+                  "pageTitle": "Camera basics"
+                },
+                {
+                  "pageID": "WD000120",
+                  "pageTitle": "Set up your shot"
+                },
+                {
+                  "pageID": "WD000121",
+                  "pageTitle": "Apply Photographic Styles"
+                },
+                {
+                  "pageID": "WD000122",
+                  "pageTitle": "Take Live Photos"
+                },
+                {
+                  "pageID": "WD000123",
+                  "pageTitle": "Take Burst mode shots"
+                },
+                {
+                  "pageID": "WD000124",
+                  "pageTitle": "Take a selfie"
+                },
+                {
+                  "pageID": "WD000125",
+                  "pageTitle": "Take panoramic photos"
+                },
+                {
+                  "pageID": "WD000126",
+                  "pageTitle": "Take macro photos and videos"
+                },
+                {
+                  "pageID": "WD000127",
+                  "pageTitle": "Take Portrait mode photos"
+                },
+                {
+                  "pageID": "WD000128",
+                  "pageTitle": "Take Night mode photos"
+                },
+                {
+                  "pageID": "WD000129",
+                  "pageTitle": "Take Apple ProRAW photos"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000130",
+              "pageTitle": "Adjust the shutter volume"
+            },
+            {
+              "pageID": "WD000131",
+              "pageTitle": "Adjust HDR camera settings"
+            },
+            {
+              "pageID": "WD000132",
+              "pageTitle": "Record videos"
+            },
+            {
+              "pageID": "WD000133",
+              "pageTitle": "Record ProRes videos"
+            },
+            {
+              "pageID": "WD000134",
+              "pageTitle": "Record video in Cinematic mode"
+            },
+            {
+              "pageID": "WD000135",
+              "pageTitle": "Change video recording settings"
+            },
+            {
+              "pageID": "WD000136",
+              "pageTitle": "Save camera settings"
+            },
+            {
+              "pageID": "WD000137",
+              "pageTitle": "Change advanced camera settings"
+            },
+            {
+              "pageID": "WD000138",
+              "pageTitle": "View, share, and print photos"
+            },
+            {
+              "pageID": "WD000139",
+              "pageTitle": "Use Live Text"
+            },
+            {
+              "pageID": "WD000140",
+              "pageTitle": "Scan a QR code"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Clock",
+          "Items": [
+            {
+              "pageID": "WD000141",
+              "pageTitle": "See the world clock"
+            },
+            {
+              "pageID": "WD000142",
+              "pageTitle": "Set an alarm"
+            },
+            {
+              "pageID": "WD000143",
+              "pageTitle": "Change the next wake up alarm"
+            },
+            {
+              "pageID": "WD000144",
+              "pageTitle": "Use the timer or stopwatch"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "/Compass",
+          "Items": []
+        },
+        {
+          "SectionTitle": "Contacts",
+          "Items": [
+            {
+              "pageID": "WD000145",
+              "pageTitle": "Add and use contact information"
+            },
+            {
+              "pageID": "WD000146",
+              "pageTitle": "Edit contacts"
+            },
+            {
+              "pageID": "WD000147",
+              "pageTitle": "Add your contact info"
+            },
+            {
+              "pageID": "WD000148",
+              "pageTitle": "Use other contact accounts"
+            },
+            {
+              "pageID": "WD000149",
+              "pageTitle": "Use Contacts from the Phone app"
+            },
+            {
+              "pageID": "WD000150",
+              "pageTitle": "Merge or hide duplicate contacts"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "FaceTime",
+          "Items": [
+            {
+              "pageID": "WD000151",
+              "pageTitle": "Set up FaceTime"
+            },
+            {
+              "pageID": "WD000152",
+              "pageTitle": "Make and receive calls"
+            },
+            {
+              "pageID": "WD000153",
+              "pageTitle": "Create a FaceTime link"
+            },
+            {
+              "pageID": "WD000154",
+              "pageTitle": "Take a Live Photo"
+            },
+            {
+              "pageID": "WD000155",
+              "pageTitle": "Turn on Live Captions in a FaceTime call"
+            },
+            {
+              "pageID": "WD000156",
+              "pageTitle": "Use other apps during a call"
+            },
+            {
+              "pageID": "WD000157",
+              "pageTitle": "Make a Group FaceTime call"
+            },
+            {
+              "pageID": "WD000158",
+              "pageTitle": "View participants in a grid"
+            },
+            {
+              "pageID": "WD000159",
+              "pageTitle": "Use SharePlay to watch, listen, and play together"
+            },
+            {
+              "pageID": "WD000160",
+              "pageTitle": "Share your screen"
+            },
+            {
+              "pageID": "WD000161",
+              "pageTitle": "Hand off a FaceTime call to another device"
+            },
+            {
+              "pageID": "WD000162",
+              "pageTitle": "Change the video settings"
+            },
+            {
+              "pageID": "WD000163",
+              "pageTitle": "Change the audio settings"
+            },
+            {
+              "pageID": "WD000164",
+              "pageTitle": "Add camera effects"
+            },
+            {
+              "pageID": "WD000165",
+              "pageTitle": "Leave a call or switch to Messages"
+            },
+            {
+              "pageID": "WD000166",
+              "pageTitle": "Block unwanted callers"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Files",
+          "Items": [
+            {
+              "pageID": "WD000167",
+              "pageTitle": "Connect external devices or servers"
+            },
+            {
+              "pageID": "WD000168",
+              "pageTitle": "View and modify files and folders"
+            },
+            {
+              "pageID": "WD000169",
+              "pageTitle": "Organize files and folders"
+            },
+            {
+              "pageID": "WD000170",
+              "pageTitle": "Send files"
+            },
+            {
+              "pageID": "WD000171",
+              "pageTitle": "Set up iCloud Drive"
+            },
+            {
+              "pageID": "WD000172",
+              "pageTitle": "Share files and folders in iCloud Drive"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Find My",
+          "Items": [
+            {
+              "SectionTitle": "Find people",
+              "Items": [
+                {
+                  "pageID": "WD000173",
+                  "pageTitle": "Share your location"
+                },
+                {
+                  "pageID": "WD000174",
+                  "pageTitle": "Send your location via satellite"
+                },
+                {
+                  "pageID": "WD000175",
+                  "pageTitle": "Add or remove a friend"
+                },
+                {
+                  "pageID": "WD000176",
+                  "pageTitle": "Locate a friend"
+                },
+                {
+                  "pageID": "WD000177",
+                  "pageTitle": "Get notified when friends change their location"
+                },
+                {
+                  "pageID": "WD000178",
+                  "pageTitle": "Notify a friend when your location changes"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Find devices",
+              "Items": [
+                {
+                  "pageID": "WD000179",
+                  "pageTitle": "Add your iPhone"
+                },
+                {
+                  "pageID": "WD000180",
+                  "pageTitle": "Add your iPhone Wallet with MagSafe"
+                },
+                {
+                  "pageID": "WD000181",
+                  "pageTitle": "Get notified if you leave a device behind"
+                },
+                {
+                  "pageID": "WD000182",
+                  "pageTitle": "Locate a device"
+                },
+                {
+                  "pageID": "WD000183",
+                  "pageTitle": "Mark a device as lost"
+                },
+                {
+                  "pageID": "WD000184",
+                  "pageTitle": "Erase a device"
+                },
+                {
+                  "pageID": "WD000185",
+                  "pageTitle": "Remove a device"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Find items",
+              "Items": [
+                {
+                  "pageID": "WD000186",
+                  "pageTitle": "Add an AirTag"
+                },
+                {
+                  "pageID": "WD000187",
+                  "pageTitle": "Add a third-party item"
+                },
+                {
+                  "pageID": "WD000188",
+                  "pageTitle": "Get notified if you leave an item behind"
+                },
+                {
+                  "pageID": "WD000189",
+                  "pageTitle": "Locate an item"
+                },
+                {
+                  "pageID": "WD000190",
+                  "pageTitle": "Mark an item as lost"
+                },
+                {
+                  "pageID": "WD000191",
+                  "pageTitle": "Remove an item"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000192",
+              "pageTitle": "Adjust map settings"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Fitness",
+          "Items": [
+            {
+              "pageID": "WD000193",
+              "pageTitle": "Intro to Fitness"
+            },
+            {
+              "pageID": "WD000194",
+              "pageTitle": "Track daily activity"
+            },
+            {
+              "pageID": "WD000195",
+              "pageTitle": "See your activity history, trends, and awards"
+            },
+            {
+              "pageID": "WD000196",
+              "pageTitle": "Sync a third-party workout app"
+            },
+            {
+              "pageID": "WD000197",
+              "pageTitle": "Customize Fitness notifications"
+            },
+            {
+              "pageID": "WD000198",
+              "pageTitle": "Share your activity"
+            },
+            {
+              "SectionTitle": "Apple Fitness+",
+              "Items": [
+                {
+                  "pageID": "WD000199",
+                  "pageTitle": "Subscribe to Apple Fitness+"
+                },
+                {
+                  "pageID": "WD000200",
+                  "pageTitle": "Browse Apple Fitness+ workouts and meditations"
+                },
+                {
+                  "pageID": "WD000201",
+                  "pageTitle": "Start an Apple Fitness+ workout"
+                },
+                {
+                  "pageID": "WD000202",
+                  "pageTitle": "Change what’s on the screen during an Apple Fitness+ workout or meditation"
+                },
+                {
+                  "pageID": "WD000203",
+                  "pageTitle": "Download an Apple Fitness+ workout or meditation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Freeform",
+          "Items": [
+            {
+              "pageID": "WD000204",
+              "pageTitle": "Get started with Freeform"
+            },
+            {
+              "pageID": "WD000205",
+              "pageTitle": "Create a Freeform board"
+            },
+            {
+              "pageID": "WD000206",
+              "pageTitle": "Access boards on other devices"
+            },
+            {
+              "SectionTitle": "Add images, text, files, and more",
+              "Items": [
+                {
+                  "pageID": "WD000207",
+                  "pageTitle": "Drawings"
+                },
+                {
+                  "pageID": "WD000208",
+                  "pageTitle": "Lines and shapes"
+                },
+                {
+                  "pageID": "WD000209",
+                  "pageTitle": "Sticky notes"
+                },
+                {
+                  "pageID": "WD000210",
+                  "pageTitle": "Text boxes"
+                },
+                {
+                  "pageID": "WD000211",
+                  "pageTitle": "Photos and videos"
+                },
+                {
+                  "pageID": "WD000212",
+                  "pageTitle": "Scans, links, and other files"
+                },
+                {
+                  "pageID": "WD000213",
+                  "pageTitle": "Accessible descriptions"
+                },
+                {
+                  "pageID": "WD000214",
+                  "pageTitle": "Apply consistent styles"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000215",
+              "pageTitle": "Position items on a board"
+            },
+            {
+              "pageID": "WD000216",
+              "pageTitle": "Search Freeform boards"
+            },
+            {
+              "pageID": "WD000217",
+              "pageTitle": "Share and collaborate"
+            },
+            {
+              "pageID": "WD000218",
+              "pageTitle": "Delete boards"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Health",
+          "Items": [
+            {
+              "pageID": "WD000219",
+              "pageTitle": "Intro to Health"
+            },
+            {
+              "pageID": "WD000220",
+              "pageTitle": "Fill out your Health Details"
+            },
+            {
+              "SectionTitle": "View and share health data",
+              "Items": [
+                {
+                  "pageID": "WD000221",
+                  "pageTitle": "Intro to Health data"
+                },
+                {
+                  "pageID": "WD000222",
+                  "pageTitle": "View your health data"
+                },
+                {
+                  "pageID": "WD000223",
+                  "pageTitle": "Share your health data"
+                },
+                {
+                  "pageID": "WD000224",
+                  "pageTitle": "View health data shared by others"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Get health records from your providers",
+              "Items": [
+                {
+                  "pageID": "WD000225",
+                  "pageTitle": "Download health records"
+                },
+                {
+                  "pageID": "WD000226",
+                  "pageTitle": "View health records"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000227",
+              "pageTitle": "Monitor your walking steadiness"
+            },
+            {
+              "SectionTitle": "Track your menstrual cycle",
+              "Items": [
+                {
+                  "pageID": "WD000228",
+                  "pageTitle": "Log menstrual cycle information"
+                },
+                {
+                  "pageID": "WD000229",
+                  "pageTitle": "View menstrual cycle predictions and history"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Manage your medications",
+              "Items": [
+                {
+                  "pageID": "WD000230",
+                  "pageTitle": "Track your medications"
+                },
+                {
+                  "pageID": "WD000231",
+                  "pageTitle": "Learn more about your medications"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Prioritize your sleep",
+              "Items": [
+                {
+                  "pageID": "WD000232",
+                  "pageTitle": "Set up a schedule for a Sleep Focus"
+                },
+                {
+                  "pageID": "WD000233",
+                  "pageTitle": "Turn off alarms and delete sleep schedules"
+                },
+                {
+                  "pageID": "WD000234",
+                  "pageTitle": "Add or change sleep schedules"
+                },
+                {
+                  "pageID": "WD000235",
+                  "pageTitle": "Turn Sleep Focus on or off"
+                },
+                {
+                  "pageID": "WD000236",
+                  "pageTitle": "Change your wind down period, sleep goal, and more"
+                },
+                {
+                  "pageID": "WD000237",
+                  "pageTitle": "View your sleep history"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Use headphone hearing safeguards",
+              "Items": [
+                {
+                  "pageID": "WD000238",
+                  "pageTitle": "Use headphone audio level features"
+                },
+                {
+                  "pageID": "WD000239",
+                  "pageTitle": "Check your headphone levels"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000240",
+              "pageTitle": "Register as an organ donor"
+            },
+            {
+              "pageID": "WD000241",
+              "pageTitle": "Back up your Health data"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Home",
+          "Items": [
+            {
+              "pageID": "WD000242",
+              "pageTitle": "Intro to Home"
+            },
+            {
+              "pageID": "WD000243",
+              "pageTitle": "Upgrade to the new Home architecture"
+            },
+            {
+              "pageID": "WD000244",
+              "pageTitle": "Set up accessories"
+            },
+            {
+              "pageID": "WD000245",
+              "pageTitle": "Control accessories"
+            },
+            {
+              "pageID": "WD000246",
+              "pageTitle": "Control your home using Siri"
+            },
+            {
+              "pageID": "WD000247",
+              "pageTitle": "Configure HomePod"
+            },
+            {
+              "pageID": "WD000248",
+              "pageTitle": "Control your home remotely"
+            },
+            {
+              "pageID": "WD000249",
+              "pageTitle": "Create and use scenes"
+            },
+            {
+              "pageID": "WD000250",
+              "pageTitle": "Create an automation"
+            },
+            {
+              "pageID": "WD000251",
+              "pageTitle": "Configure cameras"
+            },
+            {
+              "pageID": "WD000252",
+              "pageTitle": "Face Recognition"
+            },
+            {
+              "pageID": "WD000253",
+              "pageTitle": "Unlock your door with a home key"
+            },
+            {
+              "pageID": "WD000254",
+              "pageTitle": "Configure a router"
+            },
+            {
+              "pageID": "WD000255",
+              "pageTitle": "Share controls with others"
+            },
+            {
+              "pageID": "WD000256",
+              "pageTitle": "Add more homes"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "iTunes Store",
+          "Items": [
+            {
+              "pageID": "WD000257",
+              "pageTitle": "Get music, movies, and TV shows"
+            },
+            {
+              "pageID": "WD000258",
+              "pageTitle": "Get ringtones"
+            },
+            {
+              "pageID": "WD000259",
+              "pageTitle": "Manage purchases and settings"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Magnifier",
+          "Items": [
+            {
+              "pageID": "WD000260",
+              "pageTitle": "Magnify nearby objects"
+            },
+            {
+              "pageID": "WD000261",
+              "pageTitle": "Create activities"
+            },
+            {
+              "pageID": "WD000262",
+              "pageTitle": "Change settings"
+            },
+            {
+              "SectionTitle": "Detection Mode",
+              "Items": [
+                {
+                  "pageID": "WD000263",
+                  "pageTitle": "Detect people around you"
+                },
+                {
+                  "pageID": "WD000264",
+                  "pageTitle": "Detect doors around you"
+                },
+                {
+                  "pageID": "WD000265",
+                  "pageTitle": "Receive image descriptions of your surroundings"
+                },
+                {
+                  "pageID": "WD000266",
+                  "pageTitle": "Set up shortcuts for Detection Mode"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Mail",
+          "Items": [
+            {
+              "SectionTitle": "Add or remove email accounts",
+              "Items": [
+                {
+                  "pageID": "WD000267",
+                  "pageTitle": "Add and remove email accounts"
+                },
+                {
+                  "pageID": "WD000268",
+                  "pageTitle": "Set up a custom email domain"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000269",
+              "pageTitle": "Check your email"
+            },
+            {
+              "SectionTitle": "Write and send email",
+              "Items": [
+                {
+                  "pageID": "WD000270",
+                  "pageTitle": "Send email"
+                },
+                {
+                  "pageID": "WD000271",
+                  "pageTitle": "Unsend email with Undo Send"
+                },
+                {
+                  "pageID": "WD000272",
+                  "pageTitle": "Reply to and forward emails"
+                },
+                {
+                  "pageID": "WD000273",
+                  "pageTitle": "Save an email draft"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Work with attachments",
+              "Items": [
+                {
+                  "pageID": "WD000274",
+                  "pageTitle": "Add email attachments"
+                },
+                {
+                  "pageID": "WD000275",
+                  "pageTitle": "Download email attachments"
+                },
+                {
+                  "pageID": "WD000276",
+                  "pageTitle": "Annotate email attachments"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000277",
+              "pageTitle": "Set email notifications"
+            },
+            {
+              "pageID": "WD000278",
+              "pageTitle": "Search for email"
+            },
+            {
+              "pageID": "WD000279",
+              "pageTitle": "Organize email in mailboxes"
+            },
+            {
+              "SectionTitle": "Flag and filter email",
+              "Items": [
+                {
+                  "pageID": "WD000280",
+                  "pageTitle": "Flag emails"
+                },
+                {
+                  "pageID": "WD000281",
+                  "pageTitle": "Filter emails"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Privacy and security",
+              "Items": [
+                {
+                  "pageID": "WD000282",
+                  "pageTitle": "Use Hide My Email"
+                },
+                {
+                  "pageID": "WD000283",
+                  "pageTitle": "Use Mail Privacy Protection"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000284",
+              "pageTitle": "Change email settings"
+            },
+            {
+              "pageID": "WD000285",
+              "pageTitle": "Delete and recover emails"
+            },
+            {
+              "pageID": "WD000286",
+              "pageTitle": "Add a Mail widget to your Home Screen"
+            },
+            {
+              "pageID": "WD000287",
+              "pageTitle": "Print emails"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Maps",
+          "Items": [
+            {
+              "pageID": "WD000288",
+              "pageTitle": "View maps"
+            },
+            {
+              "SectionTitle": "Find places",
+              "Items": [
+                {
+                  "pageID": "WD000289",
+                  "pageTitle": "Search for places"
+                },
+                {
+                  "pageID": "WD000290",
+                  "pageTitle": "Find nearby attractions, restaurants, and services"
+                },
+                {
+                  "pageID": "WD000291",
+                  "pageTitle": "Get information about places"
+                },
+                {
+                  "pageID": "WD000292",
+                  "pageTitle": "Mark places"
+                },
+                {
+                  "pageID": "WD000293",
+                  "pageTitle": "Share places"
+                },
+                {
+                  "pageID": "WD000294",
+                  "pageTitle": "Rate places"
+                },
+                {
+                  "pageID": "WD000295",
+                  "pageTitle": "Save favorite places"
+                },
+                {
+                  "pageID": "WD000296",
+                  "pageTitle": "Explore new places with Guides"
+                },
+                {
+                  "pageID": "WD000297",
+                  "pageTitle": "Organize places in My Guides"
+                },
+                {
+                  "pageID": "WD000298",
+                  "pageTitle": "Get traffic and weather info"
+                },
+                {
+                  "pageID": "WD000299",
+                  "pageTitle": "Delete significant locations"
+                },
+                {
+                  "pageID": "WD000300",
+                  "pageTitle": "Find your Maps settings"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Get directions",
+              "Items": [
+                {
+                  "pageID": "WD000301",
+                  "pageTitle": "Use Siri, Maps, and the Maps widget to get directions"
+                },
+                {
+                  "pageID": "WD000302",
+                  "pageTitle": "Select other route options"
+                }
+              ]
+            },
+            {
+              "SectionTitle": "Things you can do while following a route",
+              "Items": [
+                {
+                  "pageID": "WD000303",
+                  "pageTitle": "Share your ETA"
+                },
+                {
+                  "pageID": "WD000304",
+                  "pageTitle": "Find stops along your route"
+                },
+                {
+                  "pageID": "WD000305",
+                  "pageTitle": "View a route overview or a list of turns"
+                },
+                {
+                  "pageID": "WD000306",
+                  "pageTitle": "Change settings for spoken directions"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000307",
+              "pageTitle": "Set up electric vehicle routing"
+            },
+            {
+              "pageID": "WD000308",
+              "pageTitle": "Get driving directions"
+            },
+            {
+              "pageID": "WD000309",
+              "pageTitle": "Get directions to your parked car"
+            },
+            {
+              "pageID": "WD000310",
+              "pageTitle": "Report traffic incidents"
+            },
+            {
+              "pageID": "WD000311",
+              "pageTitle": "Get cycling directions"
+            },
+            {
+              "pageID": "WD000312",
+              "pageTitle": "Get walking directions"
+            },
+            {
+              "pageID": "WD000313",
+              "pageTitle": "Get transit directions"
+            },
+            {
+              "pageID": "WD000314",
+              "pageTitle": "Delete recent directions"
+            },
+            {
+              "SectionTitle": "Take tours",
+              "Items": [
+                {
+                  "pageID": "WD000315",
+                  "pageTitle": "Look around places"
+                },
+                {
+                  "pageID": "WD000316",
+                  "pageTitle": "Take Flyover tours"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000317",
+              "pageTitle": "Get rides"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Measure",
+          "Items": [
+            {
+              "pageID": "WD000318",
+              "pageTitle": "Measure"
+            },
+            {
+              "pageID": "WD000319",
+              "pageTitle": "View and save measurements"
+            },
+            {
+              "pageID": "WD000320",
+              "pageTitle": "Measure a person’s height"
+            },
+            {
+              "pageID": "WD000321",
+              "pageTitle": "Use the level"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Messages",
+          "Items": [
+            {
+              "pageID": "WD000322",
+              "pageTitle": "Set up Messages"
+            },
+            {
+              "pageID": "WD000323",
+              "pageTitle": "Send and reply to messages"
+            },
+            {
+              "pageID": "WD000324",
+              "pageTitle": "Unsend and edit messages"
+            },
+            {
+              "pageID": "WD000325",
+              "pageTitle": "Keep track of messages and conversations"
+            },
+            {
+              "pageID": "WD000326",
+              "pageTitle": "Forward and share messages"
+            },
+            {
+              "pageID": "WD000327",
+              "pageTitle": "Start a group conversation"
+            },
+            {
+              "pageID": "WD000328",
+              "pageTitle": "Add photos and videos"
+            },
+            {
+              "pageID": "WD000329",
+              "pageTitle": "Send and receive content"
+            },
+            {
+              "pageID": "WD000330",
+              "pageTitle": "Watch, listen, or play together using SharePlay"
+            },
+            {
+              "pageID": "WD000331",
+              "pageTitle": "Collaborate on projects"
+            },
+            {
+              "pageID": "WD000332",
+              "pageTitle": "Animate messages"
+            },
+            {
+              "pageID": "WD000333",
+              "pageTitle": "Use iMessage apps"
+            },
+            {
+              "pageID": "WD000334",
+              "pageTitle": "Use Memoji"
+            },
+            {
+              "pageID": "WD000335",
+              "pageTitle": "Send recorded audio messages"
+            },
+            {
+              "pageID": "WD000336",
+              "pageTitle": "Send a Digital Touch effect"
+            },
+            {
+              "pageID": "WD000337",
+              "pageTitle": "Send, receive, and request money with Apple Cash"
+            },
+            {
+              "pageID": "WD000338",
+              "pageTitle": "Change notifications"
+            },
+            {
+              "pageID": "WD000339",
+              "pageTitle": "Block, filter, and report messages"
+            },
+            {
+              "pageID": "WD000340",
+              "pageTitle": "Delete messages"
+            },
+            {
+              "pageID": "WD000341",
+              "pageTitle": "Recover deleted messages"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Music",
+          "Items": [
+            {
+              "pageID": "WD000342",
+              "pageTitle": "Get music"
+            },
+            {
+              "pageID": "WD000343",
+              "pageTitle": "View albums, playlists, and more"
+            },
+            {
+              "pageID": "WD000344",
+              "pageTitle": "Play music"
+            },
+            {
+              "pageID": "WD000345",
+              "pageTitle": "Queue up your music"
+            },
+            {
+              "pageID": "WD000346",
+              "pageTitle": "Listen to broadcast radio"
+            },
+            {
+              "SectionTitle": "Apple Music",
+              "Items": [
+                {
+                  "pageID": "WD000347",
+                  "pageTitle": "Subscribe to Apple Music"
+                },
+                {
+                  "pageID": "WD000348",
+                  "pageTitle": "Listen to lossless music"
+                },
+                {
+                  "pageID": "WD000349",
+                  "pageTitle": "Listen to Dolby Atmos music"
+                },
+                {
+                  "pageID": "WD000350",
+                  "pageTitle": "Apple Music Sing"
+                },
+                {
+                  "pageID": "WD000351",
+                  "pageTitle": "Find new music"
+                },
+                {
+                  "pageID": "WD000352",
+                  "pageTitle": "Add music and listen offline"
+                },
+                {
+                  "pageID": "WD000353",
+                  "pageTitle": "Get personalized recommendations"
+                },
+                {
+                  "pageID": "WD000354",
+                  "pageTitle": "Listen to radio"
+                },
+                {
+                  "pageID": "WD000355",
+                  "pageTitle": "Search for music"
+                },
+                {
+                  "pageID": "WD000356",
+                  "pageTitle": "Create playlists"
+                },
+                {
+                  "pageID": "WD000357",
+                  "pageTitle": "See what your friends are listening to"
+                },
+                {
+                  "pageID": "WD000358",
+                  "pageTitle": "Use Siri to play music"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000359",
+              "pageTitle": "Listen to music with Apple Music Voice"
+            },
+            {
+              "pageID": "WD000360",
+              "pageTitle": "Change the way music sounds"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "News",
+          "Items": [
+            {
+              "pageID": "WD000361",
+              "pageTitle": "Get started with News"
+            },
+            {
+              "pageID": "WD000362",
+              "pageTitle": "Use News widgets"
+            },
+            {
+              "pageID": "WD000363",
+              "pageTitle": "See news stories chosen just for you"
+            },
+            {
+              "pageID": "WD000364",
+              "pageTitle": "Read stories"
+            },
+            {
+              "pageID": "WD000365",
+              "pageTitle": "Follow your favorite teams with My Sports"
+            },
+            {
+              "pageID": "WD000366",
+              "pageTitle": "Listen to Apple News Today"
+            },
+            {
+              "SectionTitle": "Apple News+",
+              "Items": [
+                {
+                  "pageID": "WD000367",
+                  "pageTitle": "Subscribe to Apple News+"
+                },
+                {
+                  "pageID": "WD000368",
+                  "pageTitle": "Browse and read Apple News+ stories and issues"
+                },
+                {
+                  "pageID": "WD000369",
+                  "pageTitle": "Download Apple News+ issues"
+                },
+                {
+                  "pageID": "WD000370",
+                  "pageTitle": "Listen to audio stories"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000371",
+              "pageTitle": "Search for news stories"
+            },
+            {
+              "pageID": "WD000372",
+              "pageTitle": "Save news stories for later"
+            },
+            {
+              "pageID": "WD000373",
+              "pageTitle": "Subscribe to news channels"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Notes",
+          "Items": [
+            {
+              "pageID": "WD000374",
+              "pageTitle": "Get started with Notes"
+            },
+            {
+              "pageID": "WD000375",
+              "pageTitle": "Add or remove accounts"
+            },
+            {
+              "pageID": "WD000376",
+              "pageTitle": "Create and format notes"
+            },
+            {
+              "pageID": "WD000377",
+              "pageTitle": "Draw or write"
+            },
+            {
+              "pageID": "WD000378",
+              "pageTitle": "Scan text and documents"
+            },
+            {
+              "pageID": "WD000379",
+              "pageTitle": "Add photos, videos, and more"
+            },
+            {
+              "pageID": "WD000380",
+              "pageTitle": "Create Quick Notes"
+            },
+            {
+              "pageID": "WD000381",
+              "pageTitle": "Search notes"
+            },
+            {
+              "pageID": "WD000382",
+              "pageTitle": "Organize in folders"
+            },
+            {
+              "pageID": "WD000383",
+              "pageTitle": "Organize with tags"
+            },
+            {
+              "pageID": "WD000384",
+              "pageTitle": "Use Smart Folders"
+            },
+            {
+              "pageID": "WD000385",
+              "pageTitle": "Share and collaborate"
+            },
+            {
+              "pageID": "WD000386",
+              "pageTitle": "Lock notes"
+            },
+            {
+              "pageID": "WD000387",
+              "pageTitle": "Change Notes settings"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Phone",
+          "Items": [
+            {
+              "pageID": "WD000388",
+              "pageTitle": "Make a call"
+            },
+            {
+              "pageID": "WD000389",
+              "pageTitle": "Answer or decline incoming calls"
+            },
+            {
+              "pageID": "WD000390",
+              "pageTitle": "While on a call"
+            },
+            {
+              "pageID": "WD000391",
+              "pageTitle": "Set up voicemail"
+            },
+            {
+              "pageID": "WD000392",
+              "pageTitle": "Check voicemail"
+            },
+            {
+              "pageID": "WD000393",
+              "pageTitle": "Change voicemail greeting and settings"
+            },
+            {
+              "pageID": "WD000394",
+              "pageTitle": "Select ringtones and vibrations"
+            },
+            {
+              "pageID": "WD000395",
+              "pageTitle": "Make calls using Wi-Fi"
+            },
+            {
+              "pageID": "WD000396",
+              "pageTitle": "Set up call forwarding and call waiting"
+            },
+            {
+              "pageID": "WD000397",
+              "pageTitle": "Avoid unwanted calls"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Photos",
+          "Items": [
+            {
+              "pageID": "WD000398",
+              "pageTitle": "View photos"
+            },
+            {
+              "pageID": "WD000399",
+              "pageTitle": "Play videos and slideshows"
+            },
+            {
+              "pageID": "WD000400",
+              "pageTitle": "Delete or hide photos and videos"
+            },
+            {
+              "pageID": "WD000401",
+              "pageTitle": "Edit photos and videos"
+            },
+            {
+              "pageID": "WD000402",
+              "pageTitle": "Trim video length and adjust slow motion"
+            },
+            {
+              "pageID": "WD000403",
+              "pageTitle": "Edit Cinematic mode videos"
+            },
+            {
+              "pageID": "WD000404",
+              "pageTitle": "Edit Live Photos"
+            },
+            {
+              "pageID": "WD000405",
+              "pageTitle": "Edit Portrait mode photos"
+            },
+            {
+              "pageID": "WD000406",
+              "pageTitle": "Use photo albums"
+            },
+            {
+              "pageID": "WD000407",
+              "pageTitle": "Edit and organize albums"
+            },
+            {
+              "pageID": "WD000408",
+              "pageTitle": "Filter and sort photos and videos in albums"
+            },
+            {
+              "pageID": "WD000409",
+              "pageTitle": "Duplicate and copy photos and videos"
+            },
+            {
+              "pageID": "WD000410",
+              "pageTitle": "Find and delete duplicate photos and videos"
+            },
+            {
+              "pageID": "WD000411",
+              "pageTitle": "Search for Photos"
+            },
+            {
+              "pageID": "WD000412",
+              "pageTitle": "Find and identify people in Photos"
+            },
+            {
+              "pageID": "WD000413",
+              "pageTitle": "Browse photos by location"
+            },
+            {
+              "pageID": "WD000414",
+              "pageTitle": "Share photos and videos"
+            },
+            {
+              "pageID": "WD000415",
+              "pageTitle": "Share long videos"
+            },
+            {
+              "pageID": "WD000416",
+              "pageTitle": "View photos and videos shared with you"
+            },
+            {
+              "pageID": "WD000417",
+              "pageTitle": "Use Live Text to interact with content in a photo or video"
+            },
+            {
+              "pageID": "WD000418",
+              "pageTitle": "Use Visual Look Up to identify objects in your photos"
+            },
+            {
+              "pageID": "WD000419",
+              "pageTitle": "Lift a subject from the photo background"
+            },
+            {
+              "pageID": "WD000420",
+              "pageTitle": "Watch memories"
+            },
+            {
+              "pageID": "WD000421",
+              "pageTitle": "Personalize your memories"
+            },
+            {
+              "pageID": "WD000422",
+              "pageTitle": "Manage memories and featured photos"
+            },
+            {
+              "SectionTitle": "Use iCloud Photos features",
+              "Items": [
+                {
+                  "pageID": "WD000423",
+                  "pageTitle": "Use iCloud Photos"
+                },
+                {
+                  "pageID": "WD000424",
+                  "pageTitle": "Use iCloud Shared Albums"
+                },
+                {
+                  "pageID": "WD000425",
+                  "pageTitle": "Set up or join an iCloud Shared Photo Library"
+                },
+                {
+                  "pageID": "WD000426",
+                  "pageTitle": "Add content to an iCloud Shared Photo Library"
+                },
+                {
+                  "pageID": "WD000427",
+                  "pageTitle": "Use iCloud Shared Photo Library"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000428",
+              "pageTitle": "Import photos and videos"
+            },
+            {
+              "pageID": "WD000429",
+              "pageTitle": "Print photo"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Podcasts",
+          "Items": [
+            {
+              "pageID": "WD000430",
+              "pageTitle": "Find podcasts"
+            },
+            {
+              "pageID": "WD000431",
+              "pageTitle": "Listen to podcasts"
+            },
+            {
+              "pageID": "WD000432",
+              "pageTitle": "Follow your favorite podcasts"
+            },
+            {
+              "pageID": "WD000433",
+              "pageTitle": "Organize your podcast library"
+            },
+            {
+              "pageID": "WD000434",
+              "pageTitle": "Download, save, or share podcasts"
+            },
+            {
+              "pageID": "WD000435",
+              "pageTitle": "Subscribe to podcasts"
+            },
+            {
+              "pageID": "WD000436",
+              "pageTitle": "Change download settings"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Reminders",
+          "Items": [
+            {
+              "pageID": "WD000437",
+              "pageTitle": "Set up accounts"
+            },
+            {
+              "pageID": "WD000438",
+              "pageTitle": "Add items to a list"
+            },
+            {
+              "pageID": "WD000439",
+              "pageTitle": "Edit and manage a list"
+            },
+            {
+              "pageID": "WD000440",
+              "pageTitle": "Search and organize lists"
+            },
+            {
+              "pageID": "WD000441",
+              "pageTitle": "Work with templates"
+            },
+            {
+              "pageID": "WD000442",
+              "pageTitle": "Organize with tags"
+            },
+            {
+              "pageID": "WD000443",
+              "pageTitle": "Use Smart Lists"
+            },
+            {
+              "pageID": "WD000444",
+              "pageTitle": "Change Reminders settings"
+            },
+            {
+              "pageID": "WD000445",
+              "pageTitle": "Share and collaborate"
+            },
+            {
+              "pageID": "WD000446",
+              "pageTitle": "Print reminders"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Safari",
+          "Items": [
+            {
+              "pageID": "WD000447",
+              "pageTitle": "Browse the web"
+            },
+            {
+              "pageID": "WD000448",
+              "pageTitle": "Customize your Safari settings"
+            },
+            {
+              "pageID": "WD000449",
+              "pageTitle": "Change the layout"
+            },
+            {
+              "pageID": "WD000450",
+              "pageTitle": "Search for websites"
+            },
+            {
+              "SectionTitle": "Use Tab Groups",
+              "Items": [
+                {
+                  "pageID": "WD000451",
+                  "pageTitle": "Open and close tabs"
+                },
+                {
+                  "pageID": "WD000452",
+                  "pageTitle": "Organize your tabs"
+                },
+                {
+                  "pageID": "WD000453",
+                  "pageTitle": "View your Safari tabs from another Apple device"
+                },
+                {
+                  "pageID": "WD000454",
+                  "pageTitle": "Share Tab Groups"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000455",
+              "pageTitle": "Bookmark favorite webpages"
+            },
+            {
+              "pageID": "WD000456",
+              "pageTitle": "Save pages to a Reading List"
+            },
+            {
+              "pageID": "WD000457",
+              "pageTitle": "Find links shared with you"
+            },
+            {
+              "pageID": "WD000458",
+              "pageTitle": "Annotate and save a webpage as a PDF"
+            },
+            {
+              "pageID": "WD000459",
+              "pageTitle": "Automatically fill in forms"
+            },
+            {
+              "pageID": "WD000460",
+              "pageTitle": "Get extensions"
+            },
+            {
+              "pageID": "WD000461",
+              "pageTitle": "Hide ads and distractions"
+            },
+            {
+              "pageID": "WD000462",
+              "pageTitle": "Clear your cache"
+            },
+            {
+              "SectionTitle": "Privacy and security",
+              "Items": [
+                {
+                  "pageID": "WD000463",
+                  "pageTitle": "Browse the web privately"
+                },
+                {
+                  "pageID": "WD000464",
+                  "pageTitle": "Use passkeys in Safari"
+                },
+                {
+                  "pageID": "WD000465",
+                  "pageTitle": "Use Hide My Email"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "SectionTitle": "/Shortcuts",
+          "Items": []
+        },
+        {
+          "SectionTitle": "Stocks",
+          "Items": [
+            {
+              "pageID": "WD000466",
+              "pageTitle": "Check stocks"
+            },
+            {
+              "pageID": "WD000467",
+              "pageTitle": "Manage multiple watchlists"
+            },
+            {
+              "pageID": "WD000468",
+              "pageTitle": "Read business news"
+            },
+            {
+              "pageID": "WD000469",
+              "pageTitle": "Add earnings reports to your calendar"
+            },
+            {
+              "pageID": "WD000470",
+              "pageTitle": "Add a Stocks widget to your Home Screen"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "/Tips",
+          "Items": []
+        },
+        {
+          "SectionTitle": "Translate",
+          "Items": [
+            {
+              "pageID": "WD000471",
+              "pageTitle": "Translate text, voice, and conversations"
+            },
+            {
+              "pageID": "WD000472",
+              "pageTitle": "Translate text in apps"
+            },
+            {
+              "pageID": "WD000473",
+              "pageTitle": "Translate with the camera view"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "TV",
+          "Items": [
+            {
+              "pageID": "WD000474",
+              "pageTitle": "Connect apps and add your TV provider"
+            },
+            {
+              "pageID": "WD000475",
+              "pageTitle": "Subscribe to Apple TV+, MLS Season Pass, and Apple TV channels"
+            },
+            {
+              "pageID": "WD000476",
+              "pageTitle": "Get shows, movies, and more"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Watch sports",
+          "Items": [
+            {
+              "pageID": "WD000477",
+              "pageTitle": "Watch sports"
+            },
+            {
+              "pageID": "WD000478",
+              "pageTitle": "Follow your favorite teams with My Sports"
+            },
+            {
+              "pageID": "WD000479",
+              "pageTitle": "Watch Major League Soccer with MLS Season Pass"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000480",
+          "pageTitle": "Control playback"
+        },
+        {
+          "pageID": "WD000481",
+          "pageTitle": "Watch together using SharePlay"
+        },
+        {
+          "pageID": "WD000482",
+          "pageTitle": "Manage your library"
+        },
+        {
+          "pageID": "WD000483",
+          "pageTitle": "Change the settings"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Voice Memos",
+      "Items": [
+        {
+          "pageID": "WD000484",
+          "pageTitle": "Make a recording"
+        },
+        {
+          "pageID": "WD000485",
+          "pageTitle": "Play it back"
+        },
+        {
+          "pageID": "WD000486",
+          "pageTitle": "Edit or delete a recording"
+        },
+        {
+          "pageID": "WD000487",
+          "pageTitle": "Keep recordings up to date"
+        },
+        {
+          "pageID": "WD000488",
+          "pageTitle": "Organize recordings"
+        },
+        {
+          "pageID": "WD000489",
+          "pageTitle": "Search for or rename a recording"
+        },
+        {
+          "pageID": "WD000490",
+          "pageTitle": "Share a recording"
+        },
+        {
+          "pageID": "WD000491",
+          "pageTitle": "Duplicate a recording"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Wallet",
+      "Items": [
+        {
+          "pageID": "WD000492",
+          "pageTitle": "Keep cards and passes in Wallet"
+        },
+        {
+          "pageID": "WD000493",
+          "pageTitle": "Set up Apple Pay"
+        },
+        {
+          "pageID": "WD000494",
+          "pageTitle": "Use Apple Pay for contactless payments"
+        },
+        {
+          "pageID": "WD000495",
+          "pageTitle": "Use Apple Pay in apps, App Clips, and Safari"
+        },
+        {
+          "pageID": "WD000496",
+          "pageTitle": "Use Apple Cash"
+        },
+        {
+          "pageID": "WD000497",
+          "pageTitle": "Use Apple Card"
+        },
+        {
+          "pageID": "WD000498",
+          "pageTitle": "Use Savings"
+        },
+        {
+          "pageID": "WD000499",
+          "pageTitle": "Manage payment cards and activity"
+        },
+        {
+          "pageID": "WD000500",
+          "pageTitle": "Pay for transit"
+        },
+        {
+          "pageID": "WD000501",
+          "pageTitle": "Use digital keys"
+        },
+        {
+          "pageID": "WD000502",
+          "pageTitle": "Use your driver’s license or state ID"
+        },
+        {
+          "pageID": "WD000503",
+          "pageTitle": "Use student ID cards"
+        },
+        {
+          "pageID": "WD000504",
+          "pageTitle": "Apple Account Card"
+        },
+        {
+          "pageID": "WD000505",
+          "pageTitle": "Add and use passes"
+        },
+        {
+          "pageID": "WD000506",
+          "pageTitle": "Manage passes"
+        },
+        {
+          "pageID": "WD000507",
+          "pageTitle": "Use COVID-19 vaccination cards"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Weather",
+      "Items": [
+        {
+          "pageID": "WD000508",
+          "pageTitle": "Check the weather"
+        },
+        {
+          "pageID": "WD000509",
+          "pageTitle": "Check the weather in other locations"
+        },
+        {
+          "pageID": "WD000510",
+          "pageTitle": "View weather maps"
+        },
+        {
+          "pageID": "WD000511",
+          "pageTitle": "Manage weather notifications"
+        },
+        {
+          "pageID": "WD000512",
+          "pageTitle": "Add a Weather widget to your Home Screen"
+        },
+        {
+          "pageID": "WD000513",
+          "pageTitle": "Learn the weather icons"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Siri",
+      "Items": [
+        {
+          "pageID": "WD000514",
+          "pageTitle": "Use Siri"
+        },
+        {
+          "pageID": "WD000515",
+          "pageTitle": "Find out what Siri can do"
+        },
+        {
+          "pageID": "WD000516",
+          "pageTitle": "Tell Siri about yourself"
+        },
+        {
+          "pageID": "WD000517",
+          "pageTitle": "Have Siri announce calls and notifications"
+        },
+        {
+          "pageID": "WD000518",
+          "pageTitle": "Add Siri Shortcuts"
+        },
+        {
+          "pageID": "WD000519",
+          "pageTitle": "About Siri Suggestions"
+        },
+        {
+          "pageID": "WD000520",
+          "pageTitle": "Use Siri in your car"
+        },
+        {
+          "pageID": "WD000521",
+          "pageTitle": "Change Siri settings"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "iPhone safety features",
+      "Items": [
+        {
+          "pageID": "WD000522",
+          "pageTitle": "Contact emergency services"
+        },
+        {
+          "pageID": "WD000523",
+          "pageTitle": "Use Emergency SOS via satellite"
+        },
+        {
+          "pageID": "WD000524",
+          "pageTitle": "Set up and view your Medical ID"
+        },
+        {
+          "pageID": "WD000525",
+          "pageTitle": "Manage Crash Detection"
+        },
+        {
+          "pageID": "WD000526",
+          "pageTitle": "Reset privacy and security settings in an emergency"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Family Sharing",
+      "Items": [
+        {
+          "pageID": "WD000527",
+          "pageTitle": "Set up Family Sharing"
+        },
+        {
+          "pageID": "WD000528",
+          "pageTitle": "Add Family Sharing members"
+        },
+        {
+          "pageID": "WD000529",
+          "pageTitle": "Remove Family Sharing members"
+        },
+        {
+          "pageID": "WD000530",
+          "pageTitle": "Share subscriptions"
+        },
+        {
+          "pageID": "WD000531",
+          "pageTitle": "Share purchases"
+        },
+        {
+          "pageID": "WD000532",
+          "pageTitle": "Share locations with family and locate lost devices"
+        },
+        {
+          "pageID": "WD000533",
+          "pageTitle": "Set up Apple Cash Family and Apple Card Family"
+        },
+        {
+          "pageID": "WD000534",
+          "pageTitle": "Set up parental controls"
+        },
+        {
+          "pageID": "WD000535",
+          "pageTitle": "Set up a child’s device"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Screen Time",
+      "Items": [
+        {
+          "pageID": "WD000536",
+          "pageTitle": "View your Screen Time summary"
+        },
+        {
+          "pageID": "WD000537",
+          "pageTitle": "Set up Screen Time for yourself"
+        },
+        {
+          "pageID": "WD000538",
+          "pageTitle": "Set up Screen Time for a family member"
+        },
+        {
+          "pageID": "WD000539",
+          "pageTitle": "Get a report of your device use"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Accessories",
+      "Items": [
+        {
+          "pageID": "WD000540",
+          "pageTitle": "Charging cable"
+        },
+        {
+          "pageID": "WD000541",
+          "pageTitle": "Power adapters"
+        },
+        {
+          "pageID": "WD000542",
+          "pageTitle": "MagSafe chargers and battery packs"
+        },
+        {
+          "pageID": "WD000543",
+          "pageTitle": "MagSafe cases and sleeves"
+        },
+        {
+          "pageID": "WD000544",
+          "pageTitle": "Qi-certified wireless chargers"
+        },
+        {
+          "SectionTitle": "AirPods and EarPods",
+          "Items": [
+            {
+              "pageID": "WD000545",
+              "pageTitle": "Use AirPods"
+            },
+            {
+              "pageID": "WD000546",
+              "pageTitle": "Use EarPods"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000547",
+          "pageTitle": "Apple Watch"
+        },
+        {
+          "SectionTitle": "Apple TV, smart TVs, and video displays",
+          "Items": [
+            {
+              "pageID": "WD000548",
+              "pageTitle": "Wirelessly stream videos and photos to Apple TV or a smart TV"
+            },
+            {
+              "pageID": "WD000549",
+              "pageTitle": "Connect to a display with a cable"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000550",
+          "pageTitle": "HomePod and other wireless speakers"
+        },
+        {
+          "SectionTitle": "Magic Keyboard",
+          "Items": [
+            {
+              "pageID": "WD000551",
+              "pageTitle": "Pair Magic Keyboard"
+            },
+            {
+              "pageID": "WD000552",
+              "pageTitle": "Enter characters with diacritical marks"
+            },
+            {
+              "pageID": "WD000553",
+              "pageTitle": "Switch between keyboards"
+            },
+            {
+              "pageID": "WD000554",
+              "pageTitle": "Dictate text"
+            },
+            {
+              "pageID": "WD000555",
+              "pageTitle": "Use shortcuts"
+            },
+            {
+              "pageID": "WD000556",
+              "pageTitle": "Choose an alternative keyboard layout"
+            },
+            {
+              "pageID": "WD000557",
+              "pageTitle": "Change typing assistance options"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000558",
+          "pageTitle": "External storage devices"
+        },
+        {
+          "pageID": "WD000559",
+          "pageTitle": "Bluetooth accessories"
+        },
+        {
+          "pageID": "WD000560",
+          "pageTitle": "Printers"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Use iPhone with iPad, iPod touch, Mac, and PC",
+      "Items": [
+        {
+          "pageID": "WD000561",
+          "pageTitle": "Share your internet connection"
+        },
+        {
+          "pageID": "WD000562",
+          "pageTitle": "Allow phone calls on your iPad, iPod touch, and Mac"
+        },
+        {
+          "pageID": "WD000563",
+          "pageTitle": "Use iPhone as a webcam"
+        },
+        {
+          "pageID": "WD000564",
+          "pageTitle": "Hand off tasks between devices"
+        },
+        {
+          "pageID": "WD000565",
+          "pageTitle": "Wirelessly stream video, photos, and audio to Mac"
+        },
+        {
+          "pageID": "WD000566",
+          "pageTitle": "Cut, copy, and paste between iPhone and other devices"
+        },
+        {
+          "pageID": "WD000567",
+          "pageTitle": "Connect iPhone and your computer with a cable"
+        },
+        {
+          "SectionTitle": "Transfer files between your iPhone and computer",
+          "Items": [
+            {
+              "pageID": "WD000568",
+              "pageTitle": "Transfer files between devices"
+            },
+            {
+              "pageID": "WD000569",
+              "pageTitle": "Transfer files with email, messages, or AirDrop"
+            },
+            {
+              "pageID": "WD000570",
+              "pageTitle": "Automatically keep files up to date with iCloud"
+            },
+            {
+              "pageID": "WD000571",
+              "pageTitle": "Transfer files with an external storage device"
+            },
+            {
+              "pageID": "WD000572",
+              "pageTitle": "Use a file server to share files between your iPhone and computer"
+            },
+            {
+              "pageID": "WD000573",
+              "pageTitle": "Share files with a cloud storage service"
+            },
+            {
+              "pageID": "WD000574",
+              "pageTitle": "Sync content or transfer files with the Finder or iTunes"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionTitle": "CarPlay",
+      "Items": [
+        {
+          "pageID": "WD000575",
+          "pageTitle": "Intro to CarPlay"
+        },
+        {
+          "pageID": "WD000576",
+          "pageTitle": "Connect to CarPlay"
+        },
+        {
+          "pageID": "WD000577",
+          "pageTitle": "Use Siri"
+        },
+        {
+          "pageID": "WD000578",
+          "pageTitle": "Use your vehicle’s built-in controls"
+        },
+        {
+          "pageID": "WD000579",
+          "pageTitle": "Get turn-by-turn directions"
+        },
+        {
+          "pageID": "WD000580",
+          "pageTitle": "Report traffic incidents"
+        },
+        {
+          "pageID": "WD000581",
+          "pageTitle": "Change the map view"
+        },
+        {
+          "pageID": "WD000582",
+          "pageTitle": "Make phone calls"
+        },
+        {
+          "pageID": "WD000583",
+          "pageTitle": "Play music"
+        },
+        {
+          "pageID": "WD000584",
+          "pageTitle": "View your calendar"
+        },
+        {
+          "pageID": "WD000585",
+          "pageTitle": "Send and receive text messages"
+        },
+        {
+          "pageID": "WD000586",
+          "pageTitle": "Announce incoming text messages"
+        },
+        {
+          "pageID": "WD000587",
+          "pageTitle": "Play podcasts"
+        },
+        {
+          "pageID": "WD000588",
+          "pageTitle": "Play audiobooks"
+        },
+        {
+          "pageID": "WD000589",
+          "pageTitle": "Listen to news stories"
+        },
+        {
+          "pageID": "WD000590",
+          "pageTitle": "Control your home"
+        },
+        {
+          "pageID": "WD000591",
+          "pageTitle": "Use other apps with CarPlay"
+        },
+        {
+          "pageID": "WD000592",
+          "pageTitle": "Rearrange icons on CarPlay Home"
+        },
+        {
+          "pageID": "WD000593",
+          "pageTitle": "Change settings in CarPlay"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Accessibility",
+      "Items": [
+        {
+          "pageID": "WD000594",
+          "pageTitle": "Get started with accessibility features"
+        },
+        {
+          "SectionTitle": "Vision",
+          "Items": [
+            {
+              "SectionTitle": "VoiceOver",
+              "Items": [
+                {
+                  "pageID": "WD000595",
+                  "pageTitle": "Turn on and practice VoiceOver"
+                },
+                {
+                  "pageID": "WD000596",
+                  "pageTitle": "Change your VoiceOver settings"
+                },
+                {
+                  "pageID": "WD000597",
+                  "pageTitle": "Learn VoiceOver gestures"
+                },
+                {
+                  "pageID": "WD000598",
+                  "pageTitle": "Operate iPhone when VoiceOver is on"
+                },
+                {
+                  "pageID": "WD000599",
+                  "pageTitle": "Control VoiceOver using the rotor"
+                },
+                {
+                  "pageID": "WD000600",
+                  "pageTitle": "Use the onscreen keyboard"
+                },
+                {
+                  "pageID": "WD000601",
+                  "pageTitle": "Write with your finger"
+                },
+                {
+                  "pageID": "WD000602",
+                  "pageTitle": "Use VoiceOver with an Apple external keyboard"
+                },
+                {
+                  "pageID": "WD000603",
+                  "pageTitle": "Use a braille display"
+                },
+                {
+                  "pageID": "WD000604",
+                  "pageTitle": "Type onscreen braille"
+                },
+                {
+                  "pageID": "WD000605",
+                  "pageTitle": "Customize gestures and keyboard shortcuts"
+                },
+                {
+                  "pageID": "WD000606",
+                  "pageTitle": "Use VoiceOver with a pointer device"
+                },
+                {
+                  "pageID": "WD000607",
+                  "pageTitle": "Use VoiceOver for images and videos"
+                },
+                {
+                  "pageID": "WD000608",
+                  "pageTitle": "Use VoiceOver in apps"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000609",
+              "pageTitle": "Zoom"
+            },
+            {
+              "pageID": "WD000610",
+              "pageTitle": "Display & Text Size"
+            },
+            {
+              "pageID": "WD000611",
+              "pageTitle": "Motion"
+            },
+            {
+              "pageID": "WD000612",
+              "pageTitle": "Spoken Content"
+            },
+            {
+              "pageID": "WD000613",
+              "pageTitle": "Audio Descriptions"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Physical and Motor",
+          "Items": [
+            {
+              "pageID": "WD000614",
+              "pageTitle": "AssistiveTouch"
+            },
+            {
+              "pageID": "WD000615",
+              "pageTitle": "Touch accommodations"
+            },
+            {
+              "pageID": "WD000616",
+              "pageTitle": "Back tap"
+            },
+            {
+              "pageID": "WD000617",
+              "pageTitle": "Reachability"
+            },
+            {
+              "pageID": "WD000618",
+              "pageTitle": "Call Audio Routing"
+            },
+            {
+              "pageID": "WD000619",
+              "pageTitle": "Vibration"
+            },
+            {
+              "pageID": "WD000620",
+              "pageTitle": "Face ID & Attention"
+            },
+            {
+              "SectionTitle": "Switch Control",
+              "Items": [
+                {
+                  "pageID": "WD000621",
+                  "pageTitle": "Intro to Switch Control"
+                },
+                {
+                  "pageID": "WD000622",
+                  "pageTitle": "Set up and turn on Switch Control"
+                },
+                {
+                  "pageID": "WD000623",
+                  "pageTitle": "Use Switch Control"
+                }
+              ]
+            },
+            {
+              "pageID": "WD000624",
+              "pageTitle": "Voice Control"
+            },
+            {
+              "pageID": "WD000625",
+              "pageTitle": "Side or Home button"
+            },
+            {
+              "pageID": "WD000626",
+              "pageTitle": "Apple TV Remote"
+            },
+            {
+              "pageID": "WD000627",
+              "pageTitle": "Pointer Control"
+            },
+            {
+              "pageID": "WD000628",
+              "pageTitle": "Keyboards"
+            },
+            {
+              "pageID": "WD000629",
+              "pageTitle": "AirPods"
+            },
+            {
+              "pageID": "WD000630",
+              "pageTitle": "Apple Watch Mirroring"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Hearing",
+          "Items": [
+            {
+              "pageID": "WD000631",
+              "pageTitle": "Hearing devices"
+            },
+            {
+              "pageID": "WD000632",
+              "pageTitle": "Live Listen"
+            },
+            {
+              "pageID": "WD000633",
+              "pageTitle": "Sound recognition"
+            },
+            {
+              "pageID": "WD000634",
+              "pageTitle": "RTT and TTY"
+            },
+            {
+              "pageID": "WD000635",
+              "pageTitle": "Mono audio, balance, phone noise cancellation"
+            },
+            {
+              "pageID": "WD000636",
+              "pageTitle": "LED flash for alerts"
+            },
+            {
+              "pageID": "WD000637",
+              "pageTitle": "Headphone audio"
+            },
+            {
+              "pageID": "WD000638",
+              "pageTitle": "Background sounds"
+            },
+            {
+              "pageID": "WD000639",
+              "pageTitle": "Subtitles and captions"
+            },
+            {
+              "pageID": "WD000640",
+              "pageTitle": "Transcriptions for Intercom messages"
+            },
+            {
+              "pageID": "WD000641",
+              "pageTitle": "Live Captions (beta)"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "General",
+          "Items": [
+            {
+              "pageID": "WD000642",
+              "pageTitle": "Guided Access"
+            },
+            {
+              "pageID": "WD000643",
+              "pageTitle": "Siri"
+            },
+            {
+              "pageID": "WD000644",
+              "pageTitle": "Accessibility shortcuts"
+            },
+            {
+              "pageID": "WD000645",
+              "pageTitle": "Per-app settings"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Privacy and security",
+      "Items": [
+        {
+          "pageID": "WD000646",
+          "pageTitle": "Use built-in privacy and security protections"
+        },
+        {
+          "SectionTitle": "Protect access to your iPhone",
+          "Items": [
+            {
+              "pageID": "WD000647",
+              "pageTitle": "Set a passcode"
+            },
+            {
+              "pageID": "WD000648",
+              "pageTitle": "Set up Face ID"
+            },
+            {
+              "pageID": "WD000649",
+              "pageTitle": "Set up Touch ID"
+            },
+            {
+              "pageID": "WD000650",
+              "pageTitle": "Control access to information on the Lock Screen"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000651",
+          "pageTitle": "Keep your Apple ID secure"
+        },
+        {
+          "SectionTitle": "Make sign-ins safer and easier",
+          "Items": [
+            {
+              "pageID": "WD000652",
+              "pageTitle": "Sign in with passkeys"
+            },
+            {
+              "pageID": "WD000653",
+              "pageTitle": "Sign in with Apple"
+            },
+            {
+              "pageID": "WD000654",
+              "pageTitle": "Automatically fill in strong passwords"
+            },
+            {
+              "pageID": "WD000655",
+              "pageTitle": "Change weak or compromised passwords"
+            },
+            {
+              "pageID": "WD000656",
+              "pageTitle": "View your passwords and related information"
+            },
+            {
+              "pageID": "WD000657",
+              "pageTitle": "Share passkeys and passwords securely with AirDrop"
+            },
+            {
+              "pageID": "WD000658",
+              "pageTitle": "Make your passkeys and passwords available on all your devices"
+            },
+            {
+              "pageID": "WD000659",
+              "pageTitle": "Automatically fill in verification codes"
+            },
+            {
+              "pageID": "WD000660",
+              "pageTitle": "Automatically fill in SMS passcodes"
+            },
+            {
+              "pageID": "WD000661",
+              "pageTitle": "Sign in with fewer CAPTCHA challenges on iPhone"
+            },
+            {
+              "pageID": "WD000662",
+              "pageTitle": "Manage two-factor authentication for your Apple ID"
+            },
+            {
+              "pageID": "WD000663",
+              "pageTitle": "Use security keys"
+            }
+          ]
+        },
+        {
+          "SectionTitle": "Manage what you share with people and apps",
+          "Items": [
+            {
+              "pageID": "WD000664",
+              "pageTitle": "Manage information sharing with Safety Check"
+            },
+            {
+              "pageID": "WD000665",
+              "pageTitle": "Control app tracking permissions"
+            },
+            {
+              "pageID": "WD000666",
+              "pageTitle": "Control the location information you share"
+            },
+            {
+              "pageID": "WD000667",
+              "pageTitle": "Control access to information in apps"
+            },
+            {
+              "pageID": "WD000668",
+              "pageTitle": "Control how Apple delivers advertising to you"
+            },
+            {
+              "pageID": "WD000669",
+              "pageTitle": "Control access to hardware features"
+            }
+          ]
+        },
+        {
+          "pageID": "WD000670",
+          "pageTitle": "Create and manage Hide My Email addresses"
+        },
+        {
+          "pageID": "WD000671",
+          "pageTitle": "Protect your web browsing with iCloud Private Relay"
+        },
+        {
+          "pageID": "WD000672",
+          "pageTitle": "Use a private network address"
+        },
+        {
+          "pageID": "WD000673",
+          "pageTitle": "Use Advanced Data Protection"
+        },
+        {
+          "pageID": "WD000674",
+          "pageTitle": "Lockdown Mode"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Restart, update, reset, and restore",
+      "Items": [
+        {
+          "pageID": "WD000675",
+          "pageTitle": "Turn iPhone on or off"
+        },
+        {
+          "pageID": "WD000676",
+          "pageTitle": "Force restart iPhone"
+        },
+        {
+          "pageID": "WD000677",
+          "pageTitle": "Update iOS"
+        },
+        {
+          "pageID": "WD000678",
+          "pageTitle": "Back up iPhone"
+        },
+        {
+          "pageID": "WD000679",
+          "pageTitle": "Return iPhone settings to their defaults"
+        },
+        {
+          "pageID": "WD000680",
+          "pageTitle": "Restore all content from a backup"
+        },
+        {
+          "pageID": "WD000681",
+          "pageTitle": "Restore purchased and deleted items"
+        },
+        {
+          "pageID": "WD000682",
+          "pageTitle": "Sell, give away, or trade in your iPhone"
+        },
+        {
+          "pageID": "WD000683",
+          "pageTitle": "Erase iPhone"
+        },
+        {
+          "pageID": "WD000684",
+          "pageTitle": "Install or remove configuration profiles"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Safety, handling, and support",
+      "Items": [
+        {
+          "pageID": "WD000685",
+          "pageTitle": "Important safety information"
+        },
+        {
+          "pageID": "WD000686",
+          "pageTitle": "Important handling information"
+        },
+        {
+          "pageID": "WD000687",
+          "pageTitle": "Find more resources for software and service"
+        },
+        {
+          "pageID": "WD000688",
+          "pageTitle": "FCC compliance statement"
+        },
+        {
+          "pageID": "WD000689",
+          "pageTitle": "ISED Canada compliance statement"
+        },
+        {
+          "pageID": "WD000690",
+          "pageTitle": "Ultra Wideband information"
+        },
+        {
+          "pageID": "WD000691",
+          "pageTitle": "Class 1 Laser information"
+        },
+        {
+          "pageID": "WD000692",
+          "pageTitle": "Apple and the environment"
+        },
+        {
+          "pageID": "WD000693",
+          "pageTitle": "Disposal and recycling information"
+        },
+        {
+          "pageID": "WD000694",
+          "pageTitle": "Unauthorized modification of iOS"
+        }
+      ]
     }
   ]
+}

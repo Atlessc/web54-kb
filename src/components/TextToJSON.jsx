@@ -1,0 +1,111 @@
+import React, { useState } from 'react';
+import '../styles/json.css';
+
+function textToJson(text) {
+  const lines = text.split('\n');
+  const json = { 'Table of Contents': [] };
+  let currentSection = json['Table of Contents'];
+  let sectionStack = [];
+  let pageID = 1;
+  let error = null;
+
+  for (const [index, line] of lines.entries()) {
+    if (line.startsWith('>')) {
+      const level = line.lastIndexOf('>') + 1;
+      const title = line.slice(level).trim();
+      while (sectionStack.length >= level) {
+        currentSection = sectionStack.pop();
+      }
+      if (!currentSection) {
+        error = `Error on line ${index + 1}: Missing parent section`;
+        break;
+      }
+      const newSection = {
+        'SectionTitle': title,
+        'Items': []
+      };
+      currentSection.push(newSection);
+      sectionStack.push(currentSection);
+      currentSection = newSection.Items;
+    } else if (line.startsWith('/')) {
+      const pageItem = {
+        'pageID': `WD${pageID.toString().padStart(6, '0')}`,
+        'pageTitle': line.slice(1).trim()
+      };
+      pageID += 1;
+      if (!currentSection) {
+        error = `Error on line ${index + 1}: Missing parent section`;
+        break;
+      }
+      currentSection.push(pageItem);
+    } else if (line.startsWith('<')) {
+      currentSection = sectionStack.pop();
+    } else if (line.trim() !== '') {
+      error = `Error on line ${index + 1}: Unknown character "${line[0]}"`;
+      break;
+    }
+  }
+
+  return { json, error };
+}
+
+const TextToJson = () => {
+  const [text, setText] = useState('');
+  const [json, setJson] = useState(null);
+  const [error, setError] = useState(null);
+
+  const handleTextChange = (event) => {
+    setText(event.target.value);
+  };
+
+  const handleConvertClick = () => {
+    const result = textToJson(text);
+    setJson(result.json);
+    setError(result.error);
+  };
+
+  const handleCopyClick = () => {
+    navigator.clipboard.writeText(JSON.stringify(json, null, 2));
+  };
+
+  return (
+    <div>
+      <h3>Rule Set</h3>
+      <pre>
+{`> Section
+>> Subsection
+>>> Subsubsection
+/ Page
+< End of section
+
+Example:
+> Section 1
+/Page 1
+/Page 2
+>> Subsection
+/Page 3
+<`}
+      </pre>
+      <br />
+      <textarea value={text} onChange={handleTextChange} rows={10} cols={50} />
+      <br />
+      <button onClick={handleConvertClick}>Convert to JSON</button>
+      <br />
+      {error && (
+        <>
+          <p style={{ color: 'red' }}>{error}</p>
+          <br />
+        </>
+      )}
+      {json && !error && (
+        <>
+        <br/>
+          <button onClick={handleCopyClick}>Copy JSON</button>
+          <pre className="JSONResponse">{JSON.stringify(json, null, 2)}</pre>
+        </>
+      )}
+    </div>
+  );
+};
+
+export default TextToJson;
