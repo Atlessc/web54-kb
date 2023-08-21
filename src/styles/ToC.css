@@ -2,10 +2,39 @@
     height: 2rem;
     margin-bottom: 0.6rem;
     text-align: left;
-    width: 100%;
+    font-size: 1.2rem;
+    width: fit-content;
     padding: 0.2rem 0.4rem;
+    margin-left: 10rem;
 }
 
+.SectionTitle {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.SectionTitle span {
+    color: #ff6f00;
+    font-weight: 400;
+}
+
+.Down::before {
+    color: #ff6f00;
+}
+
+.Down::after {
+    color: #ff6f00;
+    transition: all 0.2s ease-in;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
 
 .item:hover {
     transition: all 0.2s ease-in;

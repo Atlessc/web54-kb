@@ -36,7 +36,8 @@
 /iPhone 14 Pro
 /iPhone 14 Pro Max
 <
->/What’s new in iOS 16
+>What’s new in iOS 16
+/What’s new in iOS 16
 <
 >Set up and get started
 /Turn on and set up iPhone
