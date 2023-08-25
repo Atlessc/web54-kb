@@ -1,29 +1,30 @@
-import React, { useState } from 'react';
-import data from './markdownRules.json';
+import React, { useState } from "react";
+import MarkDownRules from "./NewMarkDownSytaxRules";
+import "../styles/TextToMarkdown.css";
 
 const convertToMarkdown = (text) => {
   // Split text into multiple files separated by "========"
-  const files = text.split('========');
+  const files = text.split("========");
 
   // Convert each file to markdown
   const markdownFiles = files.map((file) => {
-    let markdown = '';
+    let markdown = "";
 
     // Split file into lines
-    const lines = file.split('\n');
+    const lines = file.split("\n");
 
     // Process each line
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i];
 
       // Check for empty line
-      if (line.trim() === '') {
-        markdown += '\n';
+      if (line.trim() === "") {
+        markdown += "\n";
         continue;
       }
 
       // Check for heading
-      if (line.startsWith('&')) {
+      if (line.startsWith("&")) {
         const match = line.match(/^&(\d) (.*)$/);
         if (!match) {
           throw new Error(`Invalid heading syntax on line ${i + 1}`);
@@ -33,51 +34,52 @@ const convertToMarkdown = (text) => {
           throw new Error(`Invalid heading level on line ${i + 1}`);
         }
         const text = match[2];
-        markdown += `${'#'.repeat(level)} ${text}\n`;
+        markdown += `${"#".repeat(level)} ${text}\n`;
         continue;
       }
 
       // Check for footer
-      if (line.startsWith('^')) {
+      if (line.startsWith("^")) {
         const text = line.slice(1).trim();
         markdown += `<footer>${text}</footer>\n`;
         continue;
       }
 
       // Check for ordered list
-      if (line.startsWith('#')) {
-        const items = line.slice(1).split(',');
+      if (line.startsWith("#")) {
+        const items = line.slice(1).split(",");
         markdown += items
           .map((item) => {
             item = item.trim();
-            if (item.startsWith('(') && item.endsWith(')')) {
-              return `- ${item.slice(1, -1).split(',').join('\n  - ')}`;
+            if (item.startsWith("(") && item.endsWith(")")) {
+              return `- ${item.slice(1, -1).split(",").join("\n  - ")}`;
             }
             return `1. ${item}`;
           })
-          .join('\n');
-        markdown += '\n';
+          .join("\n");
+        markdown += "\n";
         continue;
       }
 
-      // Check for unordered list
-      if (line.startsWith('*')) {
-        const items = line.slice(1).split(',');
-        markdown += items
-          .map((item) => {
-            item = item.trim();
-            if (item.startsWith('(') && item.endsWith(')')) {
-              return `- ${item.slice(1, -1).split(',').join('\n  - ')}`;
-            }
-            return `- ${item}`;
-          })
-          .join('\n');
-        markdown += '\n';
-        continue;
-      }
+// Check for unordered list
+if (line.startsWith("*") && !line.includes("**")) {
+    const items = line.slice(1).split(",");
+    markdown += items
+      .map((item) => {
+        item = item.trim();
+        if (item.startsWith("(") && item.endsWith(")")) {
+          return `- ${item.slice(1, -1).split(",").join("\n  - ")}`;
+        }
+        return `- ${item}`;
+      })
+      .join("\n");
+    markdown += "\n";
+    continue;
+  }
+  
 
       // Check for image
-      if (line.startsWith('@')) {
+      if (line.startsWith("@")) {
         const match = line.match(/^@ (.*) \[(.*)\]$/);
         if (!match) {
           throw new Error(`Invalid image syntax on line ${i + 1}`);
@@ -88,102 +90,102 @@ const convertToMarkdown = (text) => {
         continue;
       }
 
-      // Check for link
-      if (line.startsWith('$')) {
-        const match = line.match(/^\$ (.*) \[(.*)\]\((.*)\)$/);
-        if (!match) {
-          throw new Error(`Invalid link syntax on line ${i + 1}`);
-        }
-        const textBeforeLink = match[1];
-        const linkText = match[2];
-        const linkUrl = match[3];
-        markdown += `${textBeforeLink}${linkText}\n`;
-        continue;
-      }
-
-      // Check for table
-      if (line.startsWith('%')) {
-        const rows = line.slice(1).split(';');
-        markdown += rows
-          .map((row, rowIndex) => {
-            const cells = row.split(',');
-            return `| ${cells
-              .map((cell) => {
-                cell = cell.trim();
-                if (rowIndex === 0 && cell.startsWith('*')) {
-                  return `**${cell.slice(1)}**`;
+            // Check for link
+            if (line.startsWith("$")) {
+                const match = line.match(/^\$ (.*) \[(.*)\]\((.*)\)$/);
+                if (!match) {
+                  throw new Error(`Invalid link syntax on line ${i + 1}`);
                 }
-                return cell;
-              })
-              .join(' | ')} |`;
-          })
-          .join('\n');
-        markdown += '\n';
-        continue;
-      }
-
-      // Check for bold text
-      if (line.includes('**')) {
-        markdown += line.replace(/\*\*(.+?)\*\*/g, '**$1**') + '\n';
-        continue;
-      }
-
-      // Check for italic text
-      if (line.includes('/')) {
-        markdown += line.replace(/\/(.+?)\//g, '*$1*') + '\n';
-        continue;
-      }
-
-      // Check for code
-      if (line.startsWith('`')) {
-        const match = line.match(/^`(.*)`$/);
-        if (!match) {
-          throw new Error(`Invalid code syntax on line ${i + 1}`);
-        }
-        const code = match[1];
-        markdown += `\`\`\`\n${code}\n\`\`\`\n`;
-        continue;
-      }
-
-      // Check for blockquote
-      if (line.startsWith('>')) {
-        const text = line.slice(1).trim();
-        markdown += `> ${text}\n`;
-        continue;
-      }
-
-      // Check for strikethrough text
-      if (line.includes('~~')) {
-        markdown += line.replace(/~~(.+?)~~/g, '~~$1~~') + '\n';
-        continue;
-      }
-
-      // Check for heading ID
-      if (line.startsWith('{}')) {
-        const match = line.match(/^\{(.*)\} (.*)$/);
-        if (!match) {
-          throw new Error(`Invalid heading ID syntax on line ${i + 1}`);
-        }
-        const id = match[1];
-        const text = match[2];
-        markdown += `<h2 id="${id}">${text}</h2>\n`;
-        continue;
-      }
-
-      // Check for task list
-      if (line.startsWith('[]')) {
-        const items = line.split(',');
+                const textBeforeLink = match[1];
+                const linkText = match[2];
+                const linkUrl = match[3];
+                markdown += `${textBeforeLink}${linkText}\n`;
+                continue;
+              }
+        
+              // Check for table
+              if (line.startsWith("%")) {
+                const rows = line.slice(1).split(";");
+                markdown += rows
+                  .map((row, rowIndex) => {
+                    const cells = row.split(",");
+                    return `| ${cells
+                      .map((cell) => {
+                        cell = cell.trim();
+                        if (rowIndex === 0 && cell.startsWith("*")) {
+                          return `**${cell.slice(1)}**`;
+                        }
+                        return cell;
+                      })
+                      .join(" | ")} |`;
+                  })
+                  .join("\n");
+                markdown += "\n";
+                continue;
+              }
+        
+              // Check for bold text
+              if (line.includes("**")) {
+                markdown += line.replace(/\*\*(.+?)\*\*/g, "**$1**") + "\n";
+                continue;
+              }
+        
+              // Check for italic text
+              if (line.includes("/")) {
+                markdown += line.replace(/\/(.+?)\//g, "*$1*") + "\n";
+                continue;
+              }
+        
+              // Check for code
+              if (line.startsWith("`")) {
+                const match = line.match(/^`(.*)`$/);
+                if (!match) {
+                  throw new Error(`Invalid code syntax on line ${i + 1}`);
+                }
+                const code = match[1];
+                markdown += `\`\`\`\n${code}\n\`\`\`\n`;
+                continue;
+              }
+        
+              // Check for blockquote
+              if (line.startsWith(">")) {
+                const text = line.slice(1).trim();
+                markdown += `> ${text}\n`;
+                continue;
+              }
+        
+              // Check for strikethrough text
+              if (line.includes("~~")) {
+                markdown += line.replace(/~~(.+?)~~/g, "~~$1~~") + "\n";
+                continue;
+              }
+        
+              // Check for heading ID
+              if (line.startsWith("{}")) {
+                const match = line.match(/^\{(.*)\} (.*)$/);
+                if (!match) {
+                  throw new Error(`Invalid heading ID syntax on line ${i + 1}`);
+                }
+                const id = match[1];
+                const text = match[2];
+                markdown += `<h2 id="${id}">${text}</h2>\n`;
+                continue;
+              }
+        
+                   // Check for task list
+      if (line.startsWith("[]")) {
+        const items = line.split(",");
         markdown += items
           .map((item) => {
             item = item.trim();
-            if (item.startsWith('[') && item.endsWith(']')) {
-              const checked = item.slice(1, -1).trim() === 'x';
-              return `- [${checked ? 'x' : ' '}] ${item.slice(3).trim()}`;
+            if (item.startsWith("[") && item.endsWith("]")) {
+              const checked = item.slice(1, -1).trim() === "x";
+              return `- [${checked ? "x" : " "}] ${item.slice(3).trim()}`;
             }
             return `- [ ] ${item}`;
           })
-          .join('\n');
-        markdown += '\n';
+          .join("\n");
+        markdown += "\n";
         continue;
       }
 
@@ -195,59 +197,68 @@ const convertToMarkdown = (text) => {
   });
 
   // Join converted files with "========"
-  return markdownFiles.join('\n========\n');
+  return markdownFiles.join("\n========\n");
 };
-
-// const markDownRules = () => {
-//     let result = "";
-//     data["Syntax-Rules"].forEach((rule) => {
-//       result += `${rule.character} = ${rule.description}\n`;
-//       rule.Examples.forEach((example) => {
-//         result += `    ${Object.values(example)}\n`;
-//       });
-//     });
-//     return result;
-//   };
 
 const TextToMarkdown = () => {
-  const [inputText, setInputText] = useState('');
-  const [markdownText, setMarkdownText] = useState('');
-  const [error, setError] = useState(null);
-
-  const handleInputChange = (event) => {
-    setInputText(event.target.value);
+    const [inputText, setInputText] = useState("");
+    const [markdownText, setMarkdownText] = useState("");
+    const [error, setError] = useState(null);
+    const [showRules, setShowRules] = useState(false);
+    const [loading, setLoading] = useState(false);
+  
+    const handleInputChange = (event) => {
+      setInputText(event.target.value);
+    };
+  
+    const handleConvertClick = () => {
+      setLoading(true);
+      try {
+        const markdown = convertToMarkdown(inputText);
+        setMarkdownText(markdown);
+        setError(null);
+      } catch (err) {
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+  
+    const handleCopyClick = () => {
+      navigator.clipboard.writeText(markdownText);
+    };
+  
+    const ToggleRules = () => {
+      setShowRules(!showRules);
+    };
+  
+    return (
+      <div className="md-container">
+        <div onClick={ToggleRules}>
+          <b>Rule</b><span>^</span>
+        </div>
+        <pre className="rules-container">{showRules ? <MarkDownRules /> : null}</pre>
+        <textarea
+          rows={10}
+          cols={50}
+          value={inputText}
+          onChange={handleInputChange}
+        />
+        <br />
+        <button onClick={handleConvertClick}>Convert to Markdown</button>
+        <br />
+        {error && <p>{error}</p>}
+        {loading && <p>Loading...</p>}
+        {markdownText && (
+          <>
+            <button onClick={handleCopyClick}>Copy Markdown</button>
+            <div className="output-container">
+              <pre className="output-text">{markdownText}</pre>
+            </div>
+          </>
+        )}
+      </div>
+    );
   };
 
-  const handleConvertClick = () => {
-    try {
-      const markdown = convertToMarkdown(inputText);
-      setMarkdownText(markdown);
-      setError(null);
-    } catch (err) {
-      setError(err.message);
-    }
-  };
-
-  const handleCopyClick = () => {
-    navigator.clipboard.writeText(markdownText);
-  };
-
-  return (
-    <div>
-        {/* <div>
-            {markDownRules()}
-        </div> */}
-      <textarea rows={10} cols={50} value={inputText} onChange={handleInputChange} />
-      <br />
-      <button onClick={handleConvertClick}>Convert to Markdown</button>
-      <br />
-      <button onClick={handleCopyClick}>Copy Markdown</button>
-      <br />
-      {error && <p>{error}</p>}
-      <br />
-      <pre>{markdownText}</pre>
-    </div>
-  );
-};
-
-export default TextToMarkdown;
+  export default TextToMarkdown;

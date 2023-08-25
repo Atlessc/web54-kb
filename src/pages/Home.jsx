@@ -2,6 +2,7 @@
 import React, {useState} from "react";
 import TextToJson from "../components/TextToJSON";
 import TextToMarkdown from "../components/TextToMarkdown";
+import "../styles/Home.css";
 
 function Home() {
     const [showTools, setShowTools] = useState(false);
@@ -18,12 +19,14 @@ function Home() {
     };
 
     return (
-    <div>
+    <div className="Home-container">
         <h1>Home</h1>
         <p>Welcome to the home page</p>
         <p>the section below is to help create a json file from text in a hirearchial structure<br/> to then be displayed in then the "KBs" page</p>
         <button onClick={ToggleTools}>{Text}</button>
-        {showTools ? <TextToMarkdown /> : <TextToJson />}
+        <div className="Tool-container">
+            {showTools ? <TextToMarkdown /> : <TextToJson />}
+        </div>
     </div>
     );
 }

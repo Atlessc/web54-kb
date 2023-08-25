@@ -1,0 +1,56 @@
+.md-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  width: 70%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.rules-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.rules-list {
+    text-align: left;
+    margin: 2rem 0;
+    word-wrap: inherit;
+    white-space: pre-wrap;
+    font-size: 1rem;
+}
+
+.Example-btn {
+    padding: 0.3rem 0.6rem;
+    border: 2px solid #fff;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    background-color: #ff6f00;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.output-container {
+  padding: 0 2rem;
+  width: 80%;
+  text-align: left;
+}
+
+.output-text {
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 1rem 0;
+  word-wrap: inherit;
+  white-space: pre-wrap;
+  width: 100%;
+}
