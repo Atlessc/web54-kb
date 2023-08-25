@@ -145,8 +145,7 @@
 /Organize books
 /Read PDFs
 <
->>/Calculator
-<
+/Calculator
 >>Calendar
 /Create and edit events in Calendar
 /Send invitations
@@ -191,8 +190,7 @@
 /Change the next wake up alarm
 /Use the timer or stopwatch
 <
->>/Compass
-<
+/Compass
 >>Contacts
 /Add and use contact information
 /Edit contacts
@@ -609,8 +607,8 @@
 /Use passkeys in Safari
 /Use Hide My Email
 <
->>/Shortcuts
-<
+/Shortcuts
+
 >>Stocks
 /Check stocks
 /Manage multiple watchlists
@@ -618,8 +616,7 @@
 /Add earnings reports to your calendar
 /Add a Stocks widget to your Home Screen
 <
->>/Tips
-<
+/Tips
 >>Translate
 /Translate text, voice, and conversations
 /Translate text in apps

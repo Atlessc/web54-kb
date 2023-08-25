@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/json.css';
+import '../styles/Tools.css';
 
 function textToJson(text) {
   const lines = text.split('\n');
@@ -74,8 +75,8 @@ const TextToJson = () => {
   };
 
   return (
-    <div>
-      <h3 onClick={toggleShowRules}>Rule Set<span> ^</span></h3>
+    <div className="TextToJson">
+      <h3 onClick={toggleShowRules} className='rules-btn'>Rule Set<span> ^</span></h3>
       {showRules && (
       <pre className="rules">
 {`> = Section
@@ -119,7 +120,7 @@ Example:
         <>
         <br/>
           <button onClick={handleCopyClick}>Copy JSON</button>
-          <pre className="JSONResponse">{JSON.stringify(json, null, 2)}</pre>
+          <pre className="JSONResponse output-text">{JSON.stringify(json, null, 2)}</pre>
         </>
       )}
     </div>
