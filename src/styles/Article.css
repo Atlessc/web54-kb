@@ -1,6 +1,6 @@
 .markdown {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.8;
     padding: 10px;
     max-width: 800px;
@@ -10,6 +10,7 @@
 .markdown h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
+    color: #ff6f00;
 }
 
 .markdown h2 {
@@ -18,4 +19,15 @@
 
 .markdown h3 {
     font-style: italic;
+}
+
+.markdown p {
+    font-size: 1.1rem;
+    white-space: pre-wrap;
+
+}
+
+.markdown a {
+    color: rgb(0, 238, 255);
+    text-decoration: underline;
 }

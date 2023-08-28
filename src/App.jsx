@@ -6,6 +6,7 @@ import Article from './components/Article'
 import Articles from './pages/ToCArticles'
 import Home from './pages/Home'
 import Feedback from './pages/Feedback'
+import Tools from './pages/Tools'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
             <Route path ="/articles" element={<Articles />} />
             <Route path="/articles/:id" element={<Article />} />
             <Route path='/feedback' element={<Feedback />} />
+            <Route path='/tools' element={<Tools />} />
           </Routes>
 
       </div>

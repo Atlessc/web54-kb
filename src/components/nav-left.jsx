@@ -8,6 +8,7 @@ export default function NavLeft() {
             <Link to="/" className='nav-item'>Home</Link>
             <Link to="/articles" className='nav-item'>KBs</Link>
             <Link to="/feedback" className='nav-item'>Feedback</Link>
+            <Link to="/tools" className='nav-item'>Tools</Link>
         </div>
     )
 };
