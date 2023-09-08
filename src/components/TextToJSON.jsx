@@ -31,7 +31,18 @@ function textToJson(text) {
     } else if (line.startsWith('/')) {
       const pageItem = {
         'pageID': `WD${pageID.toString().padStart(6, '0')}`,
-        'pageTitle': line.slice(1).trim()
+        'pageTitle': line.slice(1).trim(),
+        "keywords": [],
+        "roleLvAccess": [
+          
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path"
       };
       pageID += 1;
       if (!currentSection) {
