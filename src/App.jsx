@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
-      const timeout = setTimeout(() => setShowNotLoggedIn(true), 5000)
+      const timeout = setTimeout(() => setShowNotLoggedIn(true), 2000)
       return () => clearTimeout(timeout)
     }
     setShowNotLoggedIn(false)
@@ -35,9 +35,16 @@ function App() {
       <TopNav />
       <LeftNav />
       <div className='main-content'>
-        {
+      <Routes>
+            <Route exact path='/' element={<Home />} />
+            <Route path='/articles' element={<Articles />} />
+            <Route path='/article/:id' element={<Article />} />
+            <Route path='/admin' element={<Admin />} />
+            <Route path='/profile/' element={<Profile />} />
+            {/* <Route path='*' element={<_404 />} /> */}
+          </Routes>
+        {/* {
           !showNotLoggedIn &&
-          isLoading &&
           isAuthenticated &&
           <div className="loading">
             <Loading />
@@ -69,7 +76,7 @@ function App() {
           <Routes>
             <Route path='*' element={<NotLoggedIn />} />
           </Routes>
-        }
+        } */}
       </div>
     </div>
   )

@@ -1,14 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { useAuth0 } from '@auth0/auth0-react';
+import React from 'react';
 import { JellyTriangle } from '@uiball/loaders';
 
 
 const Loading = () => {
-  const { isLoading } = useAuth0();
 
   return (
     <div>
       <JellyTriangle
+        duration={1}
         size={200}
         speed={1}
         color="#ff6f00"

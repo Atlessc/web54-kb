@@ -1,0 +1,14 @@
+.JSONResponse {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+
+.rules {
+    text-align: left;
+    font-size: 1rem;
+    font-family: monospace;
+    white-space: pre-wrap;
+    margin-left: 10rem;
+}
