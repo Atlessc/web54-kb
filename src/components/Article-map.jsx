@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Link } from "react-router-dom";
-import articles from './articles.json';
+import articles from '../data/articles-map.json';
 import '../styles/ToC.css'
 
-function Articles() {
+function ArticlesMap() {
     const [showSection, setShowSection] = useState(Array(articles["Table of Contents"].length).fill(false));
 
     return (
@@ -20,7 +20,7 @@ function Articles() {
                         }}>{section.SectionTitle} <span className={showSection[index] ? "up" : "down"}>^</span></h2>
                         {showSection[index] && section.Items.map(item => (
                             item.pageID ? (
-                                <Link key={item.pageID} to={`/articles/${item.pageID}`}>
+                                <Link key={item.pageID} to={`/article/${item.pageID}.md`}>
                                     <div className="item lv1-item">{item.pageTitle}</div>
                                 </Link>
                             ) : (
@@ -54,4 +54,4 @@ function Articles() {
     );
 };
 
-export default Articles;
+export default ArticlesMap;

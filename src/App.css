@@ -90,3 +90,20 @@
   overflow: scroll;
   scroll-behavior: smooth;
 }
+
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 3px 20px 30px rgba(0, 0, 0, 0.2), -3px -3px 20px 30px rgba(0, 0, 0, 0.2);
+}
