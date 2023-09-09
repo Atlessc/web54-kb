@@ -9,7 +9,7 @@ function Article() {
   const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch(`/${id}.md`)
+    fetch(`/${id}`)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
   }, [id]);
