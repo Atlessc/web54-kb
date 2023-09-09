@@ -7,7 +7,7 @@ const Loading = () => {
   return (
     <div>
       <JellyTriangle
-        duration={1}
+        duration={1000}
         size={200}
         speed={1}
         color="#ff6f00"
