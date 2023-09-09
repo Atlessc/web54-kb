@@ -3,7 +3,6 @@ import './App.css'
 import LeftNav from './components/left-nav'
 import TopNav from './components/top-nav'
 import { Routes, Route } from 'react-router-dom'
-import Profile from './pages/Profile'
 import Article from './components/Article'
 import _404 from './pages/404'
 import Articles from './pages/Articles'
@@ -12,6 +11,7 @@ import Articles from './pages/Articles'
 // import Loading from './pages/loading'
 import Home from './pages/Home'
 import Admin from './pages/Admin'
+import Profile from './pages/Profile'
 
 function App() {
   // const { isLoading, isAuthenticated } = useAuth0()
