@@ -5,13 +5,13 @@ import TopNav from './components/top-nav'
 import { Routes, Route } from 'react-router-dom'
 import Article from './components/Article'
 import _404 from './pages/404'
-// import NotLoggedIn from './pages/not-logged-in'
-// import { useAuth0 } from '@auth0/auth0-react'
-// import Loading from './pages/loading'
 import Home from './pages/Home'
 import Admin from './pages/Admin'
 import Profile from './pages/Profile'
 import ArticlesMap from './components/Article-map'
+// import NotLoggedIn from './pages/not-logged-in'
+// import { useAuth0 } from '@auth0/auth0-react'
+// import Loading from './pages/loading'
 
 function App() {
   // const { isLoading, isAuthenticated } = useAuth0()
