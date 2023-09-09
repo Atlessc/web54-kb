@@ -48,7 +48,8 @@ function App() {
             <Route path='*' element={<Page404 />} />
           </Routes> */}
         {
-          loadingDelay && // Conditionally render Loading component based on loadingDelay
+          loadingDelay &&
+          !isAuthenticated && // Conditionally render Loading component based on loadingDelay
           <div className="loading">
             <Loading />
           </div>
