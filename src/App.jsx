@@ -5,13 +5,13 @@ import TopNav from './components/top-nav'
 import { Routes, Route } from 'react-router-dom'
 import Article from './components/Article'
 import _404 from './pages/404'
-import Articles from './pages/Articles'
 // import NotLoggedIn from './pages/not-logged-in'
 // import { useAuth0 } from '@auth0/auth0-react'
 // import Loading from './pages/loading'
 import Home from './pages/Home'
 import Admin from './pages/Admin'
 import Profile from './pages/Profile'
+import ArticlesMap from './components/Article-map'
 
 function App() {
   // const { isLoading, isAuthenticated } = useAuth0()
@@ -37,7 +37,7 @@ function App() {
       <div className='main-content'>
       <Routes>
             <Route path='/' element={<Home />} />
-            <Route path='/articles' element={<Articles />} />
+            <Route path='/articles' element={<ArticlesMap />} />
             <Route path='/article/:id' element={<Article />} />
             <Route path='/admin' element={<Admin />} />
             <Route path='/profile/' element={<Profile />} />
