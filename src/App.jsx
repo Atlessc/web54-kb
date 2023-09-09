@@ -11,6 +11,7 @@ import Articles from './pages/Articles'
 // import { useAuth0 } from '@auth0/auth0-react'
 // import Loading from './pages/loading'
 import Home from './pages/Home'
+import Admin from './pages/Admin'
 
 function App() {
   // const { isLoading, isAuthenticated } = useAuth0()
