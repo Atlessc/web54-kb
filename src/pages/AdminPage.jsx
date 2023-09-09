@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Admin() {
+export default function AdminPage() {
   return (
     <div className="admin-container">
       admin

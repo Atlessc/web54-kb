@@ -5,8 +5,8 @@ import TopNav from './components/top-nav'
 import { Routes, Route } from 'react-router-dom'
 import Article from './components/Article'
 import _404 from './pages/404'
-import Home from './pages/Home'
-import Admin from './pages/Admin'
+import HomePage from './pages/HomePage'
+import AdminPage from './pages/AdminPage'
 import Profile from './pages/Profile'
 import ArticlesMap from './components/Article-map'
 // import NotLoggedIn from './pages/not-logged-in'
@@ -36,10 +36,10 @@ function App() {
       <LeftNav />
       <div className='main-content'>
       <Routes>
-            <Route path='/' element={<Home />} />
+            <Route path='/' element={<HomePage />} />
             <Route path='/articles' element={<ArticlesMap />} />
             <Route path='/article/:id' element={<Article />} />
-            <Route path='/admin' element={<Admin />} />
+            <Route path='/admin' element={<AdminPage />} />
             <Route path='/profile/' element={<Profile />} />
             {/* <Route path='*' element={<_404 />} /> */}
           </Routes>
