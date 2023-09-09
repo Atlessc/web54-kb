@@ -3,7 +3,6 @@ import './App.css'
 import LeftNav from './components/left-nav'
 import TopNav from './components/top-nav'
 import { Routes, Route } from 'react-router-dom'
-import Home from './pages/home'
 import Admin from './pages/admin'
 import Profile from './pages/profile'
 import Article from './components/Article'
@@ -12,6 +11,7 @@ import Articles from './pages/articles'
 // import NotLoggedIn from './pages/not-logged-in'
 // import { useAuth0 } from '@auth0/auth0-react'
 // import Loading from './pages/loading'
+import Home from './pages/home'
 
 function App() {
   // const { isLoading, isAuthenticated } = useAuth0()
@@ -36,7 +36,7 @@ function App() {
       <LeftNav />
       <div className='main-content'>
       <Routes>
-            <Route exact path='/' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='/articles' element={<Articles />} />
             <Route path='/article/:id' element={<Article />} />
             <Route path='/admin' element={<Admin />} />
