@@ -4,11 +4,11 @@ import LeftNav from './components/left-nav'
 import TopNav from './components/top-nav'
 import { Routes, Route } from 'react-router-dom'
 import Article from './components/Article'
-import _404 from './pages/404'
+import Page404 from './pages/Page404'
 import HomePage from './pages/HomePage'
 import AdminPage from './pages/AdminPage'
-import Profile from './pages/Profile'
-import ArticlesMap from './components/Article-map'
+import ProfilePage from './pages/ProfilePage'
+import ArticlesPage from './pages/ArticlesPage'
 // import NotLoggedIn from './pages/not-logged-in'
 // import { useAuth0 } from '@auth0/auth0-react'
 // import Loading from './pages/loading'
@@ -37,11 +37,11 @@ function App() {
       <div className='main-content'>
       <Routes>
             <Route path='/' element={<HomePage />} />
-            <Route path='/articles' element={<ArticlesMap />} />
+            <Route path='/articles' element={<ArticlesPage />} />
             <Route path='/article/:id' element={<Article />} />
             <Route path='/admin' element={<AdminPage />} />
-            <Route path='/profile/' element={<Profile />} />
-            {/* <Route path='*' element={<_404 />} /> */}
+            <Route path='/profile/' element={<ProfilePage />} />
+            <Route path='*' element={<Page404 />} />
           </Routes>
         {/* {
           !showNotLoggedIn &&
