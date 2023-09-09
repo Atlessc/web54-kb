@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 import './App.css'
 import LeftNav from './components/left-nav'
 import TopNav from './components/top-nav'
@@ -9,25 +9,25 @@ import Profile from './pages/profile'
 import Article from './components/Article'
 import _404 from './pages/404'
 import Articles from './pages/articles'
-import NotLoggedIn from './pages/not-logged-in'
-import { useAuth0 } from '@auth0/auth0-react'
-import Loading from './pages/loading'
+// import NotLoggedIn from './pages/not-logged-in'
+// import { useAuth0 } from '@auth0/auth0-react'
+// import Loading from './pages/loading'
 
 function App() {
-  const { isLoading, isAuthenticated } = useAuth0()
-  const [showNotLoggedIn, setShowNotLoggedIn] = useState(false)
+  // const { isLoading, isAuthenticated } = useAuth0()
+  // const [showNotLoggedIn, setShowNotLoggedIn] = useState(false)
 
   // create a useEffect that sets the role from auth0 user metadata if the user is authenticated
   // if the user is not authenticated, set the role to 'guest'
   // this will be used to determine if isAuthenticated is false
 
-  useEffect(() => {
-    if (!isLoading && !isAuthenticated) {
-      const timeout = setTimeout(() => setShowNotLoggedIn(true), 2000)
-      return () => clearTimeout(timeout)
-    }
-    setShowNotLoggedIn(false)
-  }, [isLoading, isAuthenticated])
+  // useEffect(() => {
+  //   if (!isLoading && !isAuthenticated) {
+  //     const timeout = setTimeout(() => setShowNotLoggedIn(true), 2000)
+  //     return () => clearTimeout(timeout)
+  //   }
+  //   setShowNotLoggedIn(false)
+  // }, [isLoading, isAuthenticated])
 
 
   return (
