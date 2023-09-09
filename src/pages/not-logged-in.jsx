@@ -1,5 +1,5 @@
+import React from 'react';
 import "../styles/not-logged-in.css";
-import { Link } from "react-router-dom";
 import LoginButton from "../components/buttons/login-button";
 
 export default function NotLoggedIn() {
