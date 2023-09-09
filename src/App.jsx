@@ -16,6 +16,7 @@ import Loading from './pages/loading'
 function App() {
   const { isLoading, isAuthenticated } = useAuth0()
   const [showNotLoggedIn, setShowNotLoggedIn] = useState(false)
+  const [loadingDelay, setLoadingDelay] = useState(true)
 
   // create a useEffect that sets the role from auth0 user metadata if the user is authenticated
   // if the user is not authenticated, set the role to 'guest'
@@ -23,7 +24,10 @@ function App() {
 
   useEffect(() => {
     if (!isLoading && !isAuthenticated) {
-      const timeout = setTimeout(() => setShowNotLoggedIn(true), 2000)
+      const timeout = setTimeout(() => {
+        setShowNotLoggedIn(true)
+        setLoadingDelay(false) // Set loadingDelay to false after the delay
+      }, 3000)
       return () => clearTimeout(timeout)
     }
     setShowNotLoggedIn(false)
@@ -44,16 +48,7 @@ function App() {
             <Route path='*' element={<Page404 />} />
           </Routes> */}
         {
-          !showNotLoggedIn &&
-          isAuthenticated &&
-          <div className="loading">
-            <Loading />
-          </div>
-        }
-        {
-          !showNotLoggedIn &&
-          isLoading &&
-          !isAuthenticated &&
+          loadingDelay && // Conditionally render Loading component based on loadingDelay
           <div className="loading">
             <Loading />
           </div>
