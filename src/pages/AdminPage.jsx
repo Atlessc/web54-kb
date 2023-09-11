@@ -1,5 +1,5 @@
 import React from 'react';
-import TextToJson from "../components/TextToJson.jsx"
+import TextToJson from "../components/TextToJSON.jsx"
 
 export default function AdminPage() {
   return (
