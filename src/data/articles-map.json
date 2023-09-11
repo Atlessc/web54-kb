@@ -1,366 +1,614 @@
 {
   "Table of Contents": [
     {
-      "SectionTitle": "Welcome",
-      "Items": [
-        {
-          "pageID": "WD000001",
-          "pageTitle": "Welcome"
-        }
-      ]
+      "pageID": "WD000001",
+      "pageTitle": "Everyday Essentials",
+      "keywords": [],
+      "roleLvAccess": [
+        "owner",
+        "admin",
+        "techLv2",
+        "techLv1"
+      ],
+      "category": [],
+      "atlArticle": "Example/url | file/path"
     },
     {
-      "SectionTitle": "Introduction to iPhone",
+      "SectionTitle": "PC Basics",
       "Items": [
         {
           "pageID": "WD000002",
-          "pageTitle": "Setup basics"
+          "pageTitle": "Short hand",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000003",
-          "pageTitle": "Make your iPhone your own"
+          "pageTitle": "Microsoft Store not working",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000004",
-          "pageTitle": "Take great photos and videos"
+          "pageTitle": "looking up devices in Aspen",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000005",
-          "pageTitle": "Keep in touch with friends and family"
+          "pageTitle": "Windows Wi-Fi issues",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000006",
-          "pageTitle": "Share features with your family"
+          "pageTitle": "0365 documents opening in read only mode",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000007",
-          "pageTitle": "Use iPhone for your daily routines"
-        }
-      ]
-    },
-    {
-      "SectionTitle": "What’s new in iOS 16",
-      "Items": [
+          "pageTitle": "Microphone Feedback Issue",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
         {
           "pageID": "WD000008",
-          "pageTitle": "What’s new in iOS 16"
-        }
-      ]
-    },
-    {
-      "SectionTitle": "What’s new in iOS 17",
-      "Items": [
+          "pageTitle": "Shared Inbox",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
         {
           "pageID": "WD000009",
-          "pageTitle": "What’s new in iOS 17"
-        }
-      ]
-    },
-    {
-      "SectionTitle": "Set up and get started",
-      "Items": [
+          "pageTitle": "Checking dell Warranty",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
         {
           "pageID": "WD000010",
-          "pageTitle": "Turn on and set up iPhone"
+          "pageTitle": "Escalating a ticket",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000011",
-          "pageTitle": "Wake and unlock"
+          "pageTitle": "passwords",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000012",
-          "pageTitle": "Set up cellular service"
+          "pageTitle": "installing a network drive",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000013",
-          "pageTitle": "Use Dual SIM"
+          "pageTitle": "fixing certificate issues",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000014",
-          "pageTitle": "Connect to the internet"
+          "pageTitle": "device or app running slow",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "SectionTitle": "Apple ID and iCloud",
-          "Items": [
-            {
-              "pageID": "WD000015",
-              "pageTitle": "Apple ID settings"
-            },
-            {
-              "pageID": "WD000016",
-              "pageTitle": "Turn iCloud features on or off"
-            },
-            {
-              "pageID": "WD000017",
-              "pageTitle": "Subscribe to iCloud+"
-            }
-          ]
+          "pageID": "WD000015",
+          "pageTitle": "low storage issue",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Mac Basic",
+      "Items": [
+        {
+          "pageID": "WD000016",
+          "pageTitle": "Fixing Certificate issues",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
+        {
+          "pageID": "WD000017",
+          "pageTitle": "Device or app running slow",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000018",
-          "pageTitle": "Find settings"
+          "pageTitle": "Wifi connection Issues",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000019",
-          "pageTitle": "Set up mail, contacts, and calendar accounts"
+          "pageTitle": "Top Menu bar missing",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000020",
-          "pageTitle": "Learn the meaning of the status icons"
+          "pageTitle": "plugins missing/not working in Adobe apps",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "SectionTitle": "Charge and monitor the battery",
-          "Items": [
-            {
-              "pageID": "WD000021",
-              "pageTitle": "Charge the battery"
-            },
-            {
-              "pageID": "WD000022",
-              "pageTitle": "Show the battery percentage"
-            },
-            {
-              "pageID": "WD000023",
-              "pageTitle": "Check battery health and usage"
-            }
-          ]
+          "pageID": "WD000021",
+          "pageTitle": "Profiles missing from system settings",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
+        {
+          "pageID": "WD000022",
+          "pageTitle": "Escalated ticketes",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
+        {
+          "pageID": "WD000023",
+          "pageTitle": "Network drives",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        },
+        {
+          "pageID": "WD000024",
+          "pageTitle": "Jamf Cloud",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         }
       ]
     },
     {
-      "SectionTitle": "Basics",
+      "SectionTitle": "MDM iPhone",
       "Items": [
         {
-          "SectionTitle": "Learn gestures for iPhone",
-          "Items": [
-            {
-              "pageID": "WD000024",
-              "pageTitle": "Learn basic gestures"
-            },
-            {
-              "pageID": "WD000025",
-              "pageTitle": "Learn gestures for iPhone models with Face ID"
-            }
-          ]
+          "pageID": "WD000025",
+          "pageTitle": "iPhone info for escalated ticketes",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
           "pageID": "WD000026",
-          "pageTitle": "Adjust the volume"
+          "pageTitle": "iPhone returns",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "SectionTitle": "Use your apps",
-          "Items": [
-            {
-              "pageID": "WD000027",
-              "pageTitle": "Open apps"
-            },
-            {
-              "pageID": "WD000028",
-              "pageTitle": "Find your apps in App Library"
-            },
-            {
-              "pageID": "WD000029",
-              "pageTitle": "Switch between open apps"
-            },
-            {
-              "pageID": "WD000030",
-              "pageTitle": "Quit and reopen an app"
-            }
-          ]
+          "pageID": "WD000027",
+          "pageTitle": "Wifi Connection issues",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "SectionTitle": "Enter, select, and revise text",
-          "Items": [
-            {
-              "pageID": "WD000031",
-              "pageTitle": "Dictate text"
-            },
-            {
-              "pageID": "WD000032",
-              "pageTitle": "Type with the onscreen keyboard"
-            },
-            {
-              "pageID": "WD000033",
-              "pageTitle": "Select and edit text"
-            },
-            {
-              "pageID": "WD000034",
-              "pageTitle": "Use predictive text"
-            },
-            {
-              "pageID": "WD000035",
-              "pageTitle": "Use text replacements"
-            },
-            {
-              "pageID": "WD000036",
-              "pageTitle": "Add or change keyboards"
-            }
-          ]
-        },
-        {
-          "pageID": "WD000037",
-          "pageTitle": "Multitask with Picture in Picture"
-        },
-        {
-          "pageID": "WD000038",
-          "pageTitle": "Access features from the Lock Screen"
-        },
-        {
-          "pageID": "WD000039",
-          "pageTitle": "View activities in the Dynamic Island"
-        },
-        {
-          "pageID": "WD000040",
-          "pageTitle": "Perform quick actions"
-        },
-        {
-          "pageID": "WD000041",
-          "pageTitle": "Search from the Home Screen or Lock Screen"
-        },
-        {
-          "pageID": "WD000042",
-          "pageTitle": "Use AirDrop to send items"
-        },
-        {
-          "pageID": "WD000043",
-          "pageTitle": "Take a screenshot or screen recording"
-        },
-        {
-          "SectionTitle": "Mark up files and photos",
-          "Items": [
-            {
-              "pageID": "WD000044",
-              "pageTitle": "Draw in apps"
-            },
-            {
-              "pageID": "WD000045",
-              "pageTitle": "Add a description, a signature, and more to an image"
-            },
-            {
-              "pageID": "WD000046",
-              "pageTitle": "Zoom in or magnify in Markup"
-            }
-          ]
-        },
-        {
-          "pageID": "WD000047",
-          "pageTitle": "Get information about your iPhone"
-        },
-        {
-          "pageID": "WD000048",
-          "pageTitle": "View or change cellular data settings"
-        },
-        {
-          "pageID": "WD000049",
-          "pageTitle": "Travel with iPhone"
+          "pageID": "WD000028",
+          "pageTitle": "hardware repair",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         }
       ]
     },
     {
-      "SectionTitle": "Personalize your iPhone",
+      "SectionTitle": "Loaner Processes",
       "Items": [
         {
-          "pageID": "WD000050",
-          "pageTitle": "Change sounds and vibrations"
+          "pageID": "WD000029",
+          "pageTitle": "Loaner Scope",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "SectionTitle": "Personalize your iPhone Lock Screen",
-          "Items": [
-            {
-              "pageID": "WD000051",
-              "pageTitle": "Create a custom Lock Screen"
-            },
-            {
-              "pageID": "WD000052",
-              "pageTitle": "Change your Lock Screen"
-            }
-          ]
+          "pageID": "WD000030",
+          "pageTitle": "Loaner Request Form",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000053",
-          "pageTitle": "Change the wallpaper"
+          "pageID": "WD000031",
+          "pageTitle": "Loaner Device setup",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000054",
-          "pageTitle": "Adjust the screen brightness and color balance"
+          "pageID": "WD000032",
+          "pageTitle": "Last Steps of loaner deployment",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000055",
-          "pageTitle": "Keep the iPhone display on longer"
+          "pageID": "WD000033",
+          "pageTitle": "day-loaner chargers",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000056",
-          "pageTitle": "Magnify the screen"
+          "pageID": "WD000034",
+          "pageTitle": "shipping devices back to PDX Village",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000057",
-          "pageTitle": "Change the name of your iPhone"
+          "pageID": "WD000035",
+          "pageTitle": "Loaner Past due return Message",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000058",
-          "pageTitle": "Change the date and time"
+          "pageID": "WD000036",
+          "pageTitle": "Loaner Notes update",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000059",
-          "pageTitle": "Change the language and region"
+          "pageID": "WD000037",
+          "pageTitle": "loaner return process",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Software",
+      "Items": [
+        {
+          "pageID": "WD000038",
+          "pageTitle": "How to use Software Center",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "SectionTitle": "Customize the Home Screen",
-          "Items": [
-            {
-              "pageID": "WD000060",
-              "pageTitle": "Organize your apps in folders"
-            },
-            {
-              "pageID": "WD000061",
-              "pageTitle": "Add widgets to the Home Screen"
-            },
-            {
-              "pageID": "WD000062",
-              "pageTitle": "Move apps and widgets on the Home Screen"
-            },
-            {
-              "pageID": "WD000063",
-              "pageTitle": "Remove apps"
-            }
-          ]
+          "pageID": "WD000039",
+          "pageTitle": "software center error \"components are missing\"",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Commands",
+      "Items": [
+        {
+          "pageID": "WD000040",
+          "pageTitle": "PC",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000064",
-          "pageTitle": "Use and customize Control Center"
+          "pageID": "WD000041",
+          "pageTitle": "Mac",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "VPNs",
+      "Items": [
+        {
+          "pageID": "WD000042",
+          "pageTitle": "VPNs",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        }
+      ]
+    },
+    {
+      "SectionTitle": "Printers",
+      "Items": [
+        {
+          "pageID": "WD000043",
+          "pageTitle": "PC",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         },
         {
-          "pageID": "WD000065",
-          "pageTitle": "Change or lock the screen orientation"
-        },
-        {
-          "SectionTitle": "Set up Focus, notifications, and Do Not Disturb",
-          "Items": [
-            {
-              "pageID": "WD000066",
-              "pageTitle": "View and respond to notifications"
-            },
-            {
-              "pageID": "WD000067",
-              "pageTitle": "Change notification settings"
-            },
-            {
-              "pageID": "WD000068",
-              "pageTitle": "Set up a Focus"
-            },
-            {
-              "pageID": "WD000069",
-              "pageTitle": "Allow or silence notifications for a Focus"
-            },
-            {
-              "pageID": "WD000070",
-              "pageTitle": "Turn a Focus on or off"
-            },
-            {
-              "pageID": "WD000071",
-              "pageTitle": "Stay focused while driving"
-            }
-          ]
+          "pageID": "WD000044",
+          "pageTitle": "Mac",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
         }
       ]
     }
