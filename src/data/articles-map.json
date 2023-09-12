@@ -1,17 +1,22 @@
 {
   "Table of Contents": [
     {
-      "pageID": "WD000001",
-      "pageTitle": "Everyday Essentials",
-      "keywords": ["everyday", "techzone tools"],
-      "roleLvAccess": [
-        "owner",
-        "admin",
-        "techLv2",
-        "techLv1"
-      ],
-      "category": [],
-      "atlArticle": "Example/url | file/path"
+      "SectionTitle": "Everyday Essentials",
+      "Items": [
+        {
+          "pageID": "WD000001",
+          "pageTitle": "Everyday Essentials",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path"
+        }
+      ]
     },
     {
       "SectionTitle": "PC Basics",
@@ -96,7 +101,7 @@
         },
         {
           "pageID": "WD000008",
-          "pageTitle": "Shared Inbox",
+          "pageTitle": "Shard Indox",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -109,7 +114,7 @@
         },
         {
           "pageID": "WD000009",
-          "pageTitle": "Checking dell Warranty",
+          "pageTitle": "Checking dell Warrany",
           "keywords": [],
           "roleLvAccess": [
             "owner",
