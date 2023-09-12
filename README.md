@@ -19,7 +19,7 @@ When you do clone the repository, you will need to run `npm install` to install 
 
 ## Running the website locally
 
-To run the website locally, you will need to run `npm start` to start the website on your local machine.
+To run the website locally, you will need to run `npm run dev` to start the website on your local machine.
 
 ## Deploying the website
 
