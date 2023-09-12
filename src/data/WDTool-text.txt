@@ -1,102 +1,62 @@
-
->Welcome
-/Welcome
+>Everyday Essentials
+/Everyday Essentials
 <
->Introduction to iPhone
-/Setup basics
-/Make your iPhone your own
-/Take great photos and videos
-/Keep in touch with friends and family
-/Share features with your family
-/Use iPhone for your daily routines
+>PC Basics
+/Short hand
+/Microsoft Store not working
+/looking up devices in Aspen
+/Windows Wi-Fi issues
+/0365 documents opening in read only mode
+/Microphone Feedback Issue
+/Shard Indox
+/Checking dell Warrany
+/Escalating a ticket
+/passwords
+/installing a network drive
+/fixing certificate issues
+/device or app running slow
+/low storage issue
 <
->What’s new in iOS 16
-/What’s new in iOS 16
+>Mac Basic
+/Fixing Certificate issues
+/Device or app running slow
+/Wifi connection Issues
+/Top Menu bar missing
+/plugins missing/not working in Adobe apps
+/Profiles missing from system settings
+/Escalated ticketes
+/Network drives
+/Jamf Cloud
 <
->What’s new in iOS 17
-/What’s new in iOS 17
+>MDM iPhone
+/iPhone info for escalated ticketes
+/iPhone returns
+/Wifi Connection issues
+/hardware repair
 <
->Set up and get started
-/Turn on and set up iPhone
-/Wake and unlock
-/Set up cellular service
-/Use Dual SIM
-/Connect to the internet
->>Apple ID and iCloud
-/Apple ID settings
-/Turn iCloud features on or off
-/Subscribe to iCloud+
+>Loaner Processes
+/Loaner Scope
+/Loaner Request Form
+/Loaner Device setup
+/Last Steps of loaner deployment
+/day-loaner chargers
+/shipping devices back to PDX Village
+/Loaner Past due return Message
+/Loaner Notes update
+/loaner return process
 <
-/Find settings
-/Set up mail, contacts, and calendar accounts
-/Learn the meaning of the status icons 
->>Charge and monitor the battery
-/Charge the battery
-/Show the battery percentage
-/Check battery health and usage
+>Software
+/How to use Software Center
+/software center error "components are missing"
 <
->Basics
->>Learn gestures for iPhone
-/Learn basic gestures
-/Learn gestures for iPhone models with Face ID
+>Commands
+/PC
+/Mac
 <
-/Adjust the volume 
->>Use your apps
-/Open apps
-/Find your apps in App Library
-/Switch between open apps
-/Quit and reopen an app
+>VPNs
+/VPNs
 <
->>Enter, select, and revise text
-/Dictate text
-/Type with the onscreen keyboard
-/Select and edit text
-/Use predictive text
-/Use text replacements
-/Add or change keyboards
+>Printers
+/PC
+/Mac
 <
-/Multitask with Picture in Picture
-/Access features from the Lock Screen
-/View activities in the Dynamic Island
-/Perform quick actions
-/Search from the Home Screen or Lock Screen
-/Use AirDrop to send items
-/Take a screenshot or screen recording
->>Mark up files and photos
-/Draw in apps
-/Add a description, a signature, and more to an image
-/Zoom in or magnify in Markup
-<
-/Get information about your iPhone
-/View or change cellular data settings
-/Travel with iPhone
-<
->Personalize your iPhone
-/Change sounds and vibrations
->>Personalize your iPhone Lock Screen
-/Create a custom Lock Screen
-/Change your Lock Screen
-<
-/Change the wallpaper
-/Adjust the screen brightness and color balance
-/Keep the iPhone display on longer
-/Magnify the screen
-/Change the name of your iPhone
-/Change the date and time
-/Change the language and region
->>Customize the Home Screen
-/Organize your apps in folders
-/Add widgets to the Home Screen
-/Move apps and widgets on the Home Screen
-/Remove apps
-<
-/Use and customize Control Center
-/Change or lock the screen orientation
->>Set up Focus, notifications, and Do Not Disturb
-/View and respond to notifications
-/Change notification settings
-/Set up a Focus
-/Allow or silence notifications for a Focus
-/Turn a Focus on or off
-/Stay focused while driving
-<<
