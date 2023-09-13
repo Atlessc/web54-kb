@@ -56,7 +56,7 @@ function Article() {
           <h2>Still not working?</h2>
           {/* Render the information needed for the ticket here */}
           <p>Ticket Information for Article {id}</p>
-          <ReactMarkdown>{ticketText}</ReactMarkdown>
+          <p className='markdown'>{ticketText}</p>
         </div>
       )}
     </div>
