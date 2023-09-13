@@ -2,28 +2,44 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
+import Articles from "articles-map.json";
 import '../styles/Article.css';
 
 function Article() {
+
+  const data = Articles;
+
   const { id } = useParams();
   const [markdown, setMarkdown] = useState('');
   const [showTicketInfo, setShowTicketInfo] = useState(false);
-  // const [ticketText, setTicketText] = useState('');
+  const [ticketText, setTicketText] = useState('');
+  const [ticketId, setTicketId] = useState('');
+  const [article, setArticle] = useState(null);
 
   useEffect(() => {
+    // Find the article with the matching id in the JSON data
+    const foundArticle = data.find((item) => item.id === id);
+
+    // Update the article state
+    setArticle(foundArticle);
+
+    // Fetch article content
     fetch(`/Articles/${id}`)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
   }, [id]);
 
+  useEffect(() => {
+    if (article) {
+      // Update the ticketId state
+      setTicketId(article.TicketInfoID);
 
-
-  // useEffect(() => {
-
-  //   fetch(`/TicketInfo/`)
-  //     .then((response) => response.text())
-  //     .then((text) => setTicketText(text));
-  // }, [id]);
+      // Fetch ticket info
+      fetch(`/TicketInfo/${article.TicketInfoID}`)
+        .then((response) => response.text())
+        .then((text) => setTicketText(text));
+    }
+  }, [article]);
 
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
@@ -37,9 +53,10 @@ function Article() {
       </button>
       {showTicketInfo && (
         <div>
+          <h2>Still not working?</h2>
           {/* Render the information needed for the ticket here */}
           <p>Ticket Information for Article {id}</p>
-          {/* <p>{ticketText}</p> */}
+          <ReactMarkdown>{ticketText}</ReactMarkdown>
         </div>
       )}
     </div>
