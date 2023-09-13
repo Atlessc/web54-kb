@@ -7,14 +7,32 @@ import '../styles/Article.css';
 function Article() {
   const { id } = useParams();
   const [markdown, setMarkdown] = useState('');
+  const [showTicketInfo, setShowTicketInfo] = useState(false);
 
   useEffect(() => {
-    fetch(`/${id}`)
+    fetch(`/Articles/${id}`)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
   }, [id]);
 
-  return <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>;
+  const handleButtonClick = () => {
+    setShowTicketInfo(!showTicketInfo);
+  };
+
+  return (
+    <div>
+      <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>
+      <button onClick={handleButtonClick}>
+        {showTicketInfo ? 'Hide Ticket Info' : 'Show Ticket Info'}
+      </button>
+      {showTicketInfo && (
+        <div>
+          {/* Render the information needed for the ticket here */}
+          <p>Ticket Information for Article {id}</p>
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default Article;
