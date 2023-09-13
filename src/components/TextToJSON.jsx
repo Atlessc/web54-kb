@@ -39,10 +39,11 @@ function textToJson(text) {
             "admin",
             "techLv2",
             "techLv1"
-          
+            
         ],
         "category": [],
-        "atlArticle": "Example/url | file/path"
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": ""
       };
       pageID += 1;
       if (!currentSection) {
