@@ -8,6 +8,7 @@ function ArticlesMap() {
 
     return (
         <div className="table-of-content">
+            
             <h1>Articles</h1>
             <p>Welcome to the articles page</p>
             <div className="articles-list">
