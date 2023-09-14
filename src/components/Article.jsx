@@ -35,7 +35,7 @@ function Article() {
       setTicketId(article.TicketInfoID);
 
       // Fetch ticket info
-      fetch(`/TicketInfo/${article.TicketInfoID}`)
+      fetch(`/TicketInfo/${ticketId}`)
         .then((response) => response.text())
         .then((text) => setTicketText(text));
         console.log(`${ticketText}`);
