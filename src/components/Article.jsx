@@ -19,24 +19,31 @@ function Article() {
   useEffect(() => {
     // Find the article with the matching id in the JSON data
     const foundArticle = data[id];
-
+  
     // Update the article state
     setArticle(foundArticle);
-
+  
     // Fetch article content
     fetch(`/Articles/${id}`)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
+  }, [id]);
+  
+  useEffect(() => {
+    if (article) {
       // Update the ticketId state
       setTicketId(article.TicketInfoID);
-
+  
       // Fetch ticket info
-      fetch(`/TicketInfo/${ticketId}`)
+      fetch(`/TicketInfo/${article.TicketInfoID}`)
         .then((response) => response.text())
-        .then((text) => setTicketText(text));
-        console.log(`${ticketText}`);
-    
-  }, [article, id]);
+        .then((text) => {
+          setTicketText(text);
+          console.log(`${text}`);
+        });
+    }
+  }, [article]);
+  
 
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
