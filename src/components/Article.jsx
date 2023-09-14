@@ -27,10 +27,6 @@ function Article() {
     fetch(`/Articles/${id}`)
       .then((response) => response.text())
       .then((text) => setMarkdown(text));
-  }, [id]);
-
-  useEffect(() => {
-    if (article) {
       // Update the ticketId state
       setTicketId(article.TicketInfoID);
 
@@ -39,8 +35,8 @@ function Article() {
         .then((response) => response.text())
         .then((text) => setTicketText(text));
         console.log(`${ticketText}`);
-    }
-  }, [article]);
+    
+  }, [article, id]);
 
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
