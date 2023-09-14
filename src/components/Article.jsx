@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
-import Articles from "articles-map.json";
+import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
 
 function Article() {
