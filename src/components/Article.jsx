@@ -18,7 +18,7 @@ function Article() {
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
-    const foundArticle = data.find((item) => item.id === id);
+    const foundArticle = data[id];
 
     // Update the article state
     setArticle(foundArticle);
