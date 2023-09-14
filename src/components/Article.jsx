@@ -38,6 +38,7 @@ function Article() {
       fetch(`/TicketInfo/${article.TicketInfoID}`)
         .then((response) => response.text())
         .then((text) => setTicketText(text));
+        console.log(`${ticketText}`);
     }
   }, [article]);
 
