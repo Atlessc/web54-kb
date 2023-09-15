@@ -12,9 +12,9 @@ export default function AdminPage() {
   return (
     <div className="admin-container">
       <h1>Admin Page</h1>
+      <button onClick={handleSwitch}>Switch Component</button>
       {showComponent === 'TextToJson' && <TextToJson />}
       {showComponent === 'ArticleObjectGenerator' && <ArticleObjectGenerator />}
-      <button onClick={handleSwitch}>Switch Component</button>
     </div>
   )
 }
