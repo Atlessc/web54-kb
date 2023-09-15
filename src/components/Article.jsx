@@ -5,43 +5,42 @@ import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
 
-function Article() {
+const data = Articles;
+const { id } = useParams();
+const [articleMarkdown, setArticleMarkdown] = useState('');
+const [ticketMarkdown, setTicketMarkdown] = useState('');
+const [showTicketInfo, setShowTicketInfo] = useState(false);
+const [article, setArticle] = useState('');
 
-  const data = Articles;
+useEffect(() => {
+  // Find the article with the matching id in the JSON data
+  const foundArticle = data[id];
 
-  const { id } = useParams();
-  const [articleMarkdown, setArticleMarkdown] = useState('');
-  const [ticketMarkdown, setTicketMarkdown] = useState('');
-  const [showTicketInfo, setShowTicketInfo] = useState(false);
-  const [article, setArticle] = useState('');
+  // Update the article state
+  setArticle(foundArticle);
 
-  useEffect(() => {
-    // Find the article with the matching id in the JSON data
-    const foundArticle = data[id];
-  
-    // Update the article state
-    setArticle(foundArticle);
-  
-    // Fetch article content
-    fetch(`/Articles/${id}`)
+  // Fetch article content
+  fetch(`/Articles/${id}`)
+    .then((response) => response.text())
+    .then((text) => {
+      // Set the markdown state
+      setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+    });
+}, [id]);
+
+useEffect(() => {
+  if (article) {
+    // Fetch ticket info
+    fetch(`/TicketInfo/${article.TicketInfoID}`)
       .then((response) => response.text())
       .then((text) => {
-        // Set the markdown state
-        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+        // Set the ticket markdown state
+        setTicketMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
       });
-  }, [id]);
-  
-  useEffect(() => {
-    if (article) {
-      // Fetch ticket info
-      fetch(`/TicketInfo/${article.TicketInfoID}`)
-        .then((response) => response.text())
-        .then((text) => {
-          // Set the ticket markdown state
-          setTicketMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-        });
-    }
-  }, [article]);
+  }
+}, [article]);
+
+function Article() {
 
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
