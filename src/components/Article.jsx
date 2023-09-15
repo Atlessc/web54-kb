@@ -1,15 +1,10 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom'; // import Link
 import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
-import { useStore } from '../store';
-
-  const articleID = useStore(state => state.articleID);
-  const setArticleID = useStore(state => state.setArticleID);
-  const ticketInfoID = useStore(state => state.ticketInfoID);
-  const setTicketInfoID = useStore(state => state.setTicketInfoID);
+import { useStore } from 'zustand';
 
 function Article() {
 
@@ -18,7 +13,10 @@ function Article() {
   const { id } = useParams();
   const [articleMarkdown, setArticleMarkdown] = useState('');
   const [article, setArticle] = useState(null);
-
+  const articleID = useStore(state => state.articleID);
+  const setArticleID = useStore(state => state.setArticleID);
+  const ticketInfoID = useStore(state => state.ticketInfoID);
+  const setTicketInfoID = useStore(state => state.setTicketInfoID);
 
   console.log('Article ID:', articleID); // log the article ID
   console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
@@ -35,10 +33,10 @@ function Article() {
       .then((response) => response.text())
       .then((text) => {
         // Set the markdown state
-        setArticleMarkdown({text});
+        setArticleMarkdown(text);
         console.log('Fetched article text:', text); // log the fetched text
       });
-      setTicketInfo(foundArticle.TicketInfoID);
+      setTicketInfoID(foundArticle.TicketInfoID);
       console.log('Setting ticket info ID:', foundArticle.TicketInfoID); // log before setting the ticket info ID
   }, [id]);
 
@@ -48,7 +46,7 @@ function Article() {
       <Link to={`/ticket-info/${ticketInfoID}`}>
         Ticket Info
       </Link>
-      </div>
+    </div>
   );
 }
 
