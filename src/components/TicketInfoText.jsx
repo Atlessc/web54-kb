@@ -15,10 +15,10 @@ export default function TicketInfoText() {
 
   
   useEffect(() => {
-    console.log('Setting ticket info ID:', ticketInfoID); // log before setting the ticket info ID
+    console.log('Setting ticket info ID:', {ticketInfoID}); // log before setting the ticket info ID
 
     // Fetch article content
-    fetch(`/Articles/${id}`)
+    fetch(`/TicketInfo/${id}`)
       .then((response) => response.text())
       .then((text) => {
         // Set the markdown state
@@ -26,8 +26,8 @@ export default function TicketInfoText() {
       });
   }, [id]);
 
-  console.log('Article ID:', articleID); // log the article ID
-  console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
+  console.log('Article ID:', {articleID}); // log the article ID
+  console.log('Ticket Info ID:', {ticketInfoID}); // log the ticket info ID
 
   return (
     <div>
