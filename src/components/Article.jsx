@@ -40,6 +40,39 @@ function fetchTixInfo() {
 
 function Article() {
 
+  const data = Articles;
+const { id } = useParams();
+const [articleMarkdown, setArticleMarkdown] = useState('');
+const [ticketMarkdown, setTicketMarkdown] = useState('');
+const [showTicketInfo, setShowTicketInfo] = useState(false);
+const [article, setArticle] = useState('');
+
+useEffect(() => {
+  // Find the article with the matching id in the JSON data
+  const foundArticle = data[id];
+
+  // Update the article state
+  setArticle(foundArticle);
+
+  // Fetch article content
+  fetch(`/Articles/${id}`)
+    .then((response) => response.text())
+    .then((text) => {
+      // Set the markdown state
+      setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+    });
+}, [id]);
+
+function fetchTixInfo() {
+    // Fetch ticket info
+    fetch(`/TicketInfo/${article.TicketInfoID}`)
+      .then((response) => response.text())
+      .then((text) => {
+        // Set the ticket markdown state
+        setTicketMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+      });
+  };
+
   const handleButtonClick = () => {
     // Fetch ticket info
     fetchTixInfo();
