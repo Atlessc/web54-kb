@@ -4,17 +4,22 @@ import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
+import { useStore } from 'zustand';
 
 function Article() {
 
   const data = Articles;
 
   const { id } = useParams();
-  const [markdown, setMarkdown] = useState('');
-  const [showTicketInfo, setShowTicketInfo] = useState(false);
-  const [ticketText, setTicketText] = useState('');
-  const [ticketId, setTicketId] = useState('');
+  const [articleMarkdown, setArticleMarkdown] = useState('');
   const [article, setArticle] = useState(null);
+  const articleID = useStore(state => state.articleID);
+  const setArticleID = useStore(state => state.setArticleID);
+  const ticketInfoID = useStore(state => state.ticketInfoID);
+  const setTicketInfoID = useStore(state => state.setTicketInfoID);
+
+  console.log('Article ID:', articleID); // log the article ID
+  console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
@@ -26,43 +31,22 @@ function Article() {
     // Fetch article content
     fetch(`/Articles/${id}`)
       .then((response) => response.text())
-      .then((text) => setMarkdown(text));
+      .then((text) => {
+        // Set the markdown state
+        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+        console.log('Fetched article text:', text); // log the fetched text
+      });
+      setTicketInfo(foundArticle.TicketInfoID);
+      console.log('Setting ticket info ID:', foundArticle.TicketInfoID); // log before setting the ticket info ID
   }, [id]);
-  
-  useEffect(() => {
-    if (article) {
-      // Update the ticketId state
-      setTicketId(article.TicketInfoID);
-  
-      // Fetch ticket info
-      fetch(`/TicketInfo/${article.TicketInfoID}`)
-        .then((response) => response.text())
-        .then((text) => {
-          setTicketText(text);
-          console.log(`${text}`);
-        });
-    }
-  }, [article]);
-
-  const handleButtonClick = () => {
-    setShowTicketInfo(!showTicketInfo);
-  };
 
   return (
     <div>
-      <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>
-      <button onClick={handleButtonClick}>
-        {showTicketInfo ? 'Hide Ticket Info' : 'Show Ticket Info'}
-      </button>
-      {showTicketInfo && (
-        <div>
-          <h2>Still not working?</h2>
-          {/* Render the information needed for the ticket here */}
-          <p>Ticket Information for Article {id}</p>
-          <ReactMarkdown className='markdown'>{ticketText}</ReactMarkdown>
-        </div>
-      )}
-    </div>
+      <div>{articleMarkdown}</div>
+      <Link to={`/ticket-info/${ticketInfoID}`}>
+        Ticket Info
+      </Link>
+      </div>
   );
 }
 

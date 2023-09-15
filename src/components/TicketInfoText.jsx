@@ -1,5 +1,4 @@
 import data from '../data/articles-map.json';
-import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import '../styles/Article.css'
 import { useEffect, useState } from 'react';
@@ -7,27 +6,37 @@ import { useStore } from 'zustand';
 
 export default function TicketInfoText() {
 
-    const { id } = useParams();
-
-  const articleID = useStore(state => state.articleID); // add a state variable for the ticket info
+  const articleID = useStore(state => state.articleID);
+  const setTicketInfo = useStore(state => state.setTicketInfo);
   const ticketInfoID = useStore(state => state.ticketInfoID);
-  const [ticketInfoText, setTicketInfoText] = useState('');
+  const [ticketInfoText, setTicketInfoText] = useState('')
+
+  console.log('Article ID:', articleID); // log the article ID
+  console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
 
   useEffect(() => {
-  
-    // Fetch article content
-    fetch(`/ticket-info/${id}`)
-      .then((response) => response.text())
-      .then((text) => {
-        // Set the markdown state
-        setTicketInfoText(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-      });
-  }, [id]);
+    const ticketInfoID = data[articleID].TicketInfoID;
+    console.log('Setting ticket info ID:', ticketInfoID); // log before setting the ticket info ID
+    setTicketInfo(ticketInfoID);
+  }, [articleID]);
+
+  useEffect(() => {
+    async function fetchTicketInfo() {
+      console.log('Fetching ticket info:', ticketInfoID); // log before fetching the ticket info
+      const response = await fetch(`/TicketInfo/TixInfo${ticketInfoID}.md`);
+      const text = await response.text();
+      console.log('Fetched ticket info text:', text); // log the fetched text
+      setTicketInfoText(text);
+    }
+
+    fetchTicketInfo();
+  }, [ticketInfoID]);
 
   return (
     <div>
+      <h2>Still not working?</h2>
       {/* Render the information needed for the ticket here */}
-      <h2>Ticket Information for Article {articleID}</h2>
+      <p>Ticket Information for Article {articleID}</p>
       <ReactMarkdown>{ticketInfoText}</ReactMarkdown>
     </div>
   )
