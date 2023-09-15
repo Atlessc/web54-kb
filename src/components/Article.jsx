@@ -10,12 +10,11 @@ function Article() {
   const data = Articles;
 
   const { id } = useParams();
-  const [articleMarkdown, setArticleMarkdown] = useState('');
-  const [ticketMarkdown, setTicketMarkdown] = useState('');
+  const [markdown, setMarkdown] = useState('');
   const [showTicketInfo, setShowTicketInfo] = useState(false);
   const [ticketText, setTicketText] = useState('');
   const [ticketId, setTicketId] = useState('');
-  const [article, setArticle] = useState('');
+  const [article, setArticle] = useState(null);
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
@@ -45,7 +44,7 @@ function Article() {
     }
   }, [article]);
 
-  const setArticleText = () => {
+  function ArticleTextRender() {
     return (
       <div>
         <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>
