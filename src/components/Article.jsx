@@ -6,6 +6,7 @@ import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
 import useStore from '../store';
 
+
 function Article() {
 
   const data = Articles;
