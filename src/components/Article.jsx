@@ -15,6 +15,8 @@ function Article() {
   const [article, setArticle] = useState(null);
   const articleID = useStore(state => state.articleID);
   const setArticleID = useStore(state => state.setArticleID);
+  const ticketInfoID = useStore(state => state.ticketInfoID);
+  const setTicketInfoID = useStore(state => state.setTicketInfoID);
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
@@ -36,7 +38,7 @@ function Article() {
   return (
     <div>
       <div>{articleMarkdown}</div>
-      <Link to="/ticketinfo/">
+      <Link to={'/ticketinfo/'(ticketInfoID)}>
         Ticket Info
       </Link>
         </div>
