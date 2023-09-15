@@ -4,7 +4,12 @@ import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
-import { useStore } from 'zustand';
+import { useStore } from '../store';
+
+  const articleID = useStore(state => state.articleID);
+  const setArticleID = useStore(state => state.setArticleID);
+  const ticketInfoID = useStore(state => state.ticketInfoID);
+  const setTicketInfoID = useStore(state => state.setTicketInfoID);
 
 function Article() {
 
@@ -13,10 +18,7 @@ function Article() {
   const { id } = useParams();
   const [articleMarkdown, setArticleMarkdown] = useState('');
   const [article, setArticle] = useState(null);
-  const articleID = useStore(state => state.articleID);
-  const setArticleID = useStore(state => state.setArticleID);
-  const ticketInfoID = useStore(state => state.ticketInfoID);
-  const setTicketInfoID = useStore(state => state.setTicketInfoID);
+
 
   console.log('Article ID:', articleID); // log the article ID
   console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
