@@ -10,8 +10,10 @@ function Article() {
   const data = Articles;
 
   const { id } = useParams();
-  
+  const [articleMarkdown, setArticleMarkdown] = useState('');
+  const [ticketMarkdown, setTicketMarkdown] = useState('');
   const [showTicketInfo, setShowTicketInfo] = useState(false);
+  const [article, setArticle] = useState('');
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
