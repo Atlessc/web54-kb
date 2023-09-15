@@ -27,12 +27,13 @@ function Article() {
   
     // Fetch article content
     fetch(`/Articles/${id}`)
-      .then((response) => response.text())
-      .then((text) => {
-        // Set the markdown state
-        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-      });
-      setTicketInfo(foundArticle.TicketInfoID);
+  .then((response) => response.text())
+  .then((text) => {
+    // Set the markdown state
+    setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+    // Set the ticket info ID
+    setTicketInfo(foundArticle.TicketInfoID);
+  });
   }, [id]);
 
   return (
