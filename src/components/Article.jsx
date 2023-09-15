@@ -42,10 +42,10 @@ function Article() {
 
   return (
     <div>
-      <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
-      {/* <Link to={`/ticket-info/${ticketInfoID}`}>
+      {/* <ReactMarkdown>{articleMarkdown}</ReactMarkdown> */}
+      <Link to={`/ticket-info/${ticketInfoID}`}>
         Ticket Info
-      </Link> */}
+      </Link>
     </div>
   );
 }
