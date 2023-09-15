@@ -18,16 +18,9 @@ function Article() {
   const ticketInfoID = useStore(state => state.ticketInfoID);
   const setTicketInfoID = useStore(state => state.setTicketInfoID);
 
-  console.log('Article ID:', articleID); // log the article ID
-  console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
+   // log the ticket info ID
 
   useEffect(() => {
-    // Find the article with the matching id in the JSON data
-    const foundArticle = data[id];
-    console.log('Setting article ID:', foundArticle); // log before setting the article ID
-  
-    // Update the article state
-    setArticle(foundArticle);
   
     // Fetch article content
     fetch(`/Articles/${id}`)
@@ -36,9 +29,13 @@ function Article() {
         // Set the markdown state
         setArticleMarkdown(text); // log the fetched text
       });
-      setTicketInfoID(foundArticle.TicketInfoID);
-      console.log('Setting ticket info ID:', foundArticle.TicketInfoID); // log before setting the ticket info ID
-  }, [id]);
+      setTicketInfoID(`${foundArticle.TicketInfoID}`);
+    }, [id]);
+
+    console.log('Setting ticket info ID:', ticketInfoID); // log before setting the ticket info ID
+    console.log('Setting article ID:', foundArticle); // log before setting the article ID
+  console.log('Article ID:', articleID); // log the article ID
+  console.log('Ticket Info ID:', ticketInfoID);
 
   return (
     <div>
