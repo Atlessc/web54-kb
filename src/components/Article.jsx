@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
-import { useStore } from '../store';
+import useStore from '../store';
 
 function Article() {
 
