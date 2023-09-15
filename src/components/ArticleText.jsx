@@ -1,4 +1,3 @@
-import data from '../data/articles-map.json';
 import ReactMarkdown from 'react-markdown';
 import { useParams } from 'react-router-dom';
 import { useState, useEffect } from 'react'; // import useState and useEffect
