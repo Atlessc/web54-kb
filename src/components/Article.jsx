@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import '../styles/Article.css';
 import ArticleText from './ArticleText'; // import the ArticleText component
