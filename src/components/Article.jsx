@@ -1,13 +1,10 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React, { useState } from 'react';
 import '../styles/Article.css';
 import ArticleText from './ArticleText'; // import the ArticleText component
 import TicketInfoText from './TicketInfoText'; // import the TicketInfoText component
 
 function Article() {
 
-  const { id } = useParams();
-  
   const [showTicketInfo, setShowTicketInfo] = useState(false);
 
   const handleButtonClick = () => {
