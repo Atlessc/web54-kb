@@ -12,7 +12,7 @@ function Article() {
 
   const { id } = useParams();
   const [articleMarkdown, setArticleMarkdown] = useState('');
-  const [article, setArticle] = useState(null);
+  const [article, setArticle] = useState('');
   const articleID = useStore(state => state.articleID);
   const setArticleID = useStore(state => state.setArticleID);
   const ticketInfoID = useStore(state => state.ticketInfoID);
