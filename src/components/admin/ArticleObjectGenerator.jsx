@@ -42,7 +42,7 @@ function ArticleObjectGenerator() {
       <textarea value={input} onChange={handleChange} />
       <button onClick={generateJson}>Generate JSON</button>
       <button onClick={copyToClipboard}>Copy to Clipboard</button>
-      <textarea value={output} readOnly />
+      <div value={output} readOnly />
     </div>
   );
 }
