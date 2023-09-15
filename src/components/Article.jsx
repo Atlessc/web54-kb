@@ -28,7 +28,7 @@ useEffect(() => {
     });
 }, [id]);
 
-useEffect(() => {
+const fetchTixInfo = () => {
   if (article) {
     // Fetch ticket info
     fetch(`/TicketInfo/${article.TicketInfoID}`)
@@ -38,12 +38,14 @@ useEffect(() => {
         setTicketMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
       });
   }
-}, [article]);
+};
 
 function Article() {
 
   const handleButtonClick = () => {
+    fetchTixInfo();
     setShowTicketInfo(!showTicketInfo);
+
   };
 
   return (
