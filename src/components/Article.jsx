@@ -43,9 +43,8 @@ const fetchTixInfo = () => {
 function Article() {
 
   const handleButtonClick = () => {
-    fetchTixInfo();
     setShowTicketInfo(!showTicketInfo);
-
+    
   };
 
   return (
