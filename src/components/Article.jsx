@@ -44,21 +44,13 @@ function Article() {
     }
   }, [article]);
 
-  function ArticleTextRender() {
-    return (
-      <div>
-        <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>
-      </div>
-    );
-  }
-
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
   };
 
   return (
     <div>
-      <div>{ArticleTextRender}</div>
+      <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>
       <button onClick={handleButtonClick}>
         {showTicketInfo ? 'Hide Ticket Info' : 'Show Ticket Info'}
       </button>
@@ -67,7 +59,7 @@ function Article() {
           <h2>Still not working?</h2>
           {/* Render the information needed for the ticket here */}
           <p>Ticket Information for Article {id}</p>
-          <div>gf</div>
+          <ReactMarkdown className='markdown'>{ticketText}</ReactMarkdown>
         </div>
       )}
     </div>
