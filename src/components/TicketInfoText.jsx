@@ -7,17 +7,11 @@ import { useStore } from 'zustand';
 export default function TicketInfoText() {
 
   const articleID = useStore(state => state.articleID);
-  const setTicketInfo = useStore(state => state.setTicketInfo);
+  const [ticketInfo, setTicketInfo] = useState(null); // add a state variable for the ticket info
   const ticketInfoID = useStore(state => state.ticketInfoID);
   const [ticketInfoText, setTicketInfoText] = useState('')
 
   console.log('Article ID from store:', articleID); // log the article ID
-
-  useEffect(() => {
-    const ticketInfoID = data[articleID].TicketInfoID;
-    console.log('Setting ticket info ID in store:', ticketInfoID); // log before setting the ticket info ID
-    setTicketInfo(ticketInfoID);
-  }, [articleID]);
 
   useEffect(() => {
     async function fetchTicketInfo() {
@@ -33,9 +27,8 @@ export default function TicketInfoText() {
 
   return (
     <div>
-      <h2>Still not working?</h2>
       {/* Render the information needed for the ticket here */}
-      <p>Ticket Information for Article {articleID}</p>
+      <h2>Ticket Information for Article {articleID}</h2>
       <ReactMarkdown>{ticketInfoText}</ReactMarkdown>
     </div>
   )
