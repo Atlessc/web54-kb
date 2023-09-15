@@ -28,8 +28,7 @@ useEffect(() => {
     });
 }, [id]);
 
-const fetchTixInfo = () => {
-  if (article) {
+function fetchTixInfo() {
     // Fetch ticket info
     fetch(`/TicketInfo/${article.TicketInfoID}`)
       .then((response) => response.text())
@@ -37,14 +36,14 @@ const fetchTixInfo = () => {
         // Set the ticket markdown state
         setTicketMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
       });
-  }
-};
+  };
 
 function Article() {
 
   const handleButtonClick = () => {
+    // Fetch ticket info
+    fetchTixInfo();
     setShowTicketInfo(!showTicketInfo);
-    
   };
 
   return (
