@@ -3,33 +3,28 @@ import ReactMarkdown from 'react-markdown';
 import '../styles/Article.css'
 import { useEffect, useState } from 'react';
 import useStore from '../store';
+import { useParams } from 'react-router-dom';
 
 export default function TicketInfoText() {
 
+  const { id } = useParams();
+
   const articleID = useStore(state => state.articleID);
-  const setTicketInfo = useStore(state => state.setTicketInfo);
   const ticketInfoID = useStore(state => state.ticketInfoID);
   const [ticketInfoText, setTicketInfoText] = useState('')
 
-
+  
   useEffect(() => {
-    const ticketInfoID = data[articleID].TicketInfoID;
     console.log('Setting ticket info ID:', ticketInfoID); // log before setting the ticket info ID
-    setTicketInfo(ticketInfoID);
-  }, [articleID]);
 
-  useEffect(() => {
-    async function fetchTicketInfo() {
-      console.log('Fetching ticket info:', ticketInfoID); // log before fetching the ticket info
-      const response = await fetch(`/TicketInfo/TixInfo${ticketInfoID}.md`);
-      const text = await response.text();
-      console.log('Fetched ticket info text:', text); // log the fetched text
-      setTicketInfoText(text);
-    }
-
-    fetchTicketInfo();
-  }, [ticketInfoID]);
-
+    // Fetch article content
+    fetch(`/Articles/${id}`)
+      .then((response) => response.text())
+      .then((text) => {
+        // Set the markdown state
+        setTicketInfoText(text);
+      });
+  }, [id]);
 
   console.log('Article ID:', articleID); // log the article ID
   console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID

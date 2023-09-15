@@ -5,13 +5,11 @@ const useStore = create(set => ({
   articleID: '',
   ticketInfoID: '',
   searchResultsPage: 1,
-  ticketInfoText: '',
   //  themePreference: 'dark',
   searchQuery: '',
   // set actions
-  setTicketInfoText: (text) => set({ ticketInfoText: text }),
   setTicketInfoID: (id) => set({ ticketInfoID: id }),
-  setArticle: (articleID) => set({ articleID: articleID }),
+  setArticleID: (articleID) => set({ articleID: articleID }),
   setSearchResultsPage: (page) => set({ searchResultsPage: page }),
   setSearchQuery: (query) => set({ searchQuery: query }),
 }));
