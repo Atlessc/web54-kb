@@ -32,10 +32,10 @@ function Article() {
       setTicketInfoID(`${foundArticle.TicketInfoID}`);
     }, [id]);
 
-    console.log('Setting ticket info ID:', ticketInfoID); // log before setting the ticket info ID
-    console.log('Setting article ID:', foundArticle); // log before setting the article ID
-  console.log('Article ID:', articleID); // log the article ID
-  console.log('Ticket Info ID:', ticketInfoID);
+    console.log(`Setting ticket info ID: ${ticketInfoID}`); // log before setting the ticket info ID
+    console.log(`Setting article ID: ${foundArticle}`); // log before setting the article ID
+    console.log(`Article ID: ${articleID}`); // log the article ID
+    console.log(`Ticket Info ID: ${ticketInfoID}`);
 
   return (
     <div>
