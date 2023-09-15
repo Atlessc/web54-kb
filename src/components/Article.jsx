@@ -35,7 +35,7 @@ function Article() {
       .then((response) => response.text())
       .then((text) => {
         // Set the markdown state
-        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+        setArticleMarkdown({text});
         console.log('Fetched article text:', text); // log the fetched text
       });
       setTicketInfo(foundArticle.TicketInfoID);
@@ -44,7 +44,7 @@ function Article() {
 
   return (
     <div>
-      <div>{articleMarkdown}</div>
+      <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
       <Link to={`/ticket-info/${ticketInfoID}`}>
         Ticket Info
       </Link>
