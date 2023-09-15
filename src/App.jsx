@@ -12,6 +12,7 @@ import ArticlesPage from './pages/ArticlesPage'
 import NotLoggedIn from './pages/not-logged-in'
 import { useAuth0 } from '@auth0/auth0-react'
 import Loading from './pages/loading'
+import TicketInfoText from './components/TicketInfoText'
 
 function App() {
   const { isLoading, isAuthenticated } = useAuth0()
@@ -63,6 +64,7 @@ function App() {
             <Route path='/article/:id' element={<Article />} />
             <Route path='/admin' element={<AdminPage />} />
             <Route path='/profile/' element={<ProfilePage />} />
+            <Route path='/ticket-info/:id' element={<TicketInfoText />} />
             <Route path='*' element={<Page404 />} />
           </Routes>
         }
