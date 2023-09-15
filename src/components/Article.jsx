@@ -38,7 +38,7 @@ function Article() {
   return (
     <div>
       <div>{articleMarkdown}</div>
-      <Link to={'/ticketinfo/'(ticketInfoID)}>
+      <Link to={`/ticketinfo/${ticketInfoID}`}>
         Ticket Info
       </Link>
         </div>
