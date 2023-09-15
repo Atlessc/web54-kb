@@ -52,15 +52,6 @@ function Article() {
     );
   }
 
-  function TicketTextRender() {
-    return (
-      <div>
-        <ReactMarkdown className='markdown'>{ticketText}</ReactMarkdown>
-      </div>
-    );
-  }
-  
-
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
   };
@@ -76,7 +67,7 @@ function Article() {
           <h2>Still not working?</h2>
           {/* Render the information needed for the ticket here */}
           <p>Ticket Information for Article {id}</p>
-          <div>{TicketTextRender}</div>
+          <div>gf</div>
         </div>
       )}
     </div>
