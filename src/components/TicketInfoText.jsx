@@ -2,7 +2,7 @@ import data from '../data/articles-map.json';
 import ReactMarkdown from 'react-markdown';
 import '../styles/Article.css'
 import { useEffect, useState } from 'react';
-import { useStore } from 'zustand';
+import { useStore } from '../store';
 
 export default function TicketInfoText() {
 

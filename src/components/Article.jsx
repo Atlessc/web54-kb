@@ -4,7 +4,7 @@ import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
-import { useStore } from 'zustand';
+import { useStore } from '../store';
 
 function Article() {
 
@@ -43,9 +43,9 @@ function Article() {
   return (
     <div>
       <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
-      <Link to={`/ticket-info/${ticketInfoID}`}>
+      {/* <Link to={`/ticket-info/${ticketInfoID}`}>
         Ticket Info
-      </Link>
+      </Link> */}
     </div>
   );
 }
