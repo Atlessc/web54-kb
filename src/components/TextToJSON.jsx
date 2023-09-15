@@ -4,8 +4,8 @@ import '../styles/Tools.css';
 
 function textToJson(text) {
   const lines = text.split('\n');
-  const json = { 'Table of Contents': [] };
-  let currentSection = json['Table of Contents'];
+  const json = { 'TableOfContents': [] };
+  let currentSection = json['TableOfContents'];
   let sectionStack = [];
   let pageID = 1;
   let error = null;
@@ -30,7 +30,7 @@ function textToJson(text) {
       currentSection = newSection.Items;
     } else if (line.startsWith('/')) {
       const pageItem = {
-        'pageID': `WD${pageID.toString().padStart(6, '0')}`,
+        'pageID': `WD${pageID.toString().padStart(6, '0')}.md`,
         'pageTitle': line.slice(1).trim(),
         "keywords": [],
         "roleLvAccess": [
@@ -43,7 +43,7 @@ function textToJson(text) {
         ],
         "category": [],
         "atlArticle": "Example/url | file/path",
-        "TicketInfoID": ""
+        "TicketInfoID": "TixInfo01.md",
       };
       pageID += 1;
       if (!currentSection) {

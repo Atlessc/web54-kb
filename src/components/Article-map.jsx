@@ -4,7 +4,7 @@ import articles from '../data/articles-map.json';
 import '../styles/ToC.css'
 
 function ArticlesMap() {
-    const [showSection, setShowSection] = useState(Array(articles["Table of Contents"].length).fill(false));
+    const [showSection, setShowSection] = useState(Array(articles["TableOfContents"].length).fill(false));
 
     return (
         <div className="table-of-content">
@@ -12,7 +12,7 @@ function ArticlesMap() {
             <h1>Articles</h1>
             <p>Welcome to the articles page</p>
             <div className="articles-list">
-                {articles["Table of Contents"].map((section, index) => (
+                {articles["TableOfContents"].map((section, index) => (
                     <div className="SectionTitle lv1-section-title" key={section.SectionTitle}>
                         <h2 onClick={() => {
                             const newShowSection = [...showSection];
