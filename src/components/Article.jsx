@@ -4,7 +4,6 @@ import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
-import { useStore } from 'zustand';
 
 function Article() {
 
@@ -12,9 +11,11 @@ function Article() {
 
   const { id } = useParams();
   const [articleMarkdown, setArticleMarkdown] = useState('');
-  const [article, setArticle] = useState(null);
-  const articleID = useStore(state => state.articleID);
-  const setArticleID = useStore(state => state.setArticleID);
+  const [ticketMarkdown, setTicketMarkdown] = useState('');
+  const [showTicketInfo, setShowTicketInfo] = useState(false);
+  const [ticketText, setTicketText] = useState('');
+  const [ticketId, setTicketId] = useState('');
+  const [article, setArticle] = useState('');
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
@@ -26,11 +27,40 @@ function Article() {
     // Fetch article content
     fetch(`/Articles/${id}`)
       .then((response) => response.text())
-      .then((text) => {
-        // Set the markdown state
-        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-      });
+      .then((text) => setMarkdown(text));
   }, [id]);
+  
+  useEffect(() => {
+    if (article) {
+      // Update the ticketId state
+      setTicketId(article.TicketInfoID);
+  
+      // Fetch ticket info
+      fetch(`/TicketInfo/${article.TicketInfoID}`)
+        .then((response) => response.text())
+        .then((text) => {
+          setTicketText(text);
+          console.log(`${text}`);
+        });
+    }
+  }, [article]);
+
+  const setArticleText = () => {
+    return (
+      <div>
+        <ReactMarkdown className='markdown'>{markdown}</ReactMarkdown>
+      </div>
+    );
+  }
+
+  function TicketTextRender() {
+    return (
+      <div>
+        <ReactMarkdown className='markdown'>{ticketText}</ReactMarkdown>
+      </div>
+    );
+  }
+  
 
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
@@ -38,7 +68,7 @@ function Article() {
 
   return (
     <div>
-      <div>{articleMarkdown}</div>
+      <div>{ArticleTextRender}</div>
       <button onClick={handleButtonClick}>
         {showTicketInfo ? 'Hide Ticket Info' : 'Show Ticket Info'}
       </button>
@@ -47,7 +77,7 @@ function Article() {
           <h2>Still not working?</h2>
           {/* Render the information needed for the ticket here */}
           <p>Ticket Information for Article {id}</p>
-          <div>{ticketMarkdown}</div>
+          <div>{TicketTextRender}</div>
         </div>
       )}
     </div>
