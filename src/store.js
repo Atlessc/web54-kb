@@ -2,18 +2,17 @@ import { create } from 'zustand';
 
 const useStore = create(set => ({
   // states
-  currentUser: 'guest',
-  currentRole: "",
-  isAuthenticated: false,
+  articleID: '',
+  ticketInfoID: '',
   searchResultsPage: 1,
+  ticketInfoText: '',
   //  themePreference: 'dark',
   searchQuery: '',
   // set actions
-  setCurrentUser: (user) => set({ currentUser: user }),
-  setCurrentRole: (role) => set({ currentRole: role }),
-  setIsAuthenticated: (auth) => set({ isAuthenticated: auth }),
+  setTicketInfoText: (text) => set({ ticketInfoText: text }),
+  setTicketInfoID: (id) => set({ ticketInfoID: id }),
+  setArticle: (articleID) => set({ articleID: articleID }),
   setSearchResultsPage: (page) => set({ searchResultsPage: page }),
-  setThemePreference: (theme) => set({ themePreference: theme }),
   setSearchQuery: (query) => set({ searchQuery: query }),
 }));
 

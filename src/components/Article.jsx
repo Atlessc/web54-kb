@@ -1,47 +1,14 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import { useState, useEffect } from 'react';
-import Articles from "../data/articles-map.json";
 import '../styles/Article.css';
+import ArticleText from './ArticleText'; // import the ArticleText component
+import TicketInfoText from './TicketInfoText'; // import the TicketInfoText component
 
 function Article() {
 
-  const data = Articles;
-
   const { id } = useParams();
-  const [articleMarkdown, setArticleMarkdown] = useState('');
-  const [ticketMarkdown, setTicketMarkdown] = useState('');
+  
   const [showTicketInfo, setShowTicketInfo] = useState(false);
-  const [article, setArticle] = useState('');
-
-  useEffect(() => {
-    // Find the article with the matching id in the JSON data
-    const foundArticle = data[id];
-  
-    // Update the article state
-    setArticle(foundArticle);
-  
-    // Fetch article content
-    fetch(`/Articles/${id}`)
-      .then((response) => response.text())
-      .then((text) => {
-        // Set the markdown state
-        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-      });
-  }, [id]);
-  
-  useEffect(() => {
-    if (article) {
-      // Fetch ticket info
-      fetch(`/TicketInfo/${article.TicketInfoID}`)
-        .then((response) => response.text())
-        .then((text) => {
-          // Set the ticket markdown state
-          setTicketMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-        });
-    }
-  }, [article]);
 
   const handleButtonClick = () => {
     setShowTicketInfo(!showTicketInfo);
@@ -49,16 +16,13 @@ function Article() {
 
   return (
     <div>
-      <div>{articleMarkdown}</div>
+      <ArticleText /> {/* use the ArticleText component */}
       <button onClick={handleButtonClick}>
         {showTicketInfo ? 'Hide Ticket Info' : 'Show Ticket Info'}
       </button>
       {showTicketInfo && (
         <div>
-          <h2>Still not working?</h2>
-          {/* Render the information needed for the ticket here */}
-          <p>Ticket Information for Article {id}</p>
-          <div>{ticketMarkdown}</div>
+          <TicketInfoText /> {/* use the TicketInfoText component */}
         </div>
       )}
     </div>
