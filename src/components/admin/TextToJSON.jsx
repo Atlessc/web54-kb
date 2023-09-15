@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../styles/json.css';
-import '../styles/Tools.css';
+import '../../styles/json.css';
+import '../../styles/Tools.css';
 
 function textToJson(text) {
   const lines = text.split('\n');

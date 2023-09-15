@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import '../styles/json.css';
-import '../styles/Tools.css';
+import '../../styles/json.css';
+import '../../styles/Tools.css';
 
 function ArticleObjectGenerator() {
   const [input, setInput] = useState('');
