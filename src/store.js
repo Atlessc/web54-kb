@@ -16,3 +16,4 @@ const useStore = create(set => ({
   setSearchQuery: (query) => set({ searchQuery: query }),
 }));
 
+export default useStore;
