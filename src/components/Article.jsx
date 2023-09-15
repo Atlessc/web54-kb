@@ -15,8 +15,6 @@ function Article() {
   const [article, setArticle] = useState(null);
   const articleID = useStore(state => state.articleID);
   const setArticleID = useStore(state => state.setArticleID);
-  const ticketInfoID = useStore(state => state.ticketInfoID);
-  const setTicketInfoID = useStore(state => state.setTicketInfoID);
 
   useEffect(() => {
     // Find the article with the matching id in the JSON data
@@ -27,24 +25,33 @@ function Article() {
   
     // Fetch article content
     fetch(`/Articles/${id}`)
-  .then((response) => response.text())
-  .then((text) => {
-    // Set the markdown state
-    setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
-    // Set the ticket info ID
-    setTicketInfo(foundArticle.TicketInfoID);
-  });
+      .then((response) => response.text())
+      .then((text) => {
+        // Set the markdown state
+        setArticleMarkdown(<ReactMarkdown className='markdown'>{text}</ReactMarkdown>);
+      });
   }, [id]);
+
+  const handleButtonClick = () => {
+    setShowTicketInfo(!showTicketInfo);
+  };
 
   return (
     <div>
       <div>{articleMarkdown}</div>
-      <Link to={`/ticket-info/${ticketInfoID}`}>
-        Ticket Info
-      </Link>
+      <button onClick={handleButtonClick}>
+        {showTicketInfo ? 'Hide Ticket Info' : 'Show Ticket Info'}
+      </button>
+      {showTicketInfo && (
+        <div>
+          <h2>Still not working?</h2>
+          {/* Render the information needed for the ticket here */}
+          <p>Ticket Information for Article {id}</p>
+          <div>{ticketMarkdown}</div>
         </div>
+      )}
+    </div>
   );
 }
-
 
 export default Article;
