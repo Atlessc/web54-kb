@@ -11,8 +11,6 @@ export default function TicketInfoText() {
   const ticketInfoID = useStore(state => state.ticketInfoID);
   const [ticketInfoText, setTicketInfoText] = useState('')
 
-  console.log('Article ID:', articleID); // log the article ID
-  console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
 
   useEffect(() => {
     const ticketInfoID = data[articleID].TicketInfoID;
@@ -31,6 +29,10 @@ export default function TicketInfoText() {
 
     fetchTicketInfo();
   }, [ticketInfoID]);
+
+
+  console.log('Article ID:', articleID); // log the article ID
+  console.log('Ticket Info ID:', ticketInfoID); // log the ticket info ID
 
   return (
     <div>

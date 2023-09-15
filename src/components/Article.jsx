@@ -24,6 +24,7 @@ function Article() {
   useEffect(() => {
     // Find the article with the matching id in the JSON data
     const foundArticle = data[id];
+    console.log('Setting article ID:', foundArticle); // log before setting the article ID
   
     // Update the article state
     setArticle(foundArticle);
@@ -33,8 +34,7 @@ function Article() {
       .then((response) => response.text())
       .then((text) => {
         // Set the markdown state
-        setArticleMarkdown(text);
-        console.log('Fetched article text:', text); // log the fetched text
+        setArticleMarkdown(text); // log the fetched text
       });
       setTicketInfoID(foundArticle.TicketInfoID);
       console.log('Setting ticket info ID:', foundArticle.TicketInfoID); // log before setting the ticket info ID
