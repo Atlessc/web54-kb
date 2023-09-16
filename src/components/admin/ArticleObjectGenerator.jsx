@@ -37,13 +37,17 @@ function ArticleObjectGenerator() {
   };
 
   return (
-    <div>
+    <pre>
       <h2>Article Object Generator</h2>
+      <br/>
       <textarea value={input} onChange={handleChange} />
+      <br/>
       <button onClick={generateJson}>Generate JSON</button>
+      <br/>
       <button onClick={copyToClipboard}>Copy to Clipboard</button>
-      <div value={output} readOnly />
-    </div>
+      <br/>
+      <div value={output} readOnly className="JSONResponse output-text" />
+    </pre>
   );
 }
 

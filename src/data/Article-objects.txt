@@ -1,0 +1,45 @@
+/Everyday Essentials
+/Short hand
+/Microsoft Store not working
+/looking up devices in Aspen
+/Windows Wi-Fi issues
+/0365 documents opening in read only mode
+/Microphone Feedback Issue
+/Shard Indox
+/Checking dell Warrany
+/Escalating a ticket
+/passwords
+/installing a network drive
+/fixing certificate issues
+/device or app running slow
+/low storage issue
+/Fixing Certificate issues
+/Device or app running slow
+/Wifi connection Issues
+/Top Menu bar missing
+/plugins missing/not working in Adobe apps
+/Profiles missing from system settings
+/Escalated ticketes
+/Network drives
+/Jamf Cloud
+/iPhone info for escalated ticketes
+/iPhone returns
+/Wifi Connection issues
+/hardware repair
+/Loaner Scope
+/Loaner Request Form
+/Loaner Device setup
+/Last Steps of loaner deployment
+/day-loaner chargers
+/shipping devices back to PDX Village
+/Loaner Past due return Message
+/Loaner Notes update
+/loaner return process
+/How to use Software Center
+/software center error "components are missing"
+/PC
+/Mac
+/VPNs
+/PC
+/Mac
+
