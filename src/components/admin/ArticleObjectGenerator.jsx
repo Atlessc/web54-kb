@@ -37,7 +37,7 @@ function ArticleObjectGenerator() {
   };
 
   return (
-    <pre>
+    <div className="TextToJson">
       <h2>Article Object Generator</h2>
       <br/>
       <textarea value={input} onChange={handleChange} rows={10} cols={50} className="input-field" />
@@ -47,7 +47,7 @@ function ArticleObjectGenerator() {
       <button onClick={copyToClipboard}>Copy to Clipboard</button>
       <br/>
       <div value={output} readOnly className="JSONResponse output-text" />
-    </pre>
+    </div>
   );
 }
 
