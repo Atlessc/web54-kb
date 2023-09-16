@@ -88,6 +88,7 @@ const TextToJson = () => {
 
   return (
     <div className="TextToJson">
+      <h2>Table of Content Generator</h2>
       <h3 onClick={toggleShowRules} className='rules-btn'>Rule Set<span> ^</span></h3>
       {showRules && (
       <pre className="rules">
@@ -116,9 +117,10 @@ Example:
 /Page10
 <`}
       </pre>
+      
       )}
       <br />
-      <textarea value={text} onChange={handleTextChange} rows={10} cols={50} />
+      <textarea value={text} onChange={handleTextChange} rows={10} cols={50} className="input-field" />
       <br />
       <button onClick={handleConvertClick}>Convert to JSON</button>
       <br />

@@ -40,7 +40,7 @@ function ArticleObjectGenerator() {
     <pre>
       <h2>Article Object Generator</h2>
       <br/>
-      <textarea value={input} onChange={handleChange} />
+      <textarea value={input} onChange={handleChange} rows={10} cols={50} className="input-field" />
       <br/>
       <button onClick={generateJson}>Generate JSON</button>
       <br/>
