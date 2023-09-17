@@ -29,17 +29,24 @@ function Article() {
       // Get the id from the props
       const { id } = props;
     
-      // Find the item in the Articles array that has the same pageID as the id
-      const item = Articles.find((item) => item.pageID === id);
-    
-      // If the item is found, return a Link element to its TicketInfoID. Otherwise, return a message.
-      if (item) {
-        return <Link to={`/ticket-info/${item.TicketInfoID}`}>
-        Ticket Info
-      </Link>;
+      // Check if Articles is an array
+      if (Array.isArray(Articles)) {
+        // Find the item in the Articles array that has the same pageID as the id
+        const item = Articles.find((item) => item.pageID === id);
+      
+        // If the item is found, return a Link element to its TicketInfoID. Otherwise, return a message.
+        if (item) {
+          return <Link to={`/ticket-info/${item.TicketInfoID}`}>
+          Ticket Info
+        </Link>;
+        } else {
+          return <p>no ticket info needed or not determined</p>;
+        }
       } else {
-        return <p>no ticket info needed or not determined</p>;
+        // Handle the case when Articles is not an array
+        console.log("Articles is not an array");
       }
+      
     }
 
   return (
