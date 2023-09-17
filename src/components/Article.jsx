@@ -50,9 +50,9 @@ function Article() {
 
   return (
     <div className="markdown">
+      <GetTicketInfoID id={id} />
       <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
       {/* Pass the id as a prop to the GetTicketInfoID function */}
-      <GetTicketInfoID id={id} />
     </div>
   );
 }
