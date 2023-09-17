@@ -47,13 +47,13 @@
 }
 
 .button {
-    width: 5rem !important;
-    height: 2rem !important;
+    width: 7rem !important;
+    height: 2.75rem !important;
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 0.6em 1.2em;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: bolder;
     font-family: inherit;
     background-color: #1a1a1a;
     text-decoration: none !important;
