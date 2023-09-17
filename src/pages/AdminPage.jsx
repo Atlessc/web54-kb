@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import TextToJson from "../components/admin/TextToJSON.jsx"
 import ArticleObjectGenerator from "../components/admin/ArticleObjectGenerator.jsx"
-import '../styles/Admin.css'; 
+import '../styles/Admin.css';
 
 export default function AdminPage() {
   const [showComponent, setShowComponent] = useState('TextToJson');
