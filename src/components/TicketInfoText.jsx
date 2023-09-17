@@ -17,7 +17,7 @@ function TicketInfoText() {
   }, [id]);
 
   return (
-    <div>
+    <div className="markdown">
       <h2>Ticket Information for Article {id}</h2>
       <ReactMarkdown>{ticketInfoText}</ReactMarkdown>
     </div>

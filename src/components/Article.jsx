@@ -4,7 +4,6 @@ import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
 import Articles from "../data/Article-Objects.json";
 import '../styles/Article.css';
-import useStore from '../store';
 
 
 function Article() {
@@ -50,7 +49,7 @@ function Article() {
     }
 
   return (
-    <div>
+    <div className="markdown">
       <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
       {/* Pass the id as a prop to the GetTicketInfoID function */}
       <GetTicketInfoID id={id} />
