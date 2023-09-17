@@ -34,13 +34,13 @@ function Article() {
       });
     }, [id]);
 
+    const item = data.Articles.find((item) => item.pageID === id);
+
     function GetTicketInfoID(props) {
       // Get the ID from the URL using useParams hook
       const { id } = useParams();
     
-      // Find the item in the data.Articles array that has the same pageID as the ID
-      const item = data.Articles.find((item) => item.pageID === id);
-    
+      // Find the item in the data.Articles array that has the same pageID as the I
       // If the item is found, return its TicketInfoID. Otherwise, return a message.
       if (item) {
         return <Link to={`/ticket-info/${item.TicketInfoID}`}>
@@ -51,17 +51,14 @@ function Article() {
       }
     }
 
-
-    console.log(`Setting ticket info ID: ${ticketInfoID}`); // log before setting the ticket info ID // log before setting the article ID
+ // log before setting the ticket info ID // log before setting the article ID
     console.log(`Article ID: ${articleID}`); // log the article ID
-    console.log(`Ticket Info ID: ${ticketInfoID}`);
+    console.log(`Ticket Info ID: ${data.Articles.TicketInfoID}`);
 
   return (
     <div>
       <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
-      <Link to={`/ticket-info/${ticketInfoID}`}>
-        Ticket Info
-      </Link>
+      <GetTicketInfoID />
     </div>
   );
 }
