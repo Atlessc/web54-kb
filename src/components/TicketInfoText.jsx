@@ -1,12 +1,21 @@
 // TicketInfoText.js
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom'; // import useLocation
 import ReactMarkdown from 'react-markdown';
 import '../styles/Article.css';
 
 function TicketInfoText() {
   const { id } = useParams();
   const [ticketInfoText, setTicketInfoText] = useState('');
+
+  // Get the current location object using useLocation hook
+  const location = useLocation();
+
+  // Get the URL or param origin from the location state
+  const origin = location.state?.from;
+
+  // Use the origin as data for your component logic
+  console.log(origin);
 
   useEffect(() => {
     fetch(`/TicketInfo/${id}`)
@@ -18,7 +27,7 @@ function TicketInfoText() {
 
   return (
     <div className="markdown">
-      <h2>Ticket Information for Article {id}</h2>
+      <h2>Ticket Information for Article {origin}</h2>
       <ReactMarkdown>{ticketInfoText}</ReactMarkdown>
     </div>
   );
