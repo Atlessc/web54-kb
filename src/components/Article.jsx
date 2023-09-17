@@ -9,17 +9,9 @@ import useStore from '../store';
 
 function Article() {
 
-  const data = Articles;
-
   const { id } = useParams();
   const [articleMarkdown, setArticleMarkdown] = useState('');
   const [article, setArticle] = useState('');
-
-   // log the ticket info ID
-
-   const pageID = data.Articles.pageID;
-
-
 
   useEffect(() => {
   
@@ -30,18 +22,17 @@ function Article() {
         // Set the markdown state
         setArticleMarkdown(text);
         setArticle(id);
-        set
       });
     }, [id]);
 
-    const item = data.Articles.find((item) => item.pageID === id);
-
     function GetTicketInfoID(props) {
-      // Get the ID from the URL using useParams hook
-      const { id } = useParams();
+      // Get the id from the props
+      const { id } = props;
     
-      // Find the item in the data.Articles array that has the same pageID as the I
-      // If the item is found, return its TicketInfoID. Otherwise, return a message.
+      // Find the item in the Articles array that has the same pageID as the id
+      const item = Articles.find((item) => item.pageID === id);
+    
+      // If the item is found, return a Link element to its TicketInfoID. Otherwise, return a message.
       if (item) {
         return <Link to={`/ticket-info/${item.TicketInfoID}`}>
         Ticket Info
@@ -51,14 +42,11 @@ function Article() {
       }
     }
 
- // log before setting the ticket info ID // log before setting the article ID
-    console.log(`Article ID: ${articleID}`); // log the article ID
-    console.log(`Ticket Info ID: ${data.Articles.TicketInfoID}`);
-
   return (
     <div>
       <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
-      <GetTicketInfoID />
+      {/* Pass the id as a prop to the GetTicketInfoID function */}
+      <GetTicketInfoID id={id} />
     </div>
   );
 }
