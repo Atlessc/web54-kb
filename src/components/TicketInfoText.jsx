@@ -27,7 +27,7 @@ function TicketInfoText() {
 
   return (
     <div className="markdown">
-      <h2>Ticket Information</h2>
+      <h1>Ticket Information</h1>
       <p>Make sure you grab the WD article number to reference it in the ticket.</p>
       <ReactMarkdown className='Article'>{ticketInfoText}</ReactMarkdown>
     </div>
