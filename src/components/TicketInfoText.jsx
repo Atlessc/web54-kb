@@ -1,6 +1,7 @@
 // TicketInfoText.js
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import ReactMarkdown from 'react-markdown';
 
 function TicketInfoText() {
   const { id } = useParams();
@@ -17,7 +18,7 @@ function TicketInfoText() {
   return (
     <div>
       <h2>Ticket Information for Article {id}</h2>
-      <p>{ticketInfoText}</p>
+      <ReactMarkdown>{ticketInfoText}</ReactMarkdown>
     </div>
   );
 }
