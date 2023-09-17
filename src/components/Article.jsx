@@ -40,7 +40,7 @@ function Article() {
 
   return (
     <div>
-      {/* <ReactMarkdown>{articleMarkdown}</ReactMarkdown> */}
+      <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
       <Link to={`/ticket-info/${ticketInfoID}`}>
         Ticket Info
       </Link>
