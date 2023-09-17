@@ -21,7 +21,7 @@ function ArticlesMap() {
                         }}>{section.SectionTitle} <span className={showSection[index] ? "up" : "down"}>^</span></h2>
                         {showSection[index] && section.Items.map(item => (
                             item.pageID ? (
-                                <Link key={item.pageID} to={`/article/${item.pageID}.md`}>
+                                <Link key={item.pageID} to={`/article/${item.pageID}`}>
                                     <div className="item lv1-item">{item.pageTitle}</div>
                                 </Link>
                             ) : (
