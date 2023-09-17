@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import '../styles/Article.css';
 
 function TicketInfoText() {
   const { id } = useParams();
