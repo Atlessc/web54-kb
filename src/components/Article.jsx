@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom'; // import Link
 import ReactMarkdown from 'react-markdown';
 import { useState, useEffect } from 'react';
-import Articles from "../data/articles-map.json";
+import Articles from "../data/Article-Objects.json";
 import '../styles/Article.css';
 import useStore from '../store';
 
@@ -14,12 +14,10 @@ function Article() {
   const { id } = useParams();
   const [articleMarkdown, setArticleMarkdown] = useState('');
   const [article, setArticle] = useState('');
-  const articleID = useStore(state => state.articleID);
-  const setArticleID = useStore(state => state.setArticleID);
-  const ticketInfoID = useStore(state => state.ticketInfoID);
-  const setTicketInfoID = useStore(state => state.setTicketInfoID);
 
    // log the ticket info ID
+
+   const pageID = data.Articles.pageID;
 
 
 
@@ -30,9 +28,15 @@ function Article() {
       .then((response) => response.text())
       .then((text) => {
         // Set the markdown state
-        setArticleMarkdown(text); // log the fetched text
+        setArticleMarkdown(text);
+        setArticle(id);
+        set
       });
     }, [id]);
+
+    // use the Article state to get the data.Articles.TicketInfoID
+    const articleID = article;
+    const ticketInfoID = data.Articles.TicketInfoID;
 
     console.log(`Setting ticket info ID: ${ticketInfoID}`); // log before setting the ticket info ID // log before setting the article ID
     console.log(`Article ID: ${articleID}`); // log the article ID
