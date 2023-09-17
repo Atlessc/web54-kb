@@ -1,5 +1,8 @@
 .markdown {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     font-size: 16px;
     line-height: 1.8;
     padding: 10px;
