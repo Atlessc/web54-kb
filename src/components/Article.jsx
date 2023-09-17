@@ -36,7 +36,7 @@ function Article() {
         // If the item is found, return a Link element to its TicketInfoID. Otherwise, return a message.
         if (item) {
           return <Link to={`/ticket-info/${item.TicketInfoID}`} className='button'>
-          Ticket Info
+          <b>Ticket Info</b>
         </Link>;
         } else {
           return <p>no ticket info needed or not determined</p>;
@@ -51,7 +51,7 @@ function Article() {
   return (
     <div className="markdown">
       <GetTicketInfoID id={id} />
-      <ReactMarkdown>{articleMarkdown}</ReactMarkdown>
+      <ReactMarkdown className='Article'>{articleMarkdown}</ReactMarkdown>
       {/* Pass the id as a prop to the GetTicketInfoID function */}
     </div>
   );

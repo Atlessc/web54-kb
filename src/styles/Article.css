@@ -10,6 +10,17 @@
     text-align: left;
 }
 
+.Article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 10px;
+    max-width: 800px;
+    text-align: left;
+}
+
 .markdown h1 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
