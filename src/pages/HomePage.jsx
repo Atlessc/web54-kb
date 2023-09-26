@@ -3,22 +3,6 @@ import '../styles/Home.css'
 
 export default function HomePage() {
 
-  const handleOnMouseMove = (e) => {
-    const {currentTarget: target} = e;
-
-    const rect = target.getBoundingClientRect(),
-      x = e.clientX - rect.left,
-      y = e.clientY - rect.top;
-
-    target.style.setProperty('--x', `${ x }px`);
-    target.style.setProperty('--y', `${ y }px`);
-  }
-
-  for (const categoryContainer of document.querySelectorAll('.category-container')) {
-    categoryContainer.addEventListener = e => handleOnMouseMove(e);
-  }
-  
-
   return (
     <div className="home-container">
       <div className='important-message'>Important Message</div>

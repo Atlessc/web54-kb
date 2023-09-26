@@ -62,19 +62,23 @@
     font-weight: bolder;
     color: #ff6f00;
     position: relative;
+    cursor: pointer;
 }
 
-.category-box::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: radial-gradient(800px circle at var(--x) var(--y), rgba(255, 255, 255, 0.1), transparent 40%);
-    opacity: 0.2;
-    border-radius: 5px;
-    z-index: 2;
+.category-box:hover {
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: -5px 5px 0 #ff6f00;
+    transform: translate(5px, -5px);
+    -webkit-transform: translate(5px, -5px);
+    -moz-transform: translate(5px, -5px);
+    -ms-transform: translate(5px, -5px);
+    -o-transform: translate(5px, -5px);
+    transition: all 250ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+    -moz-transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -o-transition: all 250ms ease-in;
 }
 
 .box1 {
