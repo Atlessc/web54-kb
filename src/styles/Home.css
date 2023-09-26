@@ -20,4 +20,153 @@
     margin: 1rem 0;
     word-wrap: inherit;
     white-space: pre-wrap;
+    text-align: center;
+}
+
+.important-message {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 1rem 0;
+    word-wrap: inherit;
+    white-space: pre-wrap;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 1.2rem 0;
+    color: #ff6f00;
+}
+
+.home-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff6f00;
+    margin-top: 3rem;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(18, 20px);
+    grid-template-rows: repeat(12, 20px);
+    grid-gap: 1.8rem;
+}
+
+.category-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: #ff6f00;
+    position: relative;
+}
+
+.category-box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: radial-gradient(800px circle at var(--x) var(--y), rgba(255, 255, 255, 0.1), transparent 40%);
+    opacity: 0.2;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.box1 {
+    grid-column: span 8;
+    grid-row: span 3;
+    font-size: 3rem;
+}
+
+.box2 {
+    grid-column: span 6;
+    grid-row: span 6;
+    font-size: 3rem;
+}
+
+.box3 {
+    grid-column: span 4;
+    grid-row: span 6;
+    font-size: 3rem;
+}
+
+.box4 {
+    grid-column: span 5;
+    grid-row: span 3;
+    font-size: 4rem;
+}
+
+.box5 {
+    grid-column: span 3;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.box6 {
+    grid-column: span 3;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.box7 {
+    grid-column: span 8;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.box8 {
+    grid-column: span 7;
+    grid-row: span 5;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.box9 {
+    grid-column: span 8;
+    grid-row: span 8;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.box10 {
+    grid-column: span 3;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 2.3rem;
+}
+
+.box11 {
+    grid-column: span 3;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.box12 {
+    grid-column: span 4;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.box13 {
+    grid-column: span 3;
+    grid-row: span 5;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.box14 {
+    grid-column: span 7;
+    grid-row: span 3;
+    text-align: center;
+    font-size: 2rem;
 }
