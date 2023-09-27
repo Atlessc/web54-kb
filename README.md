@@ -1,4 +1,4 @@
-# [Support me on ku-fi](https://ko-fi.com/web54devco)
+# [Support me on Ko-fi](https://ko-fi.com/web54devco)
 # Demo Website: https://web54-kb.vercel.app/
 
 # Knowledge Base Template Website
