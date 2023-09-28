@@ -30,7 +30,7 @@ function ArticleObjectGenerator() {
     });
     console.log("should be an output text")
 
-    setOutput(JSON.stringify({ Articles: articles }, null, 2));
+    setOutput(JSON.stringify( articles, null, 2));
   };
 
   const copyToClipboard = () => {
