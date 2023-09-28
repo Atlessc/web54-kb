@@ -47,7 +47,7 @@ function ArticleObjectGenerator() {
       <br/>
       <button onClick={copyToClipboard}>Copy to Clipboard</button>
       <br/>
-      <div value={output} readOnly className="JSONResponse output-text" />
+      <div className="JSONResponse output-text">{output}</div>
     </div>
   );
 }
