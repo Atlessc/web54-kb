@@ -25,7 +25,7 @@ function ArticleObjectGenerator() {
         ],
         "category": [],
         "atlArticle": "Example/url | file/path",
-        "TicketInfoID": `TixInfo0${index + 1}.md`
+        "TicketInfoID": `TixInfo01.md`
       };
     });
 
