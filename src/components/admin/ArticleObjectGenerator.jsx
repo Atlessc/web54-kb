@@ -28,6 +28,7 @@ function ArticleObjectGenerator() {
         "TicketInfoID": "TixInfo01.md"
       };
     });
+    console.log("should be an output text")
 
     setOutput(JSON.stringify({ Articles: articles }, null, 2));
   };
