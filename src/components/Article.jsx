@@ -22,14 +22,13 @@ function Article() {
         setArticleMarkdown(text);
         setArticle(id);
       });
+      console.log(id);
     }, [id]);
 
     function GetTicketInfoID(props) {
       // Get the id from the props
       const { id } = props;
-    
-      // Check if Articles is an array
-      if (Array.isArray(Articles)) {
+
         // Find the item in the Articles array that has the same pageID as the id
         const item = Articles.find((item) => item.pageID === id);
       
@@ -41,12 +40,7 @@ function Article() {
         } else {
           return <p>no ticket info needed or not determined</p>;
         }
-      } else {
-        // Handle the case when Articles is not an array
-        console.log("Articles is not an array");
       }
-      
-    }
 
   return (
     <div className="markdown">
