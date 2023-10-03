@@ -318,16 +318,19 @@
   {
     "pageID": "WD0000022.md",
     "pageTitle": "/Escalated ticketes",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo02.md"
+      }
+    ]
   },
   {
     "pageID": "WD0000023.md",
