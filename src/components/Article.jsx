@@ -31,6 +31,7 @@ function Article() {
 
         // Find the item in the Articles array that has the same pageID as the id
         const item = Articles.find((item) => item.pageID === id);
+        console.log('item:', item);
       
         // If the item is found, return a Link element to its TicketInfoID. Otherwise, return a message.
         if (item) {
@@ -40,6 +41,7 @@ function Article() {
         } else {
           return <p>no ticket info needed or not determined</p>;
         }
+
       }
 
   return (
