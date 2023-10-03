@@ -16,16 +16,19 @@ function ArticleObjectGenerator() {
       return {
         "pageID": `WD00000${index + 1}.md`,
         "pageTitle": title.replace('/title ', ''),
-        "keywords": [],
-        "roleLvAccess": [
-          "owner",
-          "admin",
-          "techLv2",
-          "techLv1"
-        ],
-        "category": [],
-        "atlArticle": "Example/url | file/path",
-        "TicketInfoID": "TixInfo01.md"
+        "attributes": [
+          {
+            "roleLvAccess": [
+              "owner",
+              "admin",
+              "techLv2",
+              "techLv1"
+            ],
+            "category": [],
+            "atlArticle": "Example/url | file/path",
+            "TicketInfoID": "TixInfo01.md"
+          }
+        ]
       };
     });
     console.log("should be an output text")

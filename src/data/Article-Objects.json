@@ -3,99 +3,121 @@
     "pageID": "WD000001.md",
     "pageTitle": "/Everyday Essentials",
     "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000002.md",
     "pageTitle": "/Short hand",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000003.md",
     "pageTitle": "/Microsoft Store not working",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000004.md",
     "pageTitle": "/looking up devices in Aspen",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000005.md",
     "pageTitle": "/Windows Wi-Fi issues",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000006.md",
     "pageTitle": "/0365 documents opening in read only mode",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000007.md",
     "pageTitle": "/Microphone Feedback Issue",
-    "keywords": [],
-    "roleLvAccess": [
-      "owner",
-      "admin",
-      "techLv2",
-      "techLv1"
-    ],
-    "category": [],
-    "atlArticle": "Example/url | file/path",
-    "TicketInfoID": "TixInfo01.md"
+    "attributes": [
+      {
+        "roleLvAccess": [
+          "owner",
+          "admin",
+          "techLv2",
+          "techLv1"
+        ],
+        "category": [],
+        "atlArticle": "Example/url | file/path",
+        "TicketInfoID": "TixInfo01.md"
+      }
+    ]
   },
   {
     "pageID": "WD000008.md",
