@@ -23,14 +23,18 @@ function Article() {
       console.log(id);
     }, [id]);
 
-    function GetTicketInfoID(props) {
+    async function GetTicketInfoID(props) {
       // Get the id from the props
       const { id } = props;
     
-      // Find the item in the Articles array that has the same pageID as the id
-      const item = Articles.find((item) => item.pageID === id);
-    
+      // Initialize ticketInfoId
       let ticketInfoId;
+    
+      // Fetch the item in the Articles array that has the same pageID as the id
+      const response = await fetch(`/Articles/${id}`);
+      const data = await response.json();
+      const item = data.find((item) => item.pageID === id);
+    
       // If the item is found, check its attributes array for an object with a TicketInfoID
       if (item && item.attributes) {
         for (let attribute of item.attributes) {
@@ -42,14 +46,13 @@ function Article() {
       }
     
       // If ticketInfoId is found, return a Link element to its TicketInfoID. Otherwise, return a message.
-     
-        return (
-          <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
-            Ticket Info
-          </Link>
-          )
-      
+      return (
+        <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
+          Ticket Info
+        </Link>
+      );
     }
+    
     
 
   return (
