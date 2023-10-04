@@ -27,33 +27,33 @@ function Article() {
       // Get the id from the props
       const { id } = props;
     
-      // Initialize ticketInfoId
+      // Find the item in the Articles array that has the same pageID as the id
+      const item = Articles.find((item) => item.pageID === id);
+    
       let ticketInfoId;
-    
-      // Fetch the item in the Articles array that has the same pageID as the id
-      const response = await fetch(`/Articles/${id}`);
-      const data = await response.json();
-      const item = data.find((item) => item.pageID === id);
-    
       // If the item is found, check its attributes array for an object with a TicketInfoID
       if (item && item.attributes) {
-        for (let attribute of item.attributes) {
-          if (attribute.TicketInfoID) {
-            ticketInfoId = attribute.TicketInfoID;
-            break;
-          }
+        ticketInfoId = item.attributes.TicketInfoID;
+      }
+    
+      // If ticketInfoId is found, fetch its data
+      if (ticketInfoId) {
+        try {
+          const response = await fetch(`/ticket-info/${ticketInfoId}`);
+          const data = await response.json();
+          console.log(data);
+        } catch (error) {
+          console.error("Error:", error);
         }
       }
     
-      // If ticketInfoId is found, return a Link element to its TicketInfoID. Otherwise, return a message.
+      // Return a Link element to its TicketInfoID. Otherwise, return a message.
       return (
         <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
           Ticket Info
         </Link>
       );
-    }
-    
-    
+    }    
 
   return (
     <div className="markdown">
