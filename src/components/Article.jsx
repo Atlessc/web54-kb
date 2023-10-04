@@ -42,13 +42,13 @@ function Article() {
       }
     
       // If ticketInfoId is found, return a Link element to its TicketInfoID. Otherwise, return a message.
-      if (ticketInfoId) {
-        return <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
-        Ticket Info
-        </Link>;
-      } else {
-        return <p>no ticket info needed or not determined</p>;
-      }
+     
+        return (
+          <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
+            Ticket Info for {id} - {ticketInfoId}
+          </Link>
+          )
+      
     }
     
 
