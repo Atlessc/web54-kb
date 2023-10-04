@@ -325,7 +325,7 @@
   {
     "pageID": "WD0000020.md",
     "pageTitle": "/plugins missing/not working in Adobe apps",
-    "attributes": [
+    "attributes": 
       {
         "roleLvAccess": [
           "owner",
@@ -337,7 +337,6 @@
         "atlArticle": "Example/url | file/path",
         "TicketInfoID": "TixInfo01.md"
       }
-    ]
   },
   {
     "pageID": "WD0000021.md",

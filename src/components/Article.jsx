@@ -45,7 +45,7 @@ function Article() {
      
         return (
           <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
-            Ticket Info for {id} - {ticketInfoId}
+            Ticket Info
           </Link>
           )
       

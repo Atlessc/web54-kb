@@ -16,7 +16,7 @@ function ArticleObjectGenerator() {
       return {
         "pageID": `WD00000${index + 1}.md`,
         "pageTitle": title.replace('/title ', ''),
-        "attributes": [
+        "attributes": 
           {
             "roleLvAccess": [
               "owner",
@@ -28,7 +28,7 @@ function ArticleObjectGenerator() {
             "atlArticle": "Example/url | file/path",
             "TicketInfoID": "TixInfo01.md"
           }
-        ]
+        
       };
     });
     console.log("should be an output text")
