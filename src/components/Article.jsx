@@ -26,20 +26,21 @@ function Article() {
     function GetTicketInfoID(props) {
       // Get the id from the props
       const { id } = props;
-
+    
       // Find the item in the Articles array that has the same pageID as the id
       const item = Articles.find((item) => item.pageID === id);
-
+    
       let ticketInfoId;
-      // If the item is found, check if it has a direct TicketInfoID property
-      if (item && item.TicketInfoID) {
-        ticketInfoId = item.TicketInfoID;
-      } 
-      // If not, check if it has an attributes array and use the TicketInfoID from the first attribute
-      else if (item && item.attributes && item.attributes.length > 0 && item.attributes[0].TicketInfoID) {
-        ticketInfoId = item.attributes[0].TicketInfoID;
+      // If the item is found, check its attributes array for an object with a TicketInfoID
+      if (item && item.attributes) {
+        for (let attribute of item.attributes) {
+          if (attribute.TicketInfoID) {
+            ticketInfoId = attribute.TicketInfoID;
+            break;
+          }
+        }
       }
-
+    
       // If ticketInfoId is found, return a Link element to its TicketInfoID. Otherwise, return a message.
       if (ticketInfoId) {
         return <Link to={`/ticket-info/${ticketInfoId}`} className='button'>
@@ -49,6 +50,7 @@ function Article() {
         return <p>no ticket info needed or not determined</p>;
       }
     }
+    
 
   return (
     <div className="markdown">
