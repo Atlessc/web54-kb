@@ -12,23 +12,24 @@ function ArticleObjectGenerator() {
 
   const generateJson = () => {
     const titles = input.split('\n');
+    
     const articles = titles.map((title, index) => {
+      // create a for loop for each index create a new object
+      const pageID = "WD00000"+`${index+1}`+".md";
       return {
-        "pageID": `WD00000${index + 1}.md`,
+        // make the page id a dynamic key  of the data based on the index
+        [pageID]: {
         "pageTitle": title.replace('/title ', ''),
-        "attributes": 
-          {
-            "roleLvAccess": [
-              "owner",
-              "admin",
-              "techLv2",
-              "techLv1"
-            ],
-            "category": [],
-            "atlArticle": "Example/url | file/path",
-            "TicketInfoID": "TixInfo01.md"
-          }
-        
+        "roleLvAccess": [
+          "owner",
+          "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path",
+          "TicketInfoID": "TixInfo01.md"
+        }
       };
     });
     console.log("should be an output text")

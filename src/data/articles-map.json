@@ -52,7 +52,7 @@
         },
         {
           "pageID": "WD000004.md",
-          "pageTitle": "looking up devices in Aspen",
+          "pageTitle": "Looking up devices in Aspen",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -108,7 +108,7 @@
         },
         {
           "pageID": "WD000008.md",
-          "pageTitle": "Shard Indox",
+          "pageTitle": "Shared Inbox",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -122,7 +122,7 @@
         },
         {
           "pageID": "WD000009.md",
-          "pageTitle": "Checking dell Warrany",
+          "pageTitle": "Resetting passwords for users On PC",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -136,7 +136,7 @@
         },
         {
           "pageID": "WD000010.md",
-          "pageTitle": "Escalating a ticket",
+          "pageTitle": "Checking dell Warrany",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -150,7 +150,7 @@
         },
         {
           "pageID": "WD000011.md",
-          "pageTitle": "passwords",
+          "pageTitle": "Passwords",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -164,7 +164,7 @@
         },
         {
           "pageID": "WD000012.md",
-          "pageTitle": "installing a network drive",
+          "pageTitle": "Fixing certificate issues on PC's",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -178,7 +178,7 @@
         },
         {
           "pageID": "WD000013.md",
-          "pageTitle": "fixing certificate issues",
+          "pageTitle": "PC or App on PC Running Slow",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -192,21 +192,7 @@
         },
         {
           "pageID": "WD000014.md",
-          "pageTitle": "device or app running slow",
-          "keywords": [],
-          "roleLvAccess": [
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-          ],
-          "category": [],
-          "atlArticle": "Example/url | file/path",
-          "TicketInfoID": "TixInfo01.md"
-        },
-        {
-          "pageID": "WD000015.md",
-          "pageTitle": "low storage issue",
+          "pageTitle": "Low Storage on a PC",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -224,8 +210,22 @@
       "SectionTitle": "Mac Basic",
       "Items": [
         {
+          "pageID": "WD000015.md",
+          "pageTitle": "Fixing Certificate issues For Mac's",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path",
+          "TicketInfoID": "TixInfo01.md"
+        },
+        {
           "pageID": "WD000016.md",
-          "pageTitle": "Fixing Certificate issues",
+          "pageTitle": "Macbook or macOS Apps Running Slow",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -239,7 +239,7 @@
         },
         {
           "pageID": "WD000017.md",
-          "pageTitle": "Device or app running slow",
+          "pageTitle": "Wifi Connection Issues",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -253,7 +253,7 @@
         },
         {
           "pageID": "WD000018.md",
-          "pageTitle": "Wifi connection Issues",
+          "pageTitle": "Top Menu Bar Missing",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -267,7 +267,7 @@
         },
         {
           "pageID": "WD000019.md",
-          "pageTitle": "Top Menu bar missing",
+          "pageTitle": "Plugins Missing/Not Working In Adobe Apps",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -281,20 +281,6 @@
         },
         {
           "pageID": "WD000020.md",
-          "pageTitle": "plugins missing/not working in Adobe apps",
-          "keywords": [],
-          "roleLvAccess": [
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-          ],
-          "category": [],
-          "atlArticle": "Example/url | file/path",
-          "TicketInfoID": "TixInfo01.md"
-        },
-        {
-          "pageID": "WD000021.md",
           "pageTitle": "Profiles missing from system settings",
           "keywords": [],
           "roleLvAccess": [
@@ -308,36 +294,22 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000022.md",
-          "pageTitle": "eSIM (Digital SIM card) Activation Steps",
-          "keywords": [],
-          "roleLvAccess": [
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-          ],
-          "category": [],
-          "atlArticle": "Example/url | file/path",
-          "TicketInfoID": "TixInfo01.md"
-        },
-        {
-          "pageID": "WD000023.md",
-          "pageTitle": "Network drives",
-          "keywords": [],
-          "roleLvAccess": [
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-          ],
-          "category": [],
-          "atlArticle": "Example/url | file/path",
-          "TicketInfoID": "TixInfo01.md"
-        },
-        {
-          "pageID": "WD000024.md",
+          "pageID": "WD000021.md",
           "pageTitle": "Jamf Cloud",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path",
+          "TicketInfoID": "TixInfo01.md"
+        },
+        {
+          "pageID": "WD000022.md",
+          "pageTitle": "Jamf Migration",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -355,8 +327,36 @@
       "SectionTitle": "MDM iPhone",
       "Items": [
         {
+          "pageID": "WD000023.md",
+          "pageTitle": "iPhone Returns",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path",
+          "TicketInfoID": "TixInfo01.md"
+        },
+        {
+          "pageID": "WD000024.md",
+          "pageTitle": "eSIM (Digital SIM) Activation Steps",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path",
+          "TicketInfoID": "TixInfo01.md"
+        },
+        {
           "pageID": "WD000025.md",
-          "pageTitle": "iPhone info for escalated ticketes",
+          "pageTitle": "Wifi Connection Issues",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -370,7 +370,7 @@
         },
         {
           "pageID": "WD000026.md",
-          "pageTitle": "iPhone returns",
+          "pageTitle": "iPhone or iPad Hardware Repair Process",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -381,24 +381,15 @@
           "category": [],
           "atlArticle": "Example/url | file/path",
           "TicketInfoID": "TixInfo01.md"
-        },
+        }
+      ]
+    },
+    {
+      "SectionTitle": "New Hire",
+      "Items": [
         {
           "pageID": "WD000027.md",
-          "pageTitle": "Wifi Connection issues",
-          "keywords": [],
-          "roleLvAccess": [
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-          ],
-          "category": [],
-          "atlArticle": "Example/url | file/path",
-          "TicketInfoID": "TixInfo01.md"
-        },
-        {
-          "pageID": "WD000028.md",
-          "pageTitle": "hardware repair",
+          "pageTitle": "New Hire Quick Tips",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -416,7 +407,7 @@
       "SectionTitle": "Loaner Processes",
       "Items": [
         {
-          "pageID": "WD000029.md",
+          "pageID": "WD000028.md",
           "pageTitle": "Loaner Scope",
           "keywords": [],
           "roleLvAccess": [
@@ -430,7 +421,7 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000030.md",
+          "pageID": "WD000029.md",
           "pageTitle": "Loaner Request Form",
           "keywords": [],
           "roleLvAccess": [
@@ -444,7 +435,7 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000031.md",
+          "pageID": "WD000030.md",
           "pageTitle": "Loaner Device setup",
           "keywords": [],
           "roleLvAccess": [
@@ -458,7 +449,7 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000032.md",
+          "pageID": "WD000031.md",
           "pageTitle": "Last Steps of loaner deployment",
           "keywords": [],
           "roleLvAccess": [
@@ -472,8 +463,22 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
+          "pageID": "WD000032.md",
+          "pageTitle": "Day-loaner chargers",
+          "keywords": [],
+          "roleLvAccess": [
+            "owner",
+            "admin",
+            "techLv2",
+            "techLv1"
+          ],
+          "category": [],
+          "atlArticle": "Example/url | file/path",
+          "TicketInfoID": "TixInfo01.md"
+        },
+        {
           "pageID": "WD000033.md",
-          "pageTitle": "day-loaner chargers",
+          "pageTitle": "Shipping devices back to PDX Village",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -487,20 +492,6 @@
         },
         {
           "pageID": "WD000034.md",
-          "pageTitle": "shipping devices back to PDX Village",
-          "keywords": [],
-          "roleLvAccess": [
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-          ],
-          "category": [],
-          "atlArticle": "Example/url | file/path",
-          "TicketInfoID": "TixInfo01.md"
-        },
-        {
-          "pageID": "WD000035.md",
           "pageTitle": "Loaner Past due return Message",
           "keywords": [],
           "roleLvAccess": [
@@ -514,7 +505,7 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000036.md",
+          "pageID": "WD000035.md",
           "pageTitle": "Loaner Notes update",
           "keywords": [],
           "roleLvAccess": [
@@ -528,8 +519,8 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000037.md",
-          "pageTitle": "loaner return process",
+          "pageID": "WD000036.md",
+          "pageTitle": "Loaner return process",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -547,7 +538,7 @@
       "SectionTitle": "Software",
       "Items": [
         {
-          "pageID": "WD000038.md",
+          "pageID": "WD000037.md",
           "pageTitle": "How to use Software Center",
           "keywords": [],
           "roleLvAccess": [
@@ -561,8 +552,8 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000039.md",
-          "pageTitle": "software center error \"components are missing\"",
+          "pageID": "WD000038.md",
+          "pageTitle": "Software center error \"components are missing\"",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -580,8 +571,8 @@
       "SectionTitle": "Commands",
       "Items": [
         {
-          "pageID": "WD000040.md",
-          "pageTitle": "PC",
+          "pageID": "WD000039.md",
+          "pageTitle": "PC Commands",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -594,8 +585,8 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000041.md",
-          "pageTitle": "Mac",
+          "pageID": "WD000040.md",
+          "pageTitle": "Mac Commands",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -613,7 +604,7 @@
       "SectionTitle": "VPNs",
       "Items": [
         {
-          "pageID": "WD000042.md",
+          "pageID": "WD000041.md",
           "pageTitle": "VPNs",
           "keywords": [],
           "roleLvAccess": [
@@ -632,8 +623,8 @@
       "SectionTitle": "Printers",
       "Items": [
         {
-          "pageID": "WD000043.md",
-          "pageTitle": "PC",
+          "pageID": "WD000042.md",
+          "pageTitle": "Printing on PC",
           "keywords": [],
           "roleLvAccess": [
             "owner",
@@ -646,8 +637,8 @@
           "TicketInfoID": "TixInfo01.md"
         },
         {
-          "pageID": "WD000044.md",
-          "pageTitle": "Mac",
+          "pageID": "WD000043.md",
+          "pageTitle": "Printing on Mac",
           "keywords": [],
           "roleLvAccess": [
             "owner",

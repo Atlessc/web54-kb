@@ -4,59 +4,60 @@
 >PC Basics
 /Short hand
 /Microsoft Store not working
-/looking up devices in Aspen
+/Looking up devices in Aspen
 /Windows Wi-Fi issues
 /0365 documents opening in read only mode
 /Microphone Feedback Issue
-/Shard Indox
+/Shared Inbox
+/Resetting passwords for users On PC
 /Checking dell Warrany
-/Escalating a ticket
-/passwords
-/installing a network drive
-/fixing certificate issues
-/device or app running slow
-/low storage issue
+/Passwords
+/Fixing certificate issues on PC's
+/PC or App on PC Running Slow
+/Low Storage on a PC
 <
 >Mac Basic
-/Fixing Certificate issues
-/Device or app running slow
-/Wifi connection Issues
-/Top Menu bar missing
-/plugins missing/not working in Adobe apps
+/Fixing Certificate issues For Mac's
+/Macbook or macOS Apps Running Slow
+/Wifi Connection Issues
+/Top Menu Bar Missing
+/Plugins Missing/Not Working In Adobe Apps
 /Profiles missing from system settings
-/Escalated ticketes
-/Network drives
 /Jamf Cloud
+/Jamf Migration
 <
 >MDM iPhone
-/iPhone info for escalated ticketes
-/iPhone returns
-/Wifi Connection issues
-/hardware repair
+/iPhone Returns
+/eSIM (Digital SIM) Activation Steps
+/Wifi Connection Issues
+/iPhone or iPad Hardware Repair Process
+<
+>New Hire
+/New Hire Quick Tips
 <
 >Loaner Processes
 /Loaner Scope
 /Loaner Request Form
 /Loaner Device setup
 /Last Steps of loaner deployment
-/day-loaner chargers
-/shipping devices back to PDX Village
+/Day-loaner chargers
+/Shipping devices back to PDX Village
 /Loaner Past due return Message
 /Loaner Notes update
-/loaner return process
+/Loaner return process
 <
 >Software
 /How to use Software Center
-/software center error "components are missing"
+/Software center error "components are missing"
 <
 >Commands
-/PC
-/Mac
+/PC Commands
+/Mac Commands
 <
 >VPNs
 /VPNs
 <
 >Printers
-/PC
-/Mac
+/Printing on PC
+/Printing on Mac
 <
