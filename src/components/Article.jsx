@@ -30,11 +30,11 @@ function Article() {
         // Fetch TicketInfoID and set it in your store
         
       });
-      TicketInfo();
-      console.log(articleID);
+    TicketInfo();
+    console.log(articleID);
   }, [id, articleID, setArticleID, setArticleMarkdown, ticketInfoID, setTicketInfoID]);
 
-  async function TicketInfo () {
+  function TicketInfo () {
     setTicketInfoID(Articles[articleID].TicketInfoID);
     console.log(ticketInfoID);
   }
