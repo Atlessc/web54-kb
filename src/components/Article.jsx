@@ -29,8 +29,8 @@ function Article() {
         
         // Fetch TicketInfoID and set it in your store
         
-      });
     TicketInfo();
+      });
     console.log(articleID);
   }, [id, articleID, setArticleID, setArticleMarkdown, ticketInfoID, setTicketInfoID]);
 
