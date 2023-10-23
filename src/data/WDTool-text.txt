@@ -10,9 +10,8 @@
 /Microphone Feedback Issue
 /Shared Inbox
 /Resetting passwords for users On PC
-/Checking dell Warrany
-/Passwords
 /Fixing certificate issues on PC's
+/Ordering Accessories
 /PC or App on PC Running Slow
 /Low Storage on a PC
 <
