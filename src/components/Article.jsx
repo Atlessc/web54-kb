@@ -35,8 +35,8 @@ function Article() {
         // }, 250);
       });
       // TicketInfo();
-    console.log(Articles.state(articleID).TicketInfoID);
-  }, [id]);
+    console.log(Articles[articleID].TicketInfoID);
+  }, []);
 
   // function TicketInfo () {
   //   setTicketInfoID(Articles[articleID].TicketInfoID);
