@@ -36,7 +36,7 @@ function Article() {
       });
       // TicketInfo();
     console.log(articleID);
-  }, [id, articleID, setArticleID, setArticleMarkdown, ticketInfoID, setTicketInfoID]);
+  }, [id]);
 
   // function TicketInfo () {
   //   setTicketInfoID(Articles[articleID].TicketInfoID);
