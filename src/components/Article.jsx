@@ -25,7 +25,7 @@ function Article() {
         // Set the markdown state with the fetched content
         setArticleMarkdown(text);
         // Access the TicketInfoID using the articleID from the JSON object
-        const tixInfoID = Articles.find((article) => article[id] != null)?.TicketInfoID;
+        const tixInfoID = Articles.find(article => article[id] != null)?.[id].TicketInfoID
         console.log(tixInfoID, Articles, id);
 
          // Using optional chaining to avoid errors
