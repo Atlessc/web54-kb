@@ -32,18 +32,6 @@ function textToJson(text) {
       const pageItem = {
         'pageID': `WD${pageID.toString().padStart(6, '0')}.md`,
         'pageTitle': line.slice(1).trim(),
-        "keywords": [],
-        "roleLvAccess": [
-          
-            "owner",
-            "admin",
-            "techLv2",
-            "techLv1"
-            
-        ],
-        "category": [],
-        "atlArticle": "Example/url | file/path",
-        "TicketInfoID": "TixInfo01.md",
       };
       pageID += 1;
       if (!currentSection) {

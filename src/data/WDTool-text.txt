@@ -26,10 +26,11 @@
 /Jamf Migration
 <
 >MDM iPhone
-/iPhone Returns
+/When user's return phones to TechZone
 /eSIM (Digital SIM) Activation Steps
 /Wifi Connection Issues
 /iPhone or iPad Hardware Repair Process
+/Setting up A New iPhone
 <
 >New Hire
 /New Hire Quick Tips
