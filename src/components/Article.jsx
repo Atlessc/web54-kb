@@ -30,9 +30,9 @@ function Article() {
         
     // Fetch TicketInfoID and set it in your store
         
-        setTimeout(() => {
-          setTicketInfoID(Articles.state(articleID).TicketInfoID);
-        }, 250);
+        // setTimeout(() => {
+        //   setTicketInfoID(Articles.state(articleID).TicketInfoID);
+        // }, 250);
       });
       // TicketInfo();
     console.log(Articles.state(articleID).TicketInfoID);
