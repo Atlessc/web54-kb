@@ -35,7 +35,7 @@ function Article() {
         }, 250);
       });
       // TicketInfo();
-    console.log(Articles[articleID]);
+    console.log({Articles});
   }, [id]);
 
   // function TicketInfo () {
