@@ -25,7 +25,7 @@ function Article() {
         // Set the markdown state with the fetched content
         setArticleMarkdown(text);
         // Access the TicketInfoID using the articleID from the JSON object
-        const tixInfoID = Articles[id]?.TicketInfoID;
+        const tixInfoID = Articles.find((article) => article[id] != null)?.TicketInfoID;
         console.log(Articles, id);
 
          // Using optional chaining to avoid errors
@@ -36,7 +36,7 @@ function Article() {
       })
       .catch((error) => {
         // It's a good practice to handle errors in case the fetch fails
-        console.error('Error fetching article content:', error);
+        console.log('Error fetching article content:', error);
       });
   
     // Dependencies array includes everything that, if changed, should re-run this effect
