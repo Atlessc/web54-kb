@@ -29,13 +29,14 @@ function Article() {
         setArticleMarkdown(text);
         
     // Fetch TicketInfoID and set it in your store
-        // set a timer to wait for the article to load
+        
         setTimeout(() => {
           setTicketInfoID(Articles[articleID].TicketInfoID);
-        }, 1000);
+        }, 250);
       });
       // TicketInfo();
     console.log(articleID);
+    console.log(ticketInfoID);
   }, [id]);
 
   // function TicketInfo () {
