@@ -25,9 +25,13 @@ function Article() {
         // Set the markdown state with the fetched content
         setArticleMarkdown(text);
         // Access the TicketInfoID using the articleID from the JSON object
-        const tixInfoID = Articles[id]?.TicketInfoID; // Using optional chaining to avoid errors
+        const tixInfoID = Articles[id]?.TicketInfoID;
+
+         // Using optional chaining to avoid errors
         if (tixInfoID) {
-          setTicketInfoID(ticketInfoID); // Set the TicketInfoID in your state
+          // Set the TicketInfoID in your state
+          setTicketInfoID(ticketInfoID);
+          console.log(tixInfoID);
         }
       })
       .catch((error) => {
