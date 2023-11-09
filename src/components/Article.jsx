@@ -16,27 +16,30 @@ function Article() {
   const ticketInfoID = useStore((state) => state.ticketInfoID);
   const setTicketInfoID = useStore((state) => state.setTicketInfoID);
 
-  setArticleID(id);
-
   useEffect(() => {
-    setArticleID(id);
-
+    // The ID from the URL params is already in the correct format to use as a key in your JSON object.
+    setArticleID(id); // This sets the article ID in your state
+  
     // Fetch article content
     fetch(`/Articles/${id}`)
       .then((response) => response.text())
       .then((text) => {
-        // Set the markdown state
+        // Set the markdown state with the fetched content
         setArticleMarkdown(text);
-        
-    // Fetch TicketInfoID and set it in your store
-        
-        // setTimeout(() => {
-        //   setTicketInfoID(Articles.state(articleID).TicketInfoID);
-        // }, 250);
+        // Access the TicketInfoID using the articleID from the JSON object
+        const ticketInfoID = Articles[id]?.TicketInfoID; // Using optional chaining to avoid errors
+        if (ticketInfoID) {
+          setTicketInfoID(ticketInfoID); // Set the TicketInfoID in your state
+        }
+      })
+      .catch((error) => {
+        // It's a good practice to handle errors in case the fetch fails
+        console.error('Error fetching article content:', error);
       });
-      // TicketInfo();
-    console.log(Articles[articleID].TicketInfoID);
-  }, []);
+  
+    // Dependencies array includes everything that, if changed, should re-run this effect
+  }, [id, setArticleID, setTicketInfoID]);
+  
 
   // function TicketInfo () {
   //   setTicketInfoID(Articles[articleID].TicketInfoID);
