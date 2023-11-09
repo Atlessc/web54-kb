@@ -31,24 +31,14 @@ function Article() {
          // Using optional chaining to avoid errors
         if (tixInfoID) {
           // Set the TicketInfoID in your state
-          setTicketInfoID(ticketInfoID);
+          setTicketInfoID(tixInfoID);
         }
       })
       .catch((error) => {
         // It's a good practice to handle errors in case the fetch fails
         console.log('Error fetching article content:', error);
       });
-  
-    // Dependencies array includes everything that, if changed, should re-run this effect
   }, [id, setArticleID, setTicketInfoID]);
-  
-
-  // function TicketInfo () {
-  //   setTicketInfoID(Articles[articleID].TicketInfoID);
-  //   console.log(ticketInfoID);
-  // }
-
-    
 
   return (
     <div className="markdown">
