@@ -6,6 +6,7 @@ import Articles from "../data/Article-Objects.json";
 import '../styles/Article.css';
 import useStore from '../store';
 
+
 function Article() {
 
   const { id } = useParams();
@@ -27,17 +28,20 @@ function Article() {
         // Set the markdown state
         setArticleMarkdown(text);
         
-        // Fetch TicketInfoID and set it in your store
-        
-    TicketInfo();
+    // Fetch TicketInfoID and set it in your store
+        // set a timer to wait for the article to load
+        setTimeout(() => {
+          setTicketInfoID(Articles[articleID].TicketInfoID);
+        }, 1000);
       });
+      // TicketInfo();
     console.log(articleID);
   }, [id, articleID, setArticleID, setArticleMarkdown, ticketInfoID, setTicketInfoID]);
 
-  function TicketInfo () {
-    setTicketInfoID(Articles[articleID].TicketInfoID);
-    console.log(ticketInfoID);
-  }
+  // function TicketInfo () {
+  //   setTicketInfoID(Articles[articleID].TicketInfoID);
+  //   console.log(ticketInfoID);
+  // }
 
     
 
