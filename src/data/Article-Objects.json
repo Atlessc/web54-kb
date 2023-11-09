@@ -1,4 +1,5 @@
-{
+[
+  {
     "WD000001.md": {
       "pageTitle": "Everyday Essentials",
       "roleLvAccess": [
@@ -10,7 +11,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000002.md": {
       "pageTitle": "Short hand",
       "roleLvAccess": [
@@ -22,7 +25,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000003.md": {
       "pageTitle": "Microsoft Store not working",
       "roleLvAccess": [
@@ -34,7 +39,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000004.md": {
       "pageTitle": "Looking up devices in Aspen",
       "roleLvAccess": [
@@ -46,7 +53,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000005.md": {
       "pageTitle": "Windows Wi-Fi issues",
       "roleLvAccess": [
@@ -58,7 +67,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000006.md": {
       "pageTitle": "0365 documents opening in read only mode",
       "roleLvAccess": [
@@ -70,7 +81,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000007.md": {
       "pageTitle": "Microphone Feedback Issue",
       "roleLvAccess": [
@@ -82,7 +95,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000008.md": {
       "pageTitle": "Shared Inbox",
       "roleLvAccess": [
@@ -94,7 +109,9 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
+    }
+  },
+  {
     "WD000009.md": {
       "pageTitle": "Resetting passwords for users On PC",
       "roleLvAccess": [
@@ -106,8 +123,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000010.md": {
+    }
+  },
+  {
+    "WD000010.md": {
       "pageTitle": "Checking dell Warrany",
       "roleLvAccess": [
         "owner",
@@ -118,8 +137,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000011.md": {
+    }
+  },
+  {
+    "WD000011.md": {
       "pageTitle": "Passwords",
       "roleLvAccess": [
         "owner",
@@ -130,8 +151,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000012.md": {
+    }
+  },
+  {
+    "WD000012.md": {
       "pageTitle": "Fixing certificate issues on PC's",
       "roleLvAccess": [
         "owner",
@@ -142,10 +165,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-
-
-    "WD0000013.md": {
+    }
+  },
+  {
+    "WD000013.md": {
       "pageTitle": "PC or App on PC Running Slow",
       "roleLvAccess": [
         "owner",
@@ -156,8 +179,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000014.md": {
+    }
+  },
+  {
+    "WD000014.md": {
       "pageTitle": "Low Storage on a PC",
       "roleLvAccess": [
         "owner",
@@ -168,8 +193,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000015.md": {
+    }
+  },
+  {
+    "WD000015.md": {
       "pageTitle": "Fixing Certificate issues For Mac's",
       "roleLvAccess": [
         "owner",
@@ -180,8 +207,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000016.md": {
+    }
+  },
+  {
+    "WD000016.md": {
       "pageTitle": "Macbook or macOS Apps Running Slow",
       "roleLvAccess": [
         "owner",
@@ -192,8 +221,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000017.md": {
+    }
+  },
+  {
+    "WD000017.md": {
       "pageTitle": "Wifi Connection Issues",
       "roleLvAccess": [
         "owner",
@@ -204,10 +235,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-
-
-    "WD0000018.md": {
+    }
+  },
+  {
+    "WD000018.md": {
       "pageTitle": "Top Menu Bar Missing",
       "roleLvAccess": [
         "owner",
@@ -218,10 +249,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-
-
-    "WD0000019.md": {
+    }
+  },
+  {
+    "WD000019.md": {
       "pageTitle": "Plugins Missing/Not Working In Adobe Apps",
       "roleLvAccess": [
         "owner",
@@ -232,8 +263,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000020.md": {
+    }
+  },
+  {
+    "WD000020.md": {
       "pageTitle": "Profiles missing from system settings",
       "roleLvAccess": [
         "owner",
@@ -244,8 +277,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000021.md": {
+    }
+  },
+  {
+    "WD000021.md": {
       "pageTitle": "Jamf Cloud",
       "roleLvAccess": [
         "owner",
@@ -256,8 +291,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000022.md": {
+    }
+  },
+  {
+    "WD000022.md": {
       "pageTitle": "Jamf Migration",
       "roleLvAccess": [
         "owner",
@@ -268,8 +305,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000023.md": {
+    }
+  },
+  {
+    "WD000023.md": {
       "pageTitle": "iPhone Returns",
       "roleLvAccess": [
         "owner",
@@ -280,8 +319,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo02.md"
-    },
-    "WD0000024.md": {
+    }
+  },
+  {
+    "WD000024.md": {
       "pageTitle": "eSIM (Digital SIM) Activation Steps",
       "roleLvAccess": [
         "owner",
@@ -292,8 +333,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo02.md"
-    },
-    "WD0000025.md": {
+    }
+  },
+  {
+    "WD000025.md": {
       "pageTitle": "Wifi Connection Issues",
       "roleLvAccess": [
         "owner",
@@ -304,8 +347,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo02.md"
-    },
-    "WD0000026.md": {
+    }
+  },
+  {
+    "WD000026.md": {
       "pageTitle": "iPhone or iPad Hardware Repair Process",
       "roleLvAccess": [
         "owner",
@@ -316,8 +361,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo02.md"
-    },
-    "WD0000027.md": {
+    }
+  },
+  {
+    "WD000027.md": {
       "pageTitle": "New Hire Quick Tips",
       "roleLvAccess": [
         "owner",
@@ -327,9 +374,11 @@
       ],
       "category": [],
       "atlArticle": "Example/url | file/path",
-      "TicketInfoID": ""
-    },
-    "WD0000028.md": {
+      "TicketInfoID": "TixInfo01.md"
+    }
+  },
+  {
+    "WD000028.md": {
       "pageTitle": "Loaner Scope",
       "roleLvAccess": [
         "owner",
@@ -340,8 +389,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000029.md": {
+    }
+  },
+  {
+    "WD000029.md": {
       "pageTitle": "Loaner Request Form",
       "roleLvAccess": [
         "owner",
@@ -352,8 +403,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000030.md": {
+    }
+  },
+  {
+    "WD000030.md": {
       "pageTitle": "Loaner Device setup",
       "roleLvAccess": [
         "owner",
@@ -364,8 +417,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000031.md": {
+    }
+  },
+  {
+    "WD000031.md": {
       "pageTitle": "Last Steps of loaner deployment",
       "roleLvAccess": [
         "owner",
@@ -376,8 +431,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000032.md": {
+    }
+  },
+  {
+    "WD000032.md": {
       "pageTitle": "Day-loaner chargers",
       "roleLvAccess": [
         "owner",
@@ -388,8 +445,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000033.md": {
+    }
+  },
+  {
+    "WD000033.md": {
       "pageTitle": "Shipping devices back to PDX Village",
       "roleLvAccess": [
         "owner",
@@ -400,8 +459,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000034.md": {
+    }
+  },
+  {
+    "WD000034.md": {
       "pageTitle": "Loaner Past due return Message",
       "roleLvAccess": [
         "owner",
@@ -412,8 +473,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000035.md": {
+    }
+  },
+  {
+    "WD000035.md": {
       "pageTitle": "Loaner Notes update",
       "roleLvAccess": [
         "owner",
@@ -424,8 +487,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000036.md": {
+    }
+  },
+  {
+    "WD000036.md": {
       "pageTitle": "Loaner return process",
       "roleLvAccess": [
         "owner",
@@ -436,8 +501,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000037.md": {
+    }
+  },
+  {
+    "WD000037.md": {
       "pageTitle": "How to use Software Center",
       "roleLvAccess": [
         "owner",
@@ -448,8 +515,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000038.md": {
+    }
+  },
+  {
+    "WD000038.md": {
       "pageTitle": "Software center error \"components are missing\"",
       "roleLvAccess": [
         "owner",
@@ -460,8 +529,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000039.md": {
+    }
+  },
+  {
+    "WD000039.md": {
       "pageTitle": "PC Commands",
       "roleLvAccess": [
         "owner",
@@ -472,8 +543,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000040.md": {
+    }
+  },
+  {
+    "WD000040.md": {
       "pageTitle": "Mac Commands",
       "roleLvAccess": [
         "owner",
@@ -484,8 +557,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000041.md": {
+    }
+  },
+  {
+    "WD000041.md": {
       "pageTitle": "VPNs",
       "roleLvAccess": [
         "owner",
@@ -496,8 +571,10 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000042.md": {
+    }
+  },
+  {
+    "WD000042.md": {
       "pageTitle": "Printing on PC",
       "roleLvAccess": [
         "owner",
@@ -508,21 +585,11 @@
       "category": [],
       "atlArticle": "Example/url | file/path",
       "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000043.md": {
+    }
+  },
+  {
+    "WD000043.md": {
       "pageTitle": "Printing on Mac",
-      "roleLvAccess": [
-        "owner",
-        "admin",
-        "techLv2",
-        "techLv1"
-      ],
-      "category": [],
-      "atlArticle": "Example/url | file/path",
-      "TicketInfoID": "TixInfo01.md"
-    },
-    "WD0000044.md": {
-      "pageTitle": "",
       "roleLvAccess": [
         "owner",
         "admin",
@@ -534,3 +601,4 @@
       "TicketInfoID": "TixInfo01.md"
     }
   }
+]
