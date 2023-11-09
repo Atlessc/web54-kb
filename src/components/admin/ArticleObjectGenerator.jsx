@@ -15,7 +15,7 @@ function ArticleObjectGenerator() {
     
     const articles = titles.map((title, index) => {
       // create a for loop for each index create a new object
-      const pageID = "WD00000"+`${index+1}`+".md";
+      const pageID = `WD${(index+1).toString().padStart(6, "0")}.md`;
       return {
         // make the page id a dynamic key  of the data based on the index
         [pageID]: {
