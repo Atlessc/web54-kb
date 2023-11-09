@@ -26,12 +26,12 @@ function Article() {
         setArticleMarkdown(text);
         // Access the TicketInfoID using the articleID from the JSON object
         const tixInfoID = Articles[id]?.TicketInfoID;
+        console.log(tixInfoID);
 
          // Using optional chaining to avoid errors
         if (tixInfoID) {
           // Set the TicketInfoID in your state
           setTicketInfoID(ticketInfoID);
-          console.log(tixInfoID);
         }
       })
       .catch((error) => {
