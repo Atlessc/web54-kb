@@ -27,8 +27,8 @@ function ArticleObjectGenerator() {
         console.error(`Error: '@' symbol is missing in the title "${title}"`);
       }
   
-      // Removing everything after '@' including '@' for pageTitle
-      const pageTitle = title.split('@')[0].trim();
+      // Trimming '/' from the start and everything after '@' for pageTitle
+      const pageTitle = title.split('@')[0].replace(/^\//, '').trim();
   
       return {
         [pageID]: {
@@ -43,6 +43,7 @@ function ArticleObjectGenerator() {
   
     setOutput(JSON.stringify(articles, null, 2));
   };
+  
   
   
 
