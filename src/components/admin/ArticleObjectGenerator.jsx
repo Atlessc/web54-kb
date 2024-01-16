@@ -27,9 +27,12 @@ function ArticleObjectGenerator() {
         console.error(`Error: '@' symbol is missing in the title "${title}"`);
       }
   
+      // Removing everything after '@' including '@' for pageTitle
+      const pageTitle = title.split('@')[0].trim();
+  
       return {
         [pageID]: {
-          "pageTitle": title.replace('/title ', ''),
+          "pageTitle": pageTitle,
           "roleLvAccess": ["owner", "admin", "techLv2", "techLv1"],
           "category": [],
           "atlArticle": "Example/url | file/path",
@@ -40,6 +43,7 @@ function ArticleObjectGenerator() {
   
     setOutput(JSON.stringify(articles, null, 2));
   };
+  
   
 
   const copyToClipboard = () => {
