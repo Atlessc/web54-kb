@@ -14,9 +14,8 @@ function ArticleObjectGenerator() {
     const titles = input.split('\n');
     
     const articles = titles.map((title, index) => {
-      const pageID = `WD${(index + 1).toString().padStart(6, "0")}.md`;
-  
-      // Extracting the number after '@' and formatting the TicketInfoID
+      // create a for loop for each index create a new object
+      const pageID = `WD${(index+1).toString().padStart(6, "0")}.md`;
       const ticketInfoMatch = title.match(/@(\d+)/);
       let ticketInfoID = '';
       if (ticketInfoMatch) {
@@ -26,26 +25,25 @@ function ArticleObjectGenerator() {
         // Handle error for missing '@' symbol
         console.error(`Error: '@' symbol is missing in the title "${title}"`);
       }
-  
-      // Trimming '/' from the start and everything after '@' for pageTitle
-      const pageTitle = title.split('@')[0].replace(/^\//, '').trim();
-  
       return {
+        // make the page id a dynamic key  of the data based on the index
         [pageID]: {
-          "pageTitle": pageTitle,
-          "roleLvAccess": ["owner", "admin", "techLv2", "techLv1"],
+        "pageTitle": title.split('@')[0].replace(/^\//, '').trim(),
+        "roleLvAccess": [
+          "owner",
+          "admin",
+            "techLv2",
+            "techLv1"
+          ],
           "category": [],
           "atlArticle": "Example/url | file/path",
           "TicketInfoID": ticketInfoID
         }
       };
     });
-  
-    setOutput(JSON.stringify(articles, null, 2));
+
+    setOutput(JSON.stringify( articles, null, 2));
   };
-  
-  
-  
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(output);
