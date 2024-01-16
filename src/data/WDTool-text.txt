@@ -3,7 +3,7 @@
 <
 >PC Basics
 /Short hand
-/Microsoft Store not working
+/UNUSED
 /Looking up devices in Aspen
 /Windows Wi-Fi issues
 /0365 documents opening in read only mode
