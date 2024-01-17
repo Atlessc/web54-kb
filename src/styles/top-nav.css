@@ -12,6 +12,7 @@
   background-color: #242424;
   border-bottom: 1px solid white;
   padding: 0 1rem;
+  z-index: 900;
 }
 
 .company-name{
